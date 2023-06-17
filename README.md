@@ -1,20 +1,29 @@
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
-<p align="left"> 
-  Eu sou Jackson Silva, um profissional dedicado e multifacetado, com experiência em refrigeração industrial e um entusiasta da programação.
-</p>
+# Olá, eu sou Jackson Silva! 👋
 
-<p align="left">
-  🦄 Linguagens: <strong>Iniciante em Programaçao.</strong>
-</p>
+Sou um profissional dedicado e multifacetado, com experiência em refrigeração industrial e um entusiasta da programação. Estou sempre em busca de novos desafios e oportunidades para expandir meu conhecimento e aprimorar minhas habilidades.
 
-<p align="left">
-  💼 Ferramentas: <strong>Android Studio e Visual Studio.</strong>
-</p>
+## 🚀 Linguagens e Ferramentas
 
-<p align="left">
-  💌 Se quiser bater um papo Ja sabe. ⤵️
-</p>
+- 🌱 Atualmente, estou focado em aprender programação e estou no estágio inicial da minha jornada.
+- 💼 Tenho experiência com as seguintes ferramentas: Android Studio e Visual Studio.
+
+## 💡 Projetos
+
+Aqui estão alguns dos projetos em que estou trabalhando ou que concluí recentemente:
+
+- [Android Webview](https://github.com/Jacker-s/Android-Webview): Projeto de exemplo de WebView no Android.
+- [RFGI](https://github.com/Jacker-s/rfgi): Projeto relacionado à refrigeração.
+
+Sinta-se à vontade para explorar esses projetos e verificar meu código!
+
+## 📫 Entre em contato
+
+Estou aberto a oportunidades de colaboração, networking e aprendizado. Se você tiver alguma pergunta ou apenas quiser dizer "oi", fique à vontade para entrar em contato comigo:
+
+Vamos nos conectar e construir algo incrível juntos! 🤝
+
 
 <p align="left">
 
