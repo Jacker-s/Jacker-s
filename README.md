@@ -1,8 +1,6 @@
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
-# Olá, eu sou Jackson Silva! 👋
-
-Sou um profissional dedicado e multifacetado, com experiência em refrigeração industrial e um entusiasta da programação. Estou sempre em busca de novos desafios e oportunidades para expandir meu conhecimento e aprimorar minhas habilidades.
+# Olá, eu sou Jacker-s! 👋
 
 ## 🚀 Linguagens e Ferramentas
 
@@ -27,7 +25,7 @@ Vamos nos conectar e construir algo incrível juntos! 🤝
 
 <p align="left">
 
-  <a href="https://www.linkedin.com/in/jackson-silva-12978762" alt="Linkedin">
+  <a href="https://www.linkedin.com/in/jackson-silva-12978762TIREISSO" alt="Linkedin">
   <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN" /></a>
 
   <a href="https://www.facebook.com/profile.php?id=100093133436666" alt="Facebook">
