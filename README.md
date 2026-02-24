@@ -13,6 +13,7 @@ Aqui estão alguns dos projetos em que estou trabalhando ou que concluí recente
 
 - [Meu Holerite](https://github.com/Jacker-s/MeuHolerite): .
 - [Ciclo Calendario Menstrual](https://github.com/Jacker-s/Ciclo): .
+- [Wappi Messenger](https://github.com/Jacker-s/friend)
 
 Sinta-se à vontade para explorar esses projetos e verificar meu código!
 
