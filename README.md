@@ -11,8 +11,8 @@
 
 Aqui estão alguns dos projetos em que estou trabalhando ou que concluí recentemente:
 
-- [Meu Holerite](https://github.com/Jacker-s/MeuHolerite): Projeto de exemplo de WebView no Android.
-- [RFGI](https://github.com/Jacker-s/rfgi): Projeto relacionado à refrigeração.
+- [Meu Holerite](https://github.com/Jacker-s/MeuHolerite): .
+- [Ciclo Calendario Menstrual](https://github.com/Jacker-s/Ciclo): .
 
 Sinta-se à vontade para explorar esses projetos e verificar meu código!
 
