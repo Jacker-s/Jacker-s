@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Jacker Apps">
+  <defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#4263eb"/><stop offset="1" stop-color="#a855f7"/></linearGradient></defs>
+  <rect width="64" height="64" rx="20" fill="url(#g)"/>
+  <path d="M20 19h9v21c0 9-5 14-14 14v-8c4 0 5-2 5-6V19Zm17 0h9v24h-9V19Zm4.5 28a5 5 0 1 1 0 10 5 5 0 0 1 0-10Z" fill="#fff"/>
+</svg>
