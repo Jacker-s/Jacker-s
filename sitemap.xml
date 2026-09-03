@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://jacker-s.github.io/Jacker-s/</loc></url>
-  <url><loc>https://jacker-s.github.io/Jacker-s/privacy/</loc></url>
-  <url><loc>https://jacker-s.github.io/Jacker-s/apps/adpulse/</loc></url>
-  <url><loc>https://jacker-s.github.io/Jacker-s/apps/adpulse/privacy.html</loc></url>
-  <url><loc>https://jacker-s.github.io/Jacker-s/apps/adpulse/terms.html</loc></url>
-  <url><loc>https://jacker-s.github.io/Jacker-s/apps/adpulse/deletion.html</loc></url>
-  <url><loc>https://jacker-s.github.io/Jacker-s/apps/meu-holerite/</loc></url>
-  <url><loc>https://jacker-s.github.io/Jacker-s/apps/meu-holerite/privacy.html</loc></url>
-  <url><loc>https://jacker-s.github.io/Jacker-s/apps/meu-holerite/deletion.html</loc></url>
-  <url><loc>https://jacker-s.github.io/Jacker-s/apps/ciclo-21/</loc></url>
-  <url><loc>https://jacker-s.github.io/Jacker-s/apps/ciclo-21/privacy.html</loc></url>
-  <url><loc>https://jacker-s.github.io/Jacker-s/apps/ciclo-21/deletion.html</loc></url>
-  <url><loc>https://jacker-s.github.io/Jacker-s/apps/wappi/</loc></url>
-  <url><loc>https://jacker-s.github.io/Jacker-s/apps/wappi/privacy.html</loc></url>
+  <url><loc>https://silversdev.space/</loc></url>
+  <url><loc>https://silversdev.space/privacy/</loc></url>
+  <url><loc>https://silversdev.space/apps/meu-holerite/</loc></url>
+  <url><loc>https://silversdev.space/apps/meu-holerite/privacy.html</loc></url>
+  <url><loc>https://silversdev.space/apps/meu-holerite/terms.html</loc></url>
+  <url><loc>https://silversdev.space/apps/deli-tv/</loc></url>
+  <url><loc>https://silversdev.space/apps/deli-tv/privacy.html</loc></url>
+  <url><loc>https://silversdev.space/apps/deli-tv/terms.html</loc></url>
+  <url><loc>https://silversdev.space/apps/adpulse/</loc></url>
+  <url><loc>https://silversdev.space/apps/adpulse/privacy.html</loc></url>
+  <url><loc>https://silversdev.space/apps/adpulse/terms.html</loc></url>
+  <url><loc>https://silversdev.space/apps/ciclo-21/</loc></url>
+  <url><loc>https://silversdev.space/apps/ciclo-21/privacy.html</loc></url>
+  <url><loc>https://silversdev.space/apps/ciclo-21/terms.html</loc></url>
+  <url><loc>https://silversdev.space/apps/bate-papo/</loc></url>
+  <url><loc>https://silversdev.space/apps/bate-papo/privacy.html</loc></url>
+  <url><loc>https://silversdev.space/apps/bate-papo/terms.html</loc></url>
 </urlset>
