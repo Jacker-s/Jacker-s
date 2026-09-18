@@ -95,6 +95,7 @@ h1 { margin: 22px 0; font-size: clamp(46px, 7vw, 82px); max-width: 880px; }
 .app-icon.holerite { background: linear-gradient(145deg, #2d7fff, #31c48d); }
 .app-icon.ciclo { background: linear-gradient(145deg, #ff6687, #9a67ea); }
 .app-icon.wappi { background: linear-gradient(145deg, #16b86c, #0b8664); }
+.app-icon.sensory { background: linear-gradient(145deg, #00d2ff, #7928ca); }
 .app-card h3 { margin: 22px 0 10px; font-size: 27px; }
 .app-card p { margin: 0; color: var(--muted); }
 .tags { display: flex; flex-wrap: wrap; gap: 7px; margin: 18px 0 24px; }
