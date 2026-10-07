@@ -1,13 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://silversdev.space/</loc></url>
   <url><loc>https://silversdev.space/privacy/</loc></url>
-  <url><loc>https://silversdev.space/apps/meu-holerite/</loc></url>
-  <url><loc>https://silversdev.space/apps/meu-holerite/privacy.html</loc></url>
-  <url><loc>https://silversdev.space/apps/meu-holerite/terms.html</loc></url>
+  <url><loc>https://silversdev.space/apps/</loc></url>
   <url><loc>https://silversdev.space/apps/deli-tv/</loc></url>
   <url><loc>https://silversdev.space/apps/deli-tv/privacy.html</loc></url>
   <url><loc>https://silversdev.space/apps/deli-tv/terms.html</loc></url>
+  <url><loc>https://silversdev.space/apps/deli-tv/deletion.html</loc></url>
+  <url><loc>https://silversdev.space/apps/deli/</loc></url>
+  <url><loc>https://silversdev.space/apps/deli/privacy.html</loc></url>
+  <url><loc>https://silversdev.space/apps/deli/terms.html</loc></url>
+  <url><loc>https://silversdev.space/apps/deli/deletion.html</loc></url>
+  <url><loc>https://silversdev.space/apps/meu-holerite/</loc></url>
+  <url><loc>https://silversdev.space/apps/meu-holerite/privacy.html</loc></url>
+  <url><loc>https://silversdev.space/apps/meu-holerite/terms.html</loc></url>
   <url><loc>https://silversdev.space/apps/adpulse/</loc></url>
   <url><loc>https://silversdev.space/apps/adpulse/privacy.html</loc></url>
   <url><loc>https://silversdev.space/apps/adpulse/terms.html</loc></url>
@@ -17,6 +23,7 @@
   <url><loc>https://silversdev.space/apps/bate-papo/</loc></url>
   <url><loc>https://silversdev.space/apps/bate-papo/privacidade/</loc></url>
   <url><loc>https://silversdev.space/apps/bate-papo/termos/</loc></url>
+  <url><loc>https://silversdev.space/apps/bate-papo/seguranca-infantil/</loc></url>
   <url><loc>https://silversdev.space/apps/sensory-iq/</loc></url>
   <url><loc>https://silversdev.space/apps/sensory-iq/privacy.html</loc></url>
   <url><loc>https://silversdev.space/apps/sensory-iq/terms.html</loc></url>
