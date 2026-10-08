@@ -1,337 +1,914 @@
-<!DOCTYPE html><html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Política de Privacidade — Deli TV</title><meta name="description"
-content="Política de Privacidade do aplicativo Deli TV. Saiba como informações são tratadas pelo aplicativo, Firebase Analytics, Firebase Cloud Firestore e Google AdMob.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="canonical"
-        href="https://jacker-s.github.io/Jacker-s/apps/deli-tv/privacy.html">  <style>
-    * {
-      box-sizing: border-box;
-    }
+    <title>Política de Privacidade — Deli TV</title>
 
-    body {
-      margin: 0;
-      padding: 0;
-      background: #f5f7fa;
-      color: #202124;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.7;
-    }
+    <meta name="description"
+          content="Política de Privacidade do aplicativo Deli TV. Saiba como dados, publicidade, Firebase, BitTorrent, conexões P2P e serviços de terceiros são utilizados.">
 
-    .container {
-      width: min(920px, calc(100% - 30px));
-      margin: 30px auto;
-      background: #ffffff;
-      padding: 35px;
-      border-radius: 16px;
-      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
-    }
+    <meta name="robots" content="index, follow">
 
-    h1 {
-      margin-top: 0;
-      font-size: 32px;
-      line-height: 1.25;
-      color: #111111;
-    }
+    <style>
+        :root {
+            --bg: #0b0f14;
+            --card: #121821;
+            --card2: #0f151d;
+            --text: #eef2f7;
+            --muted: #aab4c0;
+            --accent: #e50914;
+            --accent2: #ff3b30;
+            --border: rgba(255,255,255,.08);
+        }
 
-    h2 {
-      margin-top: 35px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid #e5e5e5;
-      font-size: 22px;
-      color: #111111;
-    }
+        * {
+            box-sizing: border-box;
+        }
 
-    h3 {
-      margin-top: 25px;
-      color: #222222;
-    }
+        html {
+            scroll-behavior: smooth;
+        }
 
-    p,
-    li {
-      font-size: 16px;
-    }
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Helvetica,
+                Arial,
+                sans-serif;
+            line-height: 1.7;
+        }
 
-    li {
-      margin-bottom: 9px;
-    }
+        a {
+            color: #ff5b63;
+            text-decoration: none;
+        }
 
-    a {
-      color: #1565c0;
-      overflow-wrap: anywhere;
-    }
+        a:hover {
+            text-decoration: underline;
+        }
 
-    .updated {
-      color: #666666;
-      font-size: 14px;
-      margin-bottom: 25px;
-    }
+        .hero {
+            background:
+                linear-gradient(
+                    135deg,
+                    rgba(229, 9, 20, .20),
+                    rgba(11, 15, 20, 1) 65%
+                );
+            border-bottom: 1px solid var(--border);
+            padding: 70px 20px 55px;
+        }
 
-    .box {
-      margin: 22px 0;
-      padding: 17px 20px;
-      background: #f1f5f9;
-      border-left: 4px solid #555555;
-      border-radius: 7px;
-    }
+        .hero-content {
+            max-width: 950px;
+            margin: auto;
+        }
 
-    footer {
-      margin-top: 45px;
-      padding-top: 20px;
-      border-top: 1px solid #eeeeee;
-      color: #666666;
-      font-size: 14px;
-    }
+        .logo {
+            width: 76px;
+            height: 76px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, var(--accent), #7d0007);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 34px;
+            font-weight: 900;
+            box-shadow: 0 12px 40px rgba(229, 9, 20, .25);
+            margin-bottom: 25px;
+        }
 
-    @media (max-width: 600px) {
-      .container {
-        padding: 22px;
-        margin: 15px auto;
-      }
+        h1 {
+            margin: 0 0 10px;
+            font-size: clamp(32px, 6vw, 52px);
+            line-height: 1.1;
+        }
 
-      h1 {
-        font-size: 27px;
-      }
+        .subtitle {
+            color: var(--muted);
+            font-size: 18px;
+            max-width: 750px;
+        }
 
-      h2 {
-        font-size: 20px;
-      }
-    }
-  </style></head><body><main class="container">  <h1>Política de Privacidade — Deli TV</h1>  <p class="updated">
-    Última atualização: 8 de outubro de 2026
-  </p>  <p>
-    Esta Política de Privacidade explica como o aplicativo
-    <strong>Deli TV</strong> trata informações relacionadas à utilização do
-    aplicativo e aos serviços de terceiros integrados a ele.
-  </p>  <p>
-    Nosso objetivo é fornecer informações claras sobre os dados que podem ser
-    processados pelo aplicativo, pelo Firebase Analytics, pelo Firebase Cloud
-    Firestore e pelo Google AdMob.
-  </p>  <h2>1. Sobre o Deli TV</h2>  <p>
-    O Deli TV é um aplicativo destinado ao acesso, organização e reprodução
-    de canais de televisão e transmissões públicas disponibilizadas na
-    internet.
-  </p>  <p>
-    O aplicativo não exige que o usuário crie uma conta para utilizar suas
-    funcionalidades básicas e não solicita diretamente, para fins de
-    cadastro, informações como nome, número de telefone, endereço residencial
-    ou documento de identificação.
-  </p>  <h2>2. Informações armazenadas no dispositivo</h2>  <p>
-    Algumas preferências e configurações podem ser armazenadas localmente no
-    dispositivo para permitir o funcionamento adequado do aplicativo.
-  </p>  <p>
-    Essas informações podem incluir preferências de reprodução, configurações,
-    favoritos ou outras informações necessárias para disponibilizar recursos
-    escolhidos pelo usuário.
-  </p>  <p>
-    Os dados armazenados localmente podem ser removidos pelo usuário através
-    das configurações do sistema Android ou pela desinstalação do aplicativo.
-  </p>  <h2>3. Firebase Cloud Firestore</h2>  <p>
-    O Deli TV utiliza o <strong>Firebase Cloud Firestore</strong>, serviço
-    fornecido pela Google, para armazenamento e sincronização de dados
-    utilizados pelo aplicativo.
-  </p>  <p>
-    Dependendo da funcionalidade utilizada, informações disponibilizadas pelo
-    aplicativo podem ser enviadas ao Firestore para que determinados conteúdos,
-    configurações ou recursos possam ser disponibilizados e sincronizados.
-  </p>  <p>
-    Os dados enviados ao Firestore são tratados de acordo com a configuração
-    do aplicativo e com as práticas de segurança e privacidade da Google e
-    do Firebase.
-  </p>  <h2>4. Firebase Analytics</h2>  <p>
-    O Deli TV utiliza o <strong>Firebase Analytics</strong> para compreender
-    como o aplicativo é utilizado, avaliar o desempenho dos recursos,
-    identificar problemas e melhorar a experiência do usuário.
-  </p>  <p>
-    Dependendo da configuração do aplicativo e das tecnologias utilizadas,
-    o Firebase Analytics pode processar informações como:
-  </p>  <ul>
-    <li>eventos e interações realizadas dentro do aplicativo;</li>
-    <li>funcionalidades utilizadas;</li>
-    <li>informações sobre sessões e utilização;</li>
-    <li>versão do aplicativo;</li>
-    <li>sistema operacional;</li>
-    <li>modelo e características técnicas do dispositivo;</li>
-    <li>dados de diagnóstico e desempenho;</li>
-    <li>identificadores técnicos ou relacionados ao aplicativo, quando aplicáveis.</li>
-  </ul>  <p>
-    O Deli TV não utiliza o Firebase Analytics para solicitar diretamente
-    ao usuário nome, telefone, endereço residencial ou documento de
-    identificação.
-  </p>  <p>
-    O tratamento realizado pelo Firebase Analytics está sujeito às políticas
-    e configurações aplicáveis da Google.
-  </p>  <h2>5. Publicidade — Google AdMob</h2>  <p>
-    O Deli TV utiliza o <strong>Google AdMob</strong> para disponibilizar
-    publicidade no aplicativo.
-  </p>  <p>
-    O Google Mobile Ads SDK pode processar informações técnicas relacionadas
-    ao dispositivo, à publicidade e à utilização dos anúncios.
-  </p>  <p>
-    Dependendo das configurações de publicidade, consentimento e
-    disponibilidade do serviço, essas informações podem incluir:
-  </p>  <ul>
-    <li>identificadores de publicidade;</li>
-    <li>endereço IP;</li>
-    <li>informações sobre o dispositivo;</li>
-    <li>versão do sistema operacional;</li>
-    <li>dados relacionados à exibição e interação com anúncios;</li>
-    <li>informações de diagnóstico e desempenho;</li>
-    <li>informações necessárias para prevenção de fraude e segurança.</li>
-  </ul>  <p>
-    A forma como esses dados são tratados pode variar de acordo com as
-    configurações do usuário, localização, consentimento e tecnologias
-    utilizadas pelo Google.
-  </p>  <p>
-    Mais informações podem ser encontradas na
-    <a href="https://policies.google.com/privacy"
-       target="_blank"
-       rel="noopener noreferrer">
-      Política de Privacidade do Google
-    </a>.
-  </p>  <h2>6. Cookies, identificadores e tecnologias semelhantes</h2>  <p>
-    O aplicativo e os SDKs integrados podem utilizar identificadores,
-    tecnologias de armazenamento e mecanismos semelhantes necessários para
-    publicidade, análise, segurança, diagnóstico e funcionamento dos serviços.
-  </p>  <p>
-    Essas tecnologias podem ser utilizadas pelo Google AdMob e pelo Firebase
-    conforme suas respectivas finalidades e configurações.
-  </p>  <h2>7. Compartilhamento e processamento por terceiros</h2>  <p>
-    O Deli TV não vende nem aluga dados pessoais dos usuários.
-  </p>  <p>
-    Entretanto, determinadas informações podem ser processadas por
-    fornecedores de tecnologia integrados ao aplicativo quando isso for
-    necessário para suas respectivas funções.
-  </p>  <ul><li>
-  <strong>Google / Firebase Cloud Firestore:</strong>
-  armazenamento e sincronização de dados utilizados pelo aplicativo.
-</li>
+        .updated {
+            display: inline-block;
+            margin-top: 18px;
+            padding: 7px 13px;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            color: var(--muted);
+            font-size: 14px;
+            background: rgba(255,255,255,.03);
+        }
 
-<li>
-  <strong>Google / Firebase Analytics:</strong>
-  análise de utilização, eventos, desempenho, diagnóstico e melhoria
-  do aplicativo.
-</li>
+        .container {
+            max-width: 950px;
+            margin: auto;
+            padding: 35px 20px 70px;
+        }
 
-<li>
-  <strong>Google AdMob:</strong>
-  exibição, medição, segurança e funcionamento da publicidade.
-</li>
+        .notice {
+            background: rgba(229, 9, 20, .08);
+            border: 1px solid rgba(229, 9, 20, .25);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
 
-  </ul>  <h2>8. Finalidades do tratamento</h2>  <p>
-    As informações podem ser tratadas para as seguintes finalidades:
-  </p>  <ul>
-    <li>permitir o funcionamento do aplicativo;</li>
-    <li>armazenar e sincronizar dados através do Firestore;</li>
-    <li>compreender a utilização do aplicativo;</li>
-    <li>melhorar recursos e experiência do usuário;</li>
-    <li>identificar erros e problemas técnicos;</li>
-    <li>avaliar desempenho e estabilidade;</li>
-    <li>exibir e medir publicidade;</li>
-    <li>prevenir fraude e abusos;</li>
-    <li>manter a segurança dos serviços;</li>
-    <li>cumprir obrigações legais aplicáveis.</li>
-  </ul>  <h2>9. Bases legais — LGPD</h2>  <p>
-    Quando aplicável à legislação brasileira, o tratamento de dados pessoais
-    poderá ocorrer com fundamento nas bases legais previstas na
-    <strong>Lei nº 13.709/2018 — Lei Geral de Proteção de Dados (LGPD)</strong>,
-    incluindo, conforme o caso:
-  </p>  <ul>
-    <li>consentimento do titular;</li>
-    <li>cumprimento de obrigação legal ou regulatória;</li>
-    <li>execução de contrato ou procedimentos relacionados;</li>
-    <li>exercício regular de direitos;</li>
-    <li>legítimo interesse, quando permitido pela legislação;</li>
-    <li>outras bases legais aplicáveis ao tratamento específico.</li>
-  </ul>  <p>
-    Em relação à publicidade e a determinadas tecnologias de terceiros,
-    mecanismos de consentimento podem ser apresentados quando exigidos pelas
-    regras aplicáveis.
-  </p>  <h2>10. Segurança das informações</h2>  <p>
-    São adotadas medidas técnicas e organizacionais razoáveis para proteger
-    as informações tratadas pelo aplicativo contra acesso, alteração,
-    divulgação ou destruição não autorizados.
-  </p>  <p>
-    Os serviços de terceiros utilizados pelo aplicativo possuem seus próprios
-    mecanismos de segurança e políticas de proteção de dados.
-  </p>  <p>
-    Apesar das medidas adotadas, nenhum sistema conectado à internet pode
-    garantir segurança absoluta.
-  </p>  <h2>11. Crianças e adolescentes</h2>  <p>
-    O Deli TV não exige cadastro para sua utilização básica e não solicita
-    intencionalmente nome, telefone, e-mail ou documento de crianças para
-    criação de contas.
-  </p>  <p>
-    Como o aplicativo utiliza serviços de publicidade e análise de terceiros,
-    o tratamento de informações relacionadas a crianças e adolescentes está
-    sujeito às configurações aplicáveis do Google, aos mecanismos de
-    consentimento e às políticas específicas dos serviços utilizados.
-  </p>  <p>
-    Pais ou responsáveis que tenham dúvidas ou preocupações relacionadas ao
-    tratamento de dados podem entrar em contato pelo endereço indicado nesta
-    política.
-  </p>  <h2>12. Retenção e exclusão de dados</h2>  <p>
-    As informações armazenadas localmente pelo aplicativo podem ser removidas
-    através das configurações do dispositivo:
-  </p>  <div class="box">
-    Configurações → Aplicativos → Deli TV → Armazenamento →
-    Limpar dados e Limpar cache
-  </div>  <p>
-    A desinstalação do aplicativo também remove os dados armazenados
-    localmente pelo aplicativo, de acordo com o funcionamento do sistema
-    operacional Android.
-  </p>  <p>
-    Dados armazenados ou processados pelo Firebase Cloud Firestore,
-    Firebase Analytics ou Google AdMob estão sujeitos aos mecanismos de
-    retenção e exclusão desses respectivos serviços.
-  </p>  <h2>13. Direitos dos usuários</h2>  <p>
-    Nos termos da legislação aplicável, incluindo a LGPD quando aplicável,
-    o usuário poderá possuir direitos relacionados aos seus dados pessoais,
-    como:
-  </p>  <ul>
-    <li>confirmação da existência de tratamento;</li>
-    <li>acesso aos dados;</li>
-    <li>correção de informações;</li>
-    <li>informações sobre compartilhamento;</li>
-    <li>eliminação ou anonimização quando legalmente aplicável;</li>
-    <li>revogação de consentimento quando aplicável;</li>
-    <li>outros direitos previstos na legislação.</li>
-  </ul>  <p>
-    Quando os dados forem tratados diretamente por serviços de terceiros,
-    como Google AdMob ou Firebase, algumas solicitações poderão precisar ser
-    realizadas junto ao respectivo provedor, de acordo com seus mecanismos
-    próprios de privacidade.
-  </p>  <h2>14. Links e conteúdos de terceiros</h2>  <p>
-    O Deli TV pode disponibilizar links, canais ou conteúdos provenientes
-    de terceiros.
-  </p>  <p>
-    Esses terceiros podem possuir suas próprias políticas de privacidade,
-    termos de uso e práticas de tratamento de dados. O Deli TV não controla
-    as práticas de privacidade de serviços externos.
-  </p>  <h2>15. Alterações nesta Política</h2>  <p>
-    Esta Política de Privacidade poderá ser atualizada periodicamente para
-    refletir mudanças no aplicativo, nos serviços utilizados, na legislação
-    ou nas práticas de tratamento de dados.
-  </p>  <p>
-    A data apresentada no início desta política será atualizada sempre que
-    uma nova versão relevante for publicada.
-  </p>  <h2>16. Contato</h2>  <p>
-    Para dúvidas, solicitações ou questões relacionadas à privacidade e ao
-    tratamento de informações pelo Deli TV, entre em contato:
-  </p>  <p>
-    <strong>E-mail:</strong>
-    <a href="mailto:jackson.dev.silva@gmail.com">
-      jackson.dev.silva@gmail.com
-    </a>
-  </p>  <p>
-    <strong>Site:</strong>
-    <a href="https://jacker-s.github.io/Jacker-s/"
-       target="_blank"
-       rel="noopener noreferrer">
-      https://jacker-s.github.io/Jacker-s/
-    </a>
-  </p>  <footer>
-    © 2026 Deli TV. Todos os direitos reservados.
-  </footer></main></body>
+        .toc {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 24px;
+            margin-bottom: 40px;
+        }
+
+        .toc h2 {
+            margin-top: 0;
+        }
+
+        .toc ul {
+            margin-bottom: 0;
+        }
+
+        section {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 28px;
+            margin-bottom: 22px;
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 25px;
+            line-height: 1.3;
+        }
+
+        h3 {
+            font-size: 19px;
+            margin-top: 28px;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        li {
+            margin: 7px 0;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            margin: 20px 0;
+            border-radius: 12px;
+        }
+
+        table {
+            width: 100%;
+            min-width: 650px;
+            border-collapse: collapse;
+            background: var(--card2);
+        }
+
+        th,
+        td {
+            text-align: left;
+            vertical-align: top;
+            padding: 13px 14px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            background: rgba(255,255,255,.05);
+            font-weight: 700;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 3px 9px;
+            border-radius: 999px;
+            background: rgba(255,255,255,.07);
+            font-size: 13px;
+            white-space: nowrap;
+        }
+
+        .important {
+            border-left: 4px solid var(--accent);
+            padding: 14px 18px;
+            background: rgba(229, 9, 20, .07);
+            border-radius: 8px;
+        }
+
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 35px 20px;
+            text-align: center;
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .hero {
+                padding: 45px 18px;
+            }
+
+            .container {
+                padding: 25px 14px 50px;
+            }
+
+            section,
+            .toc {
+                padding: 21px;
+                border-radius: 14px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body id="top">
+
+<header class="hero">
+    <div class="hero-content">
+
+        <div class="logo" aria-label="Deli TV">D</div>
+
+        <h1>Política de Privacidade</h1>
+
+        <div class="subtitle">
+            Deli TV — informações sobre privacidade, publicidade,
+            serviços de terceiros, Firebase, armazenamento e conexões
+            Peer-to-Peer (P2P).
+        </div>
+
+        <div class="updated">
+            Última atualização: 8 de outubro de 2026
+        </div>
+
+    </div>
+</header>
+
+<main class="container">
+
+    <div class="notice">
+        <strong>Resumo importante:</strong>
+        O Deli TV não exige uma conta para utilizar suas funções
+        principais. Entretanto, determinadas funcionalidades utilizam
+        serviços de terceiros, incluindo Firebase Analytics, Firebase
+        Firestore, Google AdMob e tecnologia BitTorrent/P2P.
+        Conexões P2P podem expor o endereço IP do dispositivo a outros
+        participantes da rede, trackers e nós DHT.
+    </div>
+
+    <nav class="toc">
+        <h2>Conteúdo</h2>
+
+        <ul>
+            <li><a href="#sobre">1. Sobre o Deli TV</a></li>
+            <li><a href="#dados">2. Dados que não solicitamos diretamente</a></li>
+            <li><a href="#analytics">3. Firebase Analytics</a></li>
+            <li><a href="#firestore">4. Firebase Firestore</a></li>
+            <li><a href="#admob">5. Google AdMob</a></li>
+            <li><a href="#p2p">6. BitTorrent e P2P</a></li>
+            <li><a href="#ip">7. Endereço IP</a></li>
+            <li><a href="#torrent">8. Dados relacionados a torrents</a></li>
+            <li><a href="#armazenamento">9. Armazenamento local</a></li>
+            <li><a href="#conteudo">10. Serviços e conteúdo de terceiros</a></li>
+            <li><a href="#rede">11. Segurança e criptografia</a></li>
+            <li><a href="#backup">12. Backup do Android</a></li>
+            <li><a href="#terceiros">13. Serviços de terceiros</a></li>
+            <li><a href="#retencao">14. Retenção e exclusão</a></li>
+            <li><a href="#criancas">15. Crianças</a></li>
+            <li><a href="#direitos">16. Direitos do usuário</a></li>
+            <li><a href="#alteracoes">17. Alterações nesta política</a></li>
+            <li><a href="#contato">18. Contato</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="sobre">
+        <h2>1. Sobre o Deli TV</h2>
+
+        <p>
+            O Deli TV é um aplicativo destinado à descoberta e reprodução
+            de conteúdo audiovisual através de diferentes fontes e
+            tecnologias de reprodução.
+        </p>
+
+        <p>
+            Algumas funcionalidades utilizam serviços externos e,
+            quando aplicável, tecnologia BitTorrent/Peer-to-Peer (P2P).
+        </p>
+
+        <p>
+            O aplicativo não exige a criação de uma conta própria para
+            utilizar suas funções principais.
+        </p>
+    </section>
+
+
+    <section id="dados">
+        <h2>2. Dados que não solicitamos diretamente</h2>
+
+        <p>
+            O Deli TV não possui um sistema próprio de cadastro obrigatório
+            e não solicita diretamente:
+        </p>
+
+        <ul>
+            <li>Nome;</li>
+            <li>Endereço de e-mail;</li>
+            <li>Número de telefone;</li>
+            <li>Documento de identificação;</li>
+            <li>Senha de conta do Deli TV;</li>
+            <li>Contatos do dispositivo;</li>
+            <li>Localização GPS;</li>
+            <li>Fotos da galeria;</li>
+            <li>Vídeos pessoais da galeria;</li>
+            <li>Localização dos arquivos pessoais do dispositivo;</li>
+            <li>Conta Google para autenticação no Deli TV.</li>
+        </ul>
+
+        <p>
+            Isso não significa que serviços de terceiros integrados ao
+            aplicativo não possam processar informações técnicas ou
+            identificadores de acordo com suas próprias políticas.
+        </p>
+    </section>
+
+
+    <section id="analytics">
+        <h2>3. Firebase Analytics</h2>
+
+        <p>
+            O Deli TV utiliza o Firebase Analytics, fornecido pelo Google,
+            para analisar a utilização de determinadas funcionalidades
+            do aplicativo.
+        </p>
+
+        <p>
+            Entre os eventos identificados está o evento
+            <strong>select_content</strong>, relacionado à seleção de
+            conteúdo/canais.
+        </p>
+
+        <p>
+            Esse evento pode incluir informações como:
+        </p>
+
+        <ul>
+            <li>Identificador do canal;</li>
+            <li>Nome do canal;</li>
+            <li>Categoria do canal;</li>
+            <li>Tipo de conteúdo.</li>
+        </ul>
+
+        <p>
+            O Firebase Analytics e seus componentes podem também processar
+            identificadores e informações técnicas do dispositivo conforme
+            o funcionamento do SDK e as configurações aplicáveis.
+        </p>
+
+        <p>
+            Essas informações são utilizadas para análise de utilização,
+            medição e melhoria do aplicativo.
+        </p>
+
+        <p>
+            Para saber mais sobre o tratamento de dados pelo Google,
+            consulte a
+            <a href="https://policies.google.com/privacy"
+               target="_blank"
+               rel="noopener noreferrer">
+                Política de Privacidade do Google
+            </a>.
+        </p>
+    </section>
+
+
+    <section id="firestore">
+        <h2>4. Firebase Firestore</h2>
+
+        <p>
+            O Deli TV utiliza o Firebase Cloud Firestore para obter
+            informações necessárias ao funcionamento de determinadas
+            funcionalidades do aplicativo.
+        </p>
+
+        <p>Essas informações podem incluir:</p>
+
+        <ul>
+            <li>Lista de canais;</li>
+            <li>Nome e identificação dos canais;</li>
+            <li>Descrição;</li>
+            <li>Categorias;</li>
+            <li>Logos;</li>
+            <li>Informações de programação;</li>
+            <li>Endereços de reprodução;</li>
+            <li>Configurações de conteúdo;</li>
+            <li>Informações de versão;</li>
+            <li>Listas M3U;</li>
+            <li>Outras informações necessárias ao catálogo.</li>
+        </ul>
+
+        <p>
+            As operações identificadas são principalmente operações
+            de leitura. Informações obtidas podem ser armazenadas
+            temporariamente no armazenamento interno do dispositivo
+            para melhorar o desempenho.
+        </p>
+
+        <p>
+            O Deli TV não utiliza o Firestore como sistema próprio
+            de cadastro ou autenticação de usuários.
+        </p>
+    </section>
+
+
+    <section id="admob">
+        <h2>5. Google AdMob</h2>
+
+        <p>
+            O Deli TV utiliza o Google AdMob para exibir publicidade.
+        </p>
+
+        <p>O aplicativo possui integração com:</p>
+
+        <ul>
+            <li>Anúncios nativos;</li>
+            <li>Anúncios intersticiais;</li>
+            <li>Anúncios recompensados;</li>
+            <li>Anúncios de abertura do aplicativo (App Open).</li>
+        </ul>
+
+        <p>
+            Os serviços de publicidade do Google podem processar
+            informações técnicas, identificadores do dispositivo e
+            informações relacionadas à publicidade, medição, prevenção
+            de fraude e limitação de frequência.
+        </p>
+
+        <p>
+            O aplicativo possui integração com o identificador de
+            publicidade do Android (Advertising ID). A utilização
+            efetiva desse identificador pode depender do funcionamento
+            dos SDKs do Google, das configurações do dispositivo e das
+            configurações da conta de publicidade.
+        </p>
+
+        <p>
+            O Deli TV não mantém uma base própria de Advertising IDs.
+        </p>
+
+        <p>
+            Mais informações podem ser encontradas na
+            <a href="https://policies.google.com/technologies/ads"
+               target="_blank"
+               rel="noopener noreferrer">
+                Política de Publicidade do Google
+            </a>.
+        </p>
+    </section>
+
+
+    <section id="p2p">
+        <h2>6. BitTorrent e Peer-to-Peer (P2P)</h2>
+
+        <p>
+            Algumas funcionalidades do Deli TV utilizam a tecnologia
+            BitTorrent/Peer-to-Peer através da biblioteca libtorrent.
+        </p>
+
+        <p>
+            Diferentemente de um serviço tradicional de streaming,
+            uma conexão P2P pode envolver comunicação direta entre
+            diferentes dispositivos participantes da rede.
+        </p>
+
+        <p>Durante uma operação P2P, podem ocorrer:</p>
+
+        <ul>
+            <li>Conexões com outros peers;</li>
+            <li>Download de partes de arquivos;</li>
+            <li>Possível envio de partes de arquivos para outros peers;</li>
+            <li>Comunicação com trackers;</li>
+            <li>Comunicação com a rede DHT;</li>
+            <li>Troca de informações necessárias para localizar e transferir conteúdo.</li>
+        </ul>
+
+        <div class="important">
+            <strong>Importante:</strong>
+            redes BitTorrent/P2P não devem ser consideradas redes anônimas.
+            O endereço IP e informações relacionadas à conexão podem ser
+            observados por participantes necessários ao funcionamento da rede.
+        </div>
+    </section>
+
+
+    <section id="ip">
+        <h2>7. Endereço IP</h2>
+
+        <p>
+            O funcionamento da Internet e das redes P2P exige que
+            conexões de rede utilizem endereços IP.
+        </p>
+
+        <p>
+            Quando uma funcionalidade P2P é utilizada, o endereço IP
+            da conexão pode ficar visível para:
+        </p>
+
+        <ul>
+            <li>Trackers BitTorrent;</li>
+            <li>Nós da rede DHT;</li>
+            <li>Outros peers;</li>
+            <li>Servidores de conteúdo;</li>
+            <li>Servidores de streaming;</li>
+            <li>Outros servidores acessados pelo aplicativo.</li>
+        </ul>
+
+        <p>
+            O Deli TV não foi identificado como mantendo uma base própria
+            de endereços IP ou enviando deliberadamente o IP do usuário
+            para uma API própria de telemetria.
+        </p>
+
+        <p>
+            Entretanto, a exposição do endereço IP é uma característica
+            inerente às conexões de rede utilizadas pelo aplicativo.
+        </p>
+    </section>
+
+
+    <section id="torrent">
+        <h2>8. Dados relacionados a torrents</h2>
+
+        <p>
+            Quando o usuário utiliza a funcionalidade de busca e
+            reprodução por torrent, determinadas informações podem
+            ser processadas para localizar e transferir o conteúdo.
+        </p>
+
+        <p>Isso pode incluir:</p>
+
+        <ul>
+            <li>Termos de busca;</li>
+            <li>Nome do conteúdo;</li>
+            <li>Infohash;</li>
+            <li>Magnet links;</li>
+            <li>Metadados do torrent;</li>
+            <li>Informações sobre peers;</li>
+            <li>Informações sobre seeds;</li>
+            <li>Informações de velocidade e progresso.</li>
+        </ul>
+
+        <p>
+            A busca de torrents pode utilizar serviços externos.
+            O termo pesquisado pode ser enviado ao serviço externo
+            utilizado para realizar a busca.
+        </p>
+
+        <p>
+            O aplicativo também utiliza trackers UDP e a rede DHT
+            para descoberta de participantes quando a funcionalidade
+            P2P está sendo utilizada.
+        </p>
+
+        <p>
+            O aplicativo não deve ser interpretado como um serviço
+            que garante anonimato ao usuário.
+        </p>
+    </section>
+
+
+    <section id="armazenamento">
+        <h2>9. Armazenamento local</h2>
+
+        <p>
+            O aplicativo pode armazenar informações localmente no
+            armazenamento privado do próprio aplicativo.
+        </p>
+
+        <p>Podem ser armazenados:</p>
+
+        <ul>
+            <li>Cache de canais;</li>
+            <li>Informações M3U;</li>
+            <li>Dados de EPG;</li>
+            <li>Imagens e pôsteres em cache;</li>
+            <li>Banco de dados local;</li>
+            <li>Favoritos;</li>
+            <li>Itens recentes;</li>
+            <li>Posições de reprodução;</li>
+            <li>Configurações do aplicativo;</li>
+            <li>Configurações de controle parental;</li>
+            <li>Arquivos temporários relacionados à reprodução P2P.</li>
+        </ul>
+
+        <p>
+            Os arquivos torrent utilizados para reprodução podem ser
+            armazenados temporariamente no cache interno do aplicativo.
+        </p>
+
+        <p>
+            Não identificamos o uso de permissões destinadas à leitura
+            da galeria pessoal do usuário ou acesso geral ao armazenamento
+            externo do dispositivo.
+        </p>
+    </section>
+
+
+    <section id="conteudo">
+        <h2>10. Serviços e conteúdo de terceiros</h2>
+
+        <p>
+            O Deli TV pode utilizar fontes externas para fornecer
+            canais, informações de programação, imagens, vídeos,
+            players e outros conteúdos.
+        </p>
+
+        <p>
+            Quando o usuário acessa ou reproduz conteúdo fornecido
+            por terceiros, a conexão pode ocorrer diretamente entre
+            o dispositivo e o servidor desse terceiro.
+        </p>
+
+        <p>
+            Esses servidores podem receber informações técnicas
+            necessárias para estabelecer a conexão, incluindo o
+            endereço IP.
+        </p>
+
+        <p>
+            O Deli TV não controla as políticas de privacidade,
+            segurança, retenção ou práticas de coleta de todos os
+            serviços externos.
+        </p>
+
+        <p>
+            O usuário deve consultar as políticas de privacidade dos
+            respectivos serviços quando aplicável.
+        </p>
+    </section>
+
+
+    <section id="rede">
+        <h2>11. Segurança e criptografia</h2>
+
+        <p>
+            O aplicativo utiliza conexões HTTPS/TLS quando fornecidas
+            pelos respectivos serviços.
+        </p>
+
+        <p>
+            Entretanto, determinados recursos de rede, incluindo
+            trackers BitTorrent, DHT e algumas fontes externas de
+            conteúdo, podem utilizar protocolos que não oferecem
+            criptografia de ponta a ponta.
+        </p>
+
+        <p>
+            O aplicativo também permite conexões HTTP em determinados
+            fluxos de conteúdo.
+        </p>
+
+        <div class="important">
+            <strong>Importante:</strong>
+            não afirmamos que todo o tráfego realizado pelo Deli TV
+            seja criptografado ou protegido por TLS.
+        </div>
+
+        <p>
+            Da mesma forma, a tecnologia BitTorrent não deve ser
+            considerada um mecanismo de anonimização.
+        </p>
+    </section>
+
+
+    <section id="backup">
+        <h2>12. Backup do Android</h2>
+
+        <p>
+            O aplicativo permite o mecanismo de backup do Android,
+            conforme as configurações e políticas do próprio sistema
+            operacional e do dispositivo.
+        </p>
+
+        <p>
+            Dependendo da versão do Android, das configurações do
+            dispositivo e dos serviços de backup utilizados, determinados
+            dados privados do aplicativo podem estar sujeitos aos
+            mecanismos de backup do sistema.
+        </p>
+
+        <p>
+            O Deli TV não utiliza esse mecanismo para criar uma base
+            própria de dados dos usuários.
+        </p>
+    </section>
+
+
+    <section id="terceiros">
+        <h2>13. Serviços de terceiros</h2>
+
+        <p>
+            O aplicativo utiliza ou pode utilizar serviços e bibliotecas
+            fornecidos por terceiros, incluindo:
+        </p>
+
+        <ul>
+            <li>Google Firebase Analytics;</li>
+            <li>Google Firebase Firestore;</li>
+            <li>Google AdMob;</li>
+            <li>Google Play Services;</li>
+            <li>Google Cast;</li>
+            <li>Biblioteca libtorrent;</li>
+            <li>Serviços de busca de torrents;</li>
+            <li>Trackers BitTorrent;</li>
+            <li>Rede DHT;</li>
+            <li>Servidores de streaming;</li>
+            <li>Serviços de EPG;</li>
+            <li>CDNs e serviços de imagens;</li>
+            <li>Players e serviços externos de conteúdo.</li>
+        </ul>
+
+        <p>
+            Cada serviço externo possui suas próprias práticas de
+            privacidade e tratamento de dados.
+        </p>
+
+        <p>
+            A utilização desses serviços pode fazer com que determinadas
+            informações técnicas sejam transmitidas diretamente entre
+            o dispositivo e o terceiro.
+        </p>
+    </section>
+
+
+    <section id="retencao">
+        <h2>14. Retenção e exclusão</h2>
+
+        <p>
+            O Deli TV utiliza armazenamento local principalmente para
+            cache, preferências e funcionamento das funcionalidades
+            do aplicativo.
+        </p>
+
+        <p>
+            O usuário pode utilizar as ferramentas disponíveis no
+            aplicativo ou no sistema Android para limpar dados e cache,
+            quando disponíveis.
+        </p>
+
+        <p>
+            A retenção de informações processadas por serviços externos,
+            como Google Analytics, Google AdMob, Firestore, trackers,
+            servidores de conteúdo e outros serviços, está sujeita às
+            respectivas políticas desses terceiros.
+        </p>
+
+        <p>
+            O Deli TV não mantém um histórico próprio identificado de
+            endereços IP dos usuários.
+        </p>
+    </section>
+
+
+    <section id="criancas">
+        <h2>15. Crianças</h2>
+
+        <p>
+            O Deli TV não é destinado especificamente a crianças.
+        </p>
+
+        <p>
+            O aplicativo não solicita diretamente dados pessoais de
+            crianças para criação de contas ou perfis.
+        </p>
+
+        <p>
+            Pais ou responsáveis que identificarem utilização inadequada
+            do aplicativo por uma criança devem supervisionar o uso do
+            dispositivo e dos serviços de Internet utilizados.
+        </p>
+    </section>
+
+
+    <section id="direitos">
+        <h2>16. Direitos do usuário</h2>
+
+        <p>
+            Dependendo da legislação aplicável ao usuário, podem existir
+            direitos relacionados aos dados pessoais, incluindo:
+        </p>
+
+        <ul>
+            <li>Solicitar informações sobre o tratamento de dados;</li>
+            <li>Solicitar correção de informações pessoais;</li>
+            <li>Solicitar exclusão de dados quando aplicável;</li>
+            <li>Solicitar informações sobre compartilhamento de dados;</li>
+            <li>Exercer direitos previstos pela legislação aplicável.</li>
+        </ul>
+
+        <p>
+            Quando o processamento for realizado diretamente por um
+            serviço de terceiros, como Google Analytics ou Google AdMob,
+            solicitações relacionadas aos dados mantidos por esse
+            terceiro podem precisar ser realizadas diretamente ao
+            respectivo provedor.
+        </p>
+    </section>
+
+
+    <section id="alteracoes">
+        <h2>17. Alterações nesta Política</h2>
+
+        <p>
+            Esta Política de Privacidade poderá ser atualizada
+            periodicamente para refletir alterações no aplicativo,
+            nos serviços utilizados ou na legislação aplicável.
+        </p>
+
+        <p>
+            Quando houver alterações relevantes, a data de atualização
+            apresentada no início desta página será modificada.
+        </p>
+
+        <p>
+            Recomendamos que os usuários consultem esta página
+            periodicamente.
+        </p>
+    </section>
+
+
+    <section id="contato">
+        <h2>18. Contato</h2>
+
+        <p>
+            Para dúvidas relacionadas a esta Política de Privacidade
+            ou ao tratamento de dados pelo Deli TV, utilize os canais
+            oficiais disponibilizados pelo desenvolvedor na página do
+            aplicativo.
+        </p>
+
+        <p>
+            Site:
+            <a href="https://silvers.space"
+               target="_blank"
+               rel="noopener noreferrer">
+                silvers.space
+            </a>
+        </p>
+
+        <p>
+            Página do aplicativo:
+            <a href="https://play.google.com/store/apps/details?id=com.jack.deli"
+               target="_blank"
+               rel="noopener noreferrer">
+                Deli TV no Google Play
+            </a>
+        </p>
+    </section>
+
+
+    <div class="notice">
+        <strong>Resumo final:</strong>
+        O Deli TV não exige cadastro próprio, mas utiliza serviços
+        externos como Firebase Analytics, Firestore e Google AdMob.
+        Recursos BitTorrent/P2P podem comunicar-se com trackers,
+        rede DHT e outros peers. Por esse motivo, o endereço IP e
+        determinadas informações relacionadas à atividade de rede
+        podem ser visíveis para terceiros envolvidos nessas conexões.
+    </div>
+
+    <a class="back" href="#top">↑ Voltar ao topo</a>
+
+</main>
+
+<footer>
+    <div>Deli TV</div>
+    <div>Política de Privacidade — Atualizada em 08/10/2026</div>
+</footer>
+
+</body>
 </html>
