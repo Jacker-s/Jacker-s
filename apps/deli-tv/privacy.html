@@ -385,7 +385,11 @@
         <p>
             O Firebase Analytics e seus componentes podem também processar
             identificadores e informações técnicas do dispositivo conforme
-            o funcionamento do SDK e as configurações aplicáveis.
+            o funcionamento do SDK e as configurações aplicáveis, incluindo
+            dados de uso do app, identificadores de instância/instalação e
+            diagnósticos técnicos. O Google pode receber o endereço IP para
+            prestar o serviço e, conforme seus próprios sistemas, inferir uma
+            região aproximada; o Deli TV não solicita localização GPS.
         </p>
 
         <p>
@@ -487,6 +491,17 @@
             efetiva desse identificador pode depender do funcionamento
             dos SDKs do Google, das configurações do dispositivo e das
             configurações da conta de publicidade.
+        </p>
+
+        <p>
+            Ao carregar ou interagir com anúncios, o SDK de publicidade pode
+            transmitir ao Google o endereço IP, identificadores de publicidade
+            ou do app, informações do dispositivo, interações com anúncios e
+            dados de diagnóstico/uso. Esses dados podem ser usados pelo Google
+            para veicular e medir anúncios, limitar frequência e prevenir
+            fraude; a personalização depende das configurações e elegibilidade
+            do usuário. O Deli TV não recebe nem mantém uma cópia própria desses
+            identificadores de publicidade.
         </p>
 
         <p>
@@ -618,6 +633,16 @@
         </p>
 
         <p>
+            Conforme a opção de reprodução selecionada, o app pode abrir
+            players externos incorporados, incluindo MultiEmbed, SmashyStream
+            ou SuperEmbed. O serviço escolhido recebe a requisição do título e
+            os dados técnicos de rede (como endereço IP); a página do player
+            também pode carregar seus próprios recursos e tecnologias de
+            terceiros. O Deli TV não controla a coleta ou retenção feita por
+            esses provedores.
+        </p>
+
+        <p>
             O aplicativo também utiliza trackers UDP e a rede DHT
             para descoberta de participantes quando a funcionalidade
             P2P está sendo utilizada.
@@ -668,8 +693,9 @@
             Esses dados de histórico e preferências são usados para exibir e
             retomar conteúdo no próprio dispositivo. A análise do código não
             encontrou envio desse histórico ou das URLs salvas ao Firestore.
-            Isso não impede que o servidor de reprodução receba o IP e os dados
-            de requisição necessários quando o conteúdo é acessado.
+            Quando o usuário reproduz um item, contudo, a URL escolhida e os
+            dados da requisição são enviados ao servidor correspondente, que
+            recebe o IP e pode receber parâmetros presentes nessa URL.
         </p>
 
         <p>
@@ -756,7 +782,7 @@
         <h2>12. Backup do Android</h2>
 
         <p>
-            O aplicativo permite o mecanismo de backup do Android,
+            O manifesto do app permite o mecanismo de backup do Android,
             conforme as configurações e políticas do próprio sistema
             operacional e do dispositivo.
         </p>
