@@ -262,7 +262,7 @@
         </div>
 
         <div class="updated">
-            Última atualização: 8 de outubro de 2026
+            Última atualização: 13 de outubro de 2026
         </div>
 
     </div>
@@ -389,6 +389,14 @@
         </p>
 
         <p>
+            Na versão analisada, o evento acionado ao abrir um canal envia o
+            nome do canal, sua categoria e o tipo de conteúdo (<code>live_tv</code>).
+            O código também contém métodos preparados para eventos de filmes,
+            favoritos e Cast, mas não encontramos chamadas ativas para esses
+            métodos no fluxo principal desta versão.
+        </p>
+
+        <p>
             Essas informações são utilizadas para análise de utilização,
             medição e melhoria do aplicativo.
         </p>
@@ -441,6 +449,12 @@
             O Deli TV não utiliza o Firestore como sistema próprio
             de cadastro ou autenticação de usuários.
         </p>
+
+        <p>
+            O app também consulta configurações e avisos remotos. Essas consultas
+            são de leitura; como em qualquer acesso à Internet, o provedor recebe
+            dados técnicos da conexão, como o endereço IP.
+        </p>
     </section>
 
 
@@ -477,6 +491,14 @@
 
         <p>
             O Deli TV não mantém uma base própria de Advertising IDs.
+        </p>
+
+        <p>
+            A versão analisada integra os formatos de anúncio nativo,
+            intersticial, recompensado e de abertura. As informações efetivamente
+            processadas dependem do SDK do Google, das configurações disponíveis
+            no Android e dos controles da conta. Consulte também as opções de
+            privacidade e anúncios do próprio dispositivo.
         </p>
 
         <p>
@@ -588,6 +610,14 @@
         </p>
 
         <p>
+            Na versão analisada, a busca é feita pela API apibay.org, que recebe
+            o termo pesquisado e a categoria escolhida, além dos dados técnicos
+            normais da conexão. O catálogo também consulta a API do TMDB para
+            metadados e imagens; identificadores de títulos são usados para
+            solicitar conteúdo a serviços externos de reprodução incorporada.
+        </p>
+
+        <p>
             O aplicativo também utiliza trackers UDP e a rede DHT
             para descoberta de participantes quando a funcionalidade
             P2P está sendo utilizada.
@@ -623,6 +653,24 @@
             <li>Configurações de controle parental;</li>
             <li>Arquivos temporários relacionados à reprodução P2P.</li>
         </ul>
+
+        <p>
+            Mais especificamente, favoritos, canal mais recente, contagem de
+            visualizações por canal e até 20 títulos VOD recentes ficam em
+            preferências locais. “Continue Assistindo” guarda até 30 itens com
+            título, tipo, temporada/episódio quando aplicável, posição, duração,
+            horário da atualização e URL de reprodução. O player também mantém
+            posições e o último episódio de séries. O PIN de controle parental e
+            as preferências do player ficam localmente.
+        </p>
+
+        <p>
+            Esses dados de histórico e preferências são usados para exibir e
+            retomar conteúdo no próprio dispositivo. A análise do código não
+            encontrou envio desse histórico ou das URLs salvas ao Firestore.
+            Isso não impede que o servidor de reprodução receba o IP e os dados
+            de requisição necessários quando o conteúdo é acessado.
+        </p>
 
         <p>
             Os arquivos torrent utilizados para reprodução podem ser
@@ -787,9 +835,26 @@
         </p>
 
         <p>
-            O Deli TV não mantém um histórico próprio identificado de
-            endereços IP dos usuários.
+            Para apagar favoritos, históricos, posições de reprodução, PIN,
+            preferências e outros dados locais de uma só vez, use nas configurações
+            do Android ou da Android TV: <strong>Aplicativos &gt; Deli TV &gt;
+            Armazenamento &gt; Limpar dados/armazenamento</strong>. A desinstalação
+            também remove os dados locais do app. Limpar apenas o cache dentro do
+            aplicativo não apaga necessariamente favoritos ou progresso de
+            reprodução. Como o Android permite backup do app, dados restaurados
+            pelo sistema poderão reaparecer conforme as configurações de backup.
         </p>
+
+        <p>
+            O Deli TV não mantém contas de usuário nem perfil ou histórico
+            individual em seus próprios servidores, e não identificamos uma
+            base própria de histórico de IP. Assim, não há conta remota do Deli TV
+            a excluir. Para dados processados por Google, serviços de busca,
+            trackers, peers ou servidores de conteúdo, consulte os controles e
+            procedimentos do respectivo provedor. Veja também as
+            <a href="deletion.html">instruções de exclusão de dados</a>.
+        </p>
+
     </section>
 
 
@@ -898,7 +963,7 @@
 
 <footer>
     <div>Deli TV</div>
-    <div>Política de Privacidade — Atualizada em 08/10/2026</div>
+    <div>Política de Privacidade — Atualizada em 13/10/2026</div>
 </footer>
 
 </body>
