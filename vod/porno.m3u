@@ -1,0 +1,99 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="stz-tv" tvg-logo="https://i.imgur.com/SeF2I7q.png" group-title="Noticias",STZ TV
+https://cdn.live.br1.jmvstream.com/webtv/AVJ-12952/playlist/playlist.m3u8
+#EXTINF:-1 tvg-id="gospel-cartoon" tvg-logo="https://i.imgur.com/yxjPno5.png" group-title="Infantil",Gospel Cartoon
+https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
+#EXTINF:-1 tvg-id="sbt-interior" tvg-logo="https://i.imgur.com/IkZfa4j.png" group-title="TV Aberta",SBT Interior
+https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
+#EXTINF:-1 tvg-id="rede-gospel" tvg-logo="https://i.imgur.com/mttSwgO.png" group-title="TV Aberta",Rede Gospel
+https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="classique-tv" tvg-logo="https://i.imgur.com/rHxcraT.png" group-title="Entretenimento",Classique TV
+https://stmv1.srvif.com/classique/classique/playlist.m3u8
+#EXTINF:-1 tvg-id="loading-tv" tvg-logo="https://i.imgur.com/R0aflu1.png" group-title="Entretenimento",Loading
+https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
+#EXTINF:-1 tvg-id="gospel-movie-tv" tvg-logo="https://i.imgur.com/cQN3nWt.png" group-title="Entretenimento",Gospel Movie TV
+https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
+#EXTINF:-1 tvg-id="mytime-movie" tvg-logo="https://i.imgur.com/aiGQtzI.png" group-title="Entretenimento",MyTime Movie
+https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="euronews" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Euronews_2022.svg/512px-Euronews_2022.svg.png" group-title="Internacionais",Euronews English
+https://a-cdn.klowdtv.com/live3/euronews_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="destination-tv" group-title="Internacionais",Destination TV
+http://media4.tripsmarter.com:1935/LiveTV/DTVHD/playlist.m3u8
+#EXTINF:-1 tvg-id="bloomberg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/512px-New_Bloomberg_Logo.svg.png" group-title="Internacionais",Bloomberg
+https://www.bloomberg.com/media-manifest/streams/originals-global.m3u8
+#EXTINF:-1 tvg-id="adult-bigass" group-title="Adulto",Big Ass
+https://cdn.adultiptv.net/bigass.m3u8
+#EXTINF:-1 tvg-id="adult-asian-cdn" group-title="Adulto",Asian
+https://cdn.adultiptv.net/asian.m3u8
+#EXTINF:-1 tvg-id="4k-travel" group-title="Internacionais",4K Travel TV
+https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8
+#EXTINF:-1 tvg-id="adult-anal-cdn" group-title="Adulto",Anal
+https://cdn.adultiptv.net/anal.m3u8
+#EXTINF:-1 tvg-id="adult-bigdick" group-title="Adulto",Big Dick
+https://cdn.adultiptv.net/bigdick.m3u8
+#EXTINF:-1 tvg-id="adult-bigtits" group-title="Adulto",Big Tits
+https://cdn.adultiptv.net/bigtits.m3u8
+#EXTINF:-1 tvg-id="dw-english" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/DW_-_English.svg/512px-DW_-_English.svg.png" group-title="Internacionais",DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
+#EXTINF:-1 tvg-id="adult-compilation" group-title="Adulto",Compilation
+https://cdn.adultiptv.net/compilation.m3u8
+#EXTINF:-1 tvg-id="adult-hardcore" group-title="Adulto",Hardcore
+https://cdn.adultiptv.net/hardcore.m3u8
+#EXTINF:-1 tvg-id="adult-gay-cdn" group-title="Adulto",Gay
+https://cdn.adultiptv.net/gay.m3u8
+#EXTINF:-1 tvg-id="adult-blowjob" group-title="Adulto",Blowjob
+https://cdn.adultiptv.net/blowjob.m3u8
+#EXTINF:-1 tvg-id="adult-gangbang" group-title="Adulto",Gangbang
+https://cdn.adultiptv.net/gangbang.m3u8
+#EXTINF:-1 tvg-id="adult-cuckold" group-title="Adulto",Cuckold
+https://cdn.adultiptv.net/cuckold.m3u8
+#EXTINF:-1 tvg-id="adult-fetish" group-title="Adulto",Fetish
+https://cdn.adultiptv.net/fetish.m3u8
+#EXTINF:-1 tvg-id="movie-channel" group-title="Internacionais",The Movie Channel
+https://streams2.sofast.tv/sofastplayout/32eb332e-f644-46e5-ad91-e55ad80d14f7_0_HLS/master.m3u8
+#EXTINF:-1 tvg-id="adult-interracial" group-title="Adulto",Interracial
+https://cdn.adultiptv.net/interracial.m3u8
+#EXTINF:-1 tvg-id="adult-rough" group-title="Adulto",Rough
+https://cdn.adultiptv.net/rough.m3u8
+#EXTINF:-1 tvg-id="adult-russian" group-title="Adulto",Russian
+https://cdn.adultiptv.net/russian.m3u8
+#EXTINF:-1 tvg-id="adult-livecams" group-title="Adulto",Live Cams
+https://cdn.adultiptv.net/livecams.m3u8
+#EXTINF:-1 tvg-id="adult-pov" group-title="Adulto",POV
+https://cdn.adultiptv.net/pov.m3u8
+#EXTINF:-1 tvg-id="adult-pornstar-cdn" group-title="Adulto",Pornstar
+https://cdn.adultiptv.net/pornstar.m3u8
+#EXTINF:-1 tvg-id="adult-threesome" group-title="Adulto",Threesome
+https://cdn.adultiptv.net/threesome.m3u8
+#EXTINF:-1 tvg-id="mycam-anal" group-title="Adulto",MyCam Anal
+https://live.mycamtv.com/anal.m3u8
+#EXTINF:-1 tvg-id="mycam-asian" group-title="Adulto",MyCam Asian
+https://live.mycamtv.com/asian.m3u8
+#EXTINF:-1 tvg-id="mycam-blonde" group-title="Adulto",MyCam Blonde
+https://live.mycamtv.com/blonde.m3u8
+#EXTINF:-1 tvg-id="adult-woman" group-title="Adulto",Woman
+https://live.redtraffic.net/woman.m3u8
+#EXTINF:-1 tvg-id="mycam-bigtits" group-title="Adulto",MyCam Big Tits
+https://live.mycamtv.com/bigtits.m3u8
+#EXTINF:-1 tvg-id="mycam-brunette" group-title="Adulto",MyCam Brunette
+https://live.mycamtv.com/brunette.m3u8
+#EXTINF:-1 tvg-id="mycam-latina" group-title="Adulto",MyCam Latina
+https://live.mycamtv.com/latina.m3u8
+#EXTINF:-1 tvg-id="mycam-bigass" group-title="Adulto",MyCam Big Ass
+https://live.mycamtv.com/defstream.m3u8
+#EXTINF:-1 tvg-id="al-jazeera" tvg-logo="https://i.imgur.com/7bRVpnu.png" group-title="Internacionais",Al Jazeera English
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="mycam-squirt" group-title="Adulto",MyCam Squirt
+https://live.mycamtv.com/squirt.m3u8
+#EXTINF:-1 tvg-id="mycam-white" group-title="Adulto",MyCam White
+https://live.mycamtv.com/white.m3u8
+#EXTINF:-1 tvg-id="jenny-live" group-title="Adulto",Jenny Live
+https://59ec5453559f0.streamlock.net/JennyLive/JennyLive/playlist.m3u8
+#EXTINF:-1 tvg-id="miami-tv-mexico" group-title="Adulto",Miami TV Mexico
+https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexico/playlist.m3u8
+#EXTINF:-1 tvg-id="rt-documentary" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a0/RT_logo.svg" group-title="Internacionais",RT Documentary
+https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
+#EXTINF:-1 tvg-id="abc-news" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" group-title="Internacionais",ABC News
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+#EXTINF:-1 tvg-id="kuriakos-kids" tvg-logo="https://i.imgur.com/SRX6EPY.png" group-title="Internacionais",Kuriakos Kids
+https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8

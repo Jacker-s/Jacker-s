@@ -1,0 +1,337 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="cnt_hd" group-title="TV Aberta & Regionais",CNT HD
+https://cdn-sp2.satlabscloud.com.br/CNT_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="band_minas" group-title="TV Aberta & Regionais",Band Minas
+https://cdn-sp2.satlabscloud.com.br/BAND_MINAS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="com_brasil" group-title="TV Aberta & Regionais",Com Brasil
+https://cdn-sp2.satlabscloud.com.br/COM_BRASIL/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="band_sp" group-title="TV Aberta & Regionais",Band SP
+https://cdn-sp2.satlabscloud.com.br/BAND_SP/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="band_rs_hd" group-title="TV Aberta & Regionais",Band RS HD
+https://cdn-sp2.satlabscloud.com.br/BAND_RS_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="eptv" group-title="TV Aberta & Regionais",EPTV Central
+https://cdn-sp2.satlabscloud.com.br/EPTV/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="band_hd" group-title="TV Aberta & Regionais",Band HD
+https://cdn-sp2.satlabscloud.com.br/BAND_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="band_rio_hd" group-title="TV Aberta & Regionais",Band Rio HD
+https://cdn-sp2.satlabscloud.com.br/BAND_RIO_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="globo_brasilia" group-title="TV Aberta & Regionais",Globo Brasília
+https://cdn-sp2.satlabscloud.com.br/GLOBO_BRASILIA/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="globo_es" group-title="TV Aberta & Regionais",Globo ES (TV Gazeta)
+https://cdn-sp2.satlabscloud.com.br/GLOBO_ES/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="band_rs" group-title="TV Aberta & Regionais",Band RS
+https://cdn-sp2.satlabscloud.com.br/BAND_RS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="globo_hd" group-title="TV Aberta & Regionais",Globo HD
+https://cdn-sp2.satlabscloud.com.br/GLOBO_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="globo_al" group-title="TV Aberta & Regionais",Globo AL (TV Gazeta)
+https://cdn-sp2.satlabscloud.com.br/GLOBO_AL/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="globo_df" group-title="TV Aberta & Regionais",Globo DF
+https://cdn-sp2.satlabscloud.com.br/GLOBO_DF/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="globo_pb" group-title="TV Aberta & Regionais",Globo PB (TV Cabo Branco)
+https://cdn-sp2.satlabscloud.com.br/GLOBO_PB/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="band_rio" group-title="TV Aberta & Regionais",Band Rio
+https://cdn-sp2.satlabscloud.com.br/BAND_RIO/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="globo_pa" group-title="TV Aberta & Regionais",Globo Pará (TV Liberal)
+https://cdn-sp2.satlabscloud.com.br/GLOBO_PA/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="globo_sp" group-title="TV Aberta & Regionais",Globo SP
+https://cdn-sp2.satlabscloud.com.br/GLOBO_SP/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="globo_bahia" group-title="TV Aberta & Regionais",Globo Bahia (TV Bahia)
+https://cdn-sp2.satlabscloud.com.br/GLOBO_BAHIA/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="globo_mt" group-title="TV Aberta & Regionais",Globo MT (TV Centro América)
+https://cdn-sp2.satlabscloud.com.br/GLOBO_MT/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="globo_pr" group-title="TV Aberta & Regionais",Globo PR (RPC)
+https://cdn-sp2.satlabscloud.com.br/GLOBO_PR/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="globo_pe" group-title="TV Aberta & Regionais",Globo PE (TV Globo Recife)
+https://cdn-sp2.satlabscloud.com.br/GLOBO_PE/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="intertv" group-title="TV Aberta & Regionais",InterTV (Globo)
+https://cdn-sp2.satlabscloud.com.br/INTERTV/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_latinasat" group-title="TV Aberta & Regionais",LatinaSat TV
+https://cdn-sp2.satlabscloud.com.br/TV_LATINASAT/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="rbs_poa" group-title="TV Aberta & Regionais",RBS TV Porto Alegre
+https://cdn-sp2.satlabscloud.com.br/RBS_POA/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="globo_rio" group-title="TV Aberta & Regionais",Globo Rio
+https://cdn-sp2.satlabscloud.com.br/GLOBO_RIO/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="record_rio" group-title="TV Aberta & Regionais",Record Rio
+https://cdn-sp2.satlabscloud.com.br/RECORD_RIO/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="nhk" group-title="TV Aberta & Regionais",NHK World Japan
+https://cdn-sp2.satlabscloud.com.br/NHK/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="rbs_hd" group-title="TV Aberta & Regionais",RBS TV HD
+https://cdn-sp2.satlabscloud.com.br/RBS_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="globo_ro" group-title="TV Aberta & Regionais",Globo RO (Rede Amazônica)
+https://cdn-sp2.satlabscloud.com.br/GLOBO_RO/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="eptv_campinas" group-title="TV Aberta & Regionais",EPTV Campinas
+https://cdn-sp2.satlabscloud.com.br/EPTV_CAMPINAS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="record_rs" group-title="TV Aberta & Regionais",Record RS
+https://cdn-sp2.satlabscloud.com.br/RECORD_RS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="record_sp" group-title="TV Aberta & Regionais",Record SP
+https://cdn-sp2.satlabscloud.com.br/RECORD_SP/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="hallo_brasil" group-title="TV Aberta & Regionais",Hallo Brasil
+https://cdn-sp1.satlabscloud.com.br/HALLO_BRASIL/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="record_brasilia" group-title="TV Aberta & Regionais",Record Brasília
+https://cdn-sp2.satlabscloud.com.br/RECORD_BRASILIA/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="rede_brasil_hd" group-title="TV Aberta & Regionais",Rede Brasil HD
+https://cdn-sp2.satlabscloud.com.br/REDE_BRASIL_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="rai_italia" group-title="TV Aberta & Regionais",RAI Italia
+https://cdn-sp2.satlabscloud.com.br/RAI_ITALIA/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="record_rio_hd" group-title="TV Aberta & Regionais",Record Rio HD
+https://cdn-sp2.satlabscloud.com.br/RECORD_RIO_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="record" group-title="TV Aberta & Regionais",Record Nacional
+https://cdn-sp2.satlabscloud.com.br/RECORD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="rede_tv_hd" group-title="TV Aberta & Regionais",RedeTV! HD
+https://cdn-sp2.satlabscloud.com.br/REDE_TV_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="rede_utv" group-title="TV Aberta & Regionais",Rede UTV
+https://cdn-sp2.satlabscloud.com.br/REDE_UTV/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="record_ro" group-title="TV Aberta & Regionais",Record Rondônia
+https://cdn-sp2.satlabscloud.com.br/RECORD_RO/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="rpc" group-title="TV Aberta & Regionais",RPC Curitiba (Globo PR)
+https://cdn-sp2.satlabscloud.com.br/RPC/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="sbt_minas" group-title="TV Aberta & Regionais",SBT Minas (TV Alterosa)
+https://cdn-sp2.satlabscloud.com.br/SBT_MINAS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="sbt_bahia" group-title="TV Aberta & Regionais",SBT Bahia (TV Aratu)
+https://cdn-sp2.satlabscloud.com.br/SBT_BAHIA/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_cultura_hd" group-title="TV Aberta & Regionais",TV Cultura HD
+https://cdn-sp2.satlabscloud.com.br/TV_CULTURA_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_camara" group-title="TV Aberta & Regionais",TV Câmara
+https://cdn-sp2.satlabscloud.com.br/TV_CAMARA/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="sbt_hd" group-title="TV Aberta & Regionais",SBT HD
+https://cdn-sp2.satlabscloud.com.br/SBT_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="sbt_rio" group-title="TV Aberta & Regionais",SBT Rio
+https://cdn-sp2.satlabscloud.com.br/SBT_RIO/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="sbt_rio_hd" group-title="TV Aberta & Regionais",SBT Rio HD
+https://cdn-sp2.satlabscloud.com.br/SBT_RIO_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="sbt_sp" group-title="TV Aberta & Regionais",SBT SP
+https://cdn-sp2.satlabscloud.com.br/SBT_SP/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="sesc_tv" group-title="TV Aberta & Regionais",Sesc TV
+https://cdn-sp2.satlabscloud.com.br/SESC_TV/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_brasil" group-title="TV Aberta & Regionais",TV Brasil
+https://cdn-sp2.satlabscloud.com.br/TV_BRASIL/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_escola" group-title="TV Aberta & Regionais",TV Escola
+https://cdn-sp2.satlabscloud.com.br/TV_ESCOLA/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_justica" group-title="TV Aberta & Regionais",TV Justiça
+https://cdn-sp2.satlabscloud.com.br/TV_JUSTICA/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="gazeta_hd" group-title="TV Aberta & Regionais",TV Gazeta HD
+https://cdn-sp2.satlabscloud.com.br/GAZETA_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_tribuna" group-title="TV Aberta & Regionais",TV Tribuna (Globo)
+https://cdn-sp2.satlabscloud.com.br/TV_TRIBUNA/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="axn_hd" group-title="Filmes & Séries",AXN HD
+https://cdn-sp2.satlabscloud.com.br/AXN_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_gazin" group-title="TV Aberta & Regionais",TV Gazin
+https://cdn-sp2.satlabscloud.com.br/TV_GAZIN/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="cinemax" group-title="Filmes & Séries",Cinemax
+https://cdn-sp2.satlabscloud.com.br/CINEMAX/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_pampa" group-title="TV Aberta & Regionais",TV Pampa
+https://cdn-sp2.satlabscloud.com.br/TV_PAMPA/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_tem" group-title="TV Aberta & Regionais",TV TEM (Globo)
+https://cdn-sp2.satlabscloud.com.br/TV_TEM/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="sbt_rs" group-title="TV Aberta & Regionais",SBT RS
+https://cdn-sp2.satlabscloud.com.br/SBT_RS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="hallo_movies" group-title="Filmes & Séries",Hallo Movies
+https://cdn-sp2.satlabscloud.com.br/HALLO_MOVIES/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="vivax_tv" group-title="TV Aberta & Regionais",Vivax TV
+https://cdn-sp2.satlabscloud.com.br/VIVAX_TV/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_mon" group-title="TV Aberta & Regionais",TV MON
+https://cdn-sp2.satlabscloud.com.br/TV_MON/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="hallo_classic" group-title="Filmes & Séries",Hallo Classic
+https://cdn-sp2.satlabscloud.com.br/HALLO_CLASSIC/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_senado" group-title="TV Aberta & Regionais",TV Senado
+https://cdn-sp2.satlabscloud.com.br/TV_SENADO/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="hbo" group-title="Filmes & Séries",HBO
+https://cdn-sp2.satlabscloud.com.br/HBO/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="hbo2" group-title="Filmes & Séries",HBO 2
+https://cdn-sp2.satlabscloud.com.br/HBO2/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="hbo_family" group-title="Filmes & Séries",HBO Family
+https://cdn-sp2.satlabscloud.com.br/HBO_FAMILY/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="hbo_mundi_hd" group-title="Filmes & Séries",HBO Mundi HD
+https://cdn-sp2.satlabscloud.com.br/HBO_MUNDI_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="hbo_plus" group-title="Filmes & Séries",HBO Plus
+https://cdn-sp2.satlabscloud.com.br/HBO_PLUS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="ae_hd" group-title="Filmes & Séries",A&E HD
+https://cdn-sp2.satlabscloud.com.br/AE_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="hbo_pop_hd" group-title="Filmes & Séries",HBO Pop HD
+https://cdn-sp2.satlabscloud.com.br/HBO_POP_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="hbo_signature" group-title="Filmes & Séries",HBO Signature
+https://cdn-sp2.satlabscloud.com.br/HBO_SIGNATURE/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="hbo_extreme_hd" group-title="Filmes & Séries",HBO Xtreme HD
+https://cdn-sp2.satlabscloud.com.br/HBO_EXTREME_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="prime_box_hd" group-title="Filmes & Séries",Prime Box Brazil HD
+https://cdn-sp2.satlabscloud.com.br/PRIME_BOX_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="sony_hd" group-title="Filmes & Séries",Sony Channel HD
+https://cdn-sp2.satlabscloud.com.br/SONY_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="sony_movies" group-title="Filmes & Séries",Sony Movies
+https://cdn-sp2.satlabscloud.com.br/SONY_MOVIES/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="space_hd" group-title="Filmes & Séries",Space HD
+https://cdn-sp2.satlabscloud.com.br/SPACE_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tcm_hd" group-title="Filmes & Séries",TCM HD
+https://cdn-sp2.satlabscloud.com.br/TCM_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tnt_hd" group-title="Filmes & Séries",TNT HD
+https://cdn-sp2.satlabscloud.com.br/TNT_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tnt_novelas" group-title="Filmes & Séries",TNT Novelas
+https://cdn-sp2.satlabscloud.com.br/TNT_NOVELAS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tnt" group-title="Filmes & Séries",TNT
+https://cdn-sp1.satlabscloud.com.br/TNT/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tnt_series" group-title="Filmes & Séries",TNT Séries
+https://cdn-sp2.satlabscloud.com.br/TNT_SERIES/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="urban_retro" group-title="Filmes & Séries",Urban Retrô
+https://cdn-sp2.satlabscloud.com.br/URBAN_RETRO/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="warner_hd" group-title="Filmes & Séries",Warner Channel HD
+https://cdn-sp2.satlabscloud.com.br/WARNER_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="all_sports" group-title="Esportes",All Sports
+https://cdn-sp4.satlabscloud.com.br/ALL_SPORTS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="band_sports_hd" group-title="Esportes",BandSports HD
+https://cdn-sp2.satlabscloud.com.br/BAND_SPORTS_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="urban_series" group-title="Filmes & Séries",Urban Séries
+https://cdn-sp2.satlabscloud.com.br/URBAN_SERIES/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="caze_tv" group-title="Esportes",CazéTV
+https://cdn-sp2.satlabscloud.com.br/CAZE_TV/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="espn1" group-title="Esportes",ESPN
+https://cdn-sp2.satlabscloud.com.br/ESPN1/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="espn2" group-title="Esportes",ESPN 2
+https://cdn-sp2.satlabscloud.com.br/ESPN2/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="espn2_hd" group-title="Esportes",ESPN 2 HD
+https://cdn-sp2.satlabscloud.com.br/ESPN2_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="espn3_hd" group-title="Esportes",ESPN 3 HD
+https://cdn-sp2.satlabscloud.com.br/ESPN3_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="espn6" group-title="Esportes",ESPN 6
+https://cdn-sp2.satlabscloud.com.br/ESPN6/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="espn3" group-title="Esportes",ESPN 3
+https://cdn-sp2.satlabscloud.com.br/ESPN3/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="fox_sports_2" group-title="Esportes",Fox Sports 2
+https://cdn-sp2.satlabscloud.com.br/FOX_SPORTS_2/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="espn5" group-title="Esportes",ESPN 5
+https://cdn-sp2.satlabscloud.com.br/ESPN5/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="espn_hd" group-title="Esportes",ESPN HD
+https://cdn-sp2.satlabscloud.com.br/ESPN_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="espn4" group-title="Esportes",ESPN 4
+https://cdn-sp2.satlabscloud.com.br/ESPN4/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="nsports" group-title="Esportes",NSports
+https://cdn-sp1.satlabscloud.com.br/NSPORTS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="espn4_hd" group-title="Esportes",ESPN 4 HD
+https://cdn-sp2.satlabscloud.com.br/ESPN4_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="espn_extra_hd" group-title="Esportes",ESPN Extra HD
+https://cdn-sp2.satlabscloud.com.br/ESPN_EXTRA_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="fuel_tv" group-title="Esportes",Fuel TV
+https://cdn-sp2.satlabscloud.com.br/FUEL_TV/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="woohoo" group-title="Esportes",Woohoo
+https://cdn-sp2.satlabscloud.com.br/WOOHOO/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="fish_tv_hd" group-title="Esportes",Fish TV HD
+https://cdn-sp1.satlabscloud.com.br/FISH_TV_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="woohoo_hd" group-title="Esportes",Woohoo HD
+https://cdn-sp2.satlabscloud.com.br/WOOHOO_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="xsports" group-title="Esportes",Xsports
+https://cdn-sp2.satlabscloud.com.br/XSPORTS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="band_news_hd" group-title="Notícias",BandNews HD
+https://cdn-sp2.satlabscloud.com.br/BAND_NEWS_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="cnnb_hd" group-title="Notícias",CNN Brasil HD
+https://cdn-sp2.satlabscloud.com.br/CNNB_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="dw" group-title="Notícias",DW Deutsch
+https://cdn-sp2.satlabscloud.com.br/DW/index.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="euronews_hd" group-title="Notícias",Euronews Português HD
+https://cdn-sp2.satlabscloud.com.br/EURONEWS_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="fox_news" group-title="Notícias",Fox News
+https://cdn-sp2.satlabscloud.com.br/FOX_NEWS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="record_news_hd" group-title="Notícias",Record News HD
+https://cdn-sp2.satlabscloud.com.br/RECORD_NEWS_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="boomerang_hd" group-title="Desenhos & Infantil",Boomerang HD
+https://cdn-sp2.satlabscloud.com.br/BOOMERANG_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="cartoon_hd" group-title="Desenhos & Infantil",Cartoon Network HD
+https://cdn-sp2.satlabscloud.com.br/CARTOON_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="discovery_kids_hd" group-title="Desenhos & Infantil",Discovery Kids HD
+https://cdn-sp2.satlabscloud.com.br/DISCOVERY_KIDS_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tvideonews" group-title="Notícias",TV Vídeo News
+https://cdn-sp3.satlabscloud.com.br/TVIDEONEWS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="box_kids_hd" group-title="Desenhos & Infantil",Box Kids HD
+https://cdn-sp1.satlabscloud.com.br/BOX_KIDS_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="hallo_anime" group-title="Desenhos & Infantil",Hallo Anime
+https://cdn-sp2.satlabscloud.com.br/HALLO_ANIME/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="animal_planet_hd" group-title="Documentários & Variedades",Animal Planet HD
+https://cdn-sp2.satlabscloud.com.br/ANIMAL_PLANET_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="chef_tv" group-title="Documentários & Variedades",Chef TV
+https://cdn-sp2.satlabscloud.com.br/CHEF_TV/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="empreender_hd" group-title="Documentários & Variedades",Canal Empreender HD
+https://cdn-sp3.satlabscloud.com.br/EMPREENDER_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="discovery_hd" group-title="Documentários & Variedades",Discovery Channel HD
+https://cdn-sp2.satlabscloud.com.br/DISCOVERY_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="discovery_science_hd" group-title="Documentários & Variedades",Discovery Science HD
+https://cdn-sp2.satlabscloud.com.br/DISCOVERY_SCIENCE_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="discovery_theater_hd" group-title="Documentários & Variedades",Discovery Theater HD
+https://cdn-sp2.satlabscloud.com.br/DISCOVERY_THEATER_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="discovery_turbo_hd" group-title="Documentários & Variedades",Discovery Turbo HD
+https://cdn-sp2.satlabscloud.com.br/DISCOVERY_TURBO_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="discovery_world_hd" group-title="Documentários & Variedades",Discovery World HD
+https://cdn-sp2.satlabscloud.com.br/DISCOVERY_WORLD_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="fashion_tv_hd" group-title="Documentários & Variedades",Fashion TV HD
+https://cdn-sp2.satlabscloud.com.br/FASHION_TV_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="jp_news" group-title="Notícias",Jovem Pan News
+https://cdn-sp2.satlabscloud.com.br/JP_NEWS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="hgtv_hd" group-title="Documentários & Variedades",HGTV HD
+https://cdn-sp2.satlabscloud.com.br/HGTV_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="h2_hd" group-title="Documentários & Variedades",History 2 (H2) HD
+https://cdn-sp2.satlabscloud.com.br/H2_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="history_hd" group-title="Documentários & Variedades",History HD
+https://cdn-sp2.satlabscloud.com.br/HISTORY_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="id_hd" group-title="Documentários & Variedades",Investigação Discovery (ID) HD
+https://cdn-sp2.satlabscloud.com.br/ID_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tlc_hd" group-title="Documentários & Variedades",TLC HD
+https://cdn-sp2.satlabscloud.com.br/TLC_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="travel_box_hd" group-title="Documentários & Variedades",Travel Box Brazil HD
+https://cdn-sp2.satlabscloud.com.br/TRAVEL_BOX_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="trutv_hd" group-title="Documentários & Variedades",TruTV HD
+https://cdn-sp2.satlabscloud.com.br/TRUTV_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="urban_docs" group-title="Documentários & Variedades",Urban Docs
+https://cdn-sp2.satlabscloud.com.br/URBAN_DOCS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="arte_1" group-title="Música & Cultura",Arte 1
+https://cdn-sp2.satlabscloud.com.br/ARTE_1/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tooncast" group-title="Desenhos & Infantil",Tooncast
+https://cdn-sp2.satlabscloud.com.br/TOONCAST/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="urban_kids" group-title="Desenhos & Infantil",Urban Kids
+https://cdn-sp2.satlabscloud.com.br/URBAN_KIDS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="urban_travel" group-title="Documentários & Variedades",Urban Travel
+https://cdn-sp3.satlabscloud.com.br/URBAN_TRAVEL/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="hallo_music" group-title="Música & Cultura",Hallo Music
+https://cdn-sp2.satlabscloud.com.br/HALLO_MUSIC/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="music_box_hd" group-title="Música & Cultura",Music Box Brazil HD
+https://cdn-sp2.satlabscloud.com.br/MUSIC_BOX_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="playtv" group-title="Música & Cultura",PlayTV
+https://cdn-sp2.satlabscloud.com.br/PLAYTV/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="trace_latina" group-title="Música & Cultura",Trace Latina
+https://cdn-sp2.satlabscloud.com.br/TRACE_LATINA/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="trace_brazuca" group-title="Música & Cultura",Trace Brazuca
+https://cdn-sp2.satlabscloud.com.br/TRACE_BRAZUCA/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="trace_toca" group-title="Música & Cultura",Trace Toca
+https://cdn-sp2.satlabscloud.com.br/TRACE_TOCA/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="trace_urban" group-title="Música & Cultura",Trace Urban
+https://cdn-sp2.satlabscloud.com.br/TRACE_URBAN/tracks-v1/mono.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="agro_canal" group-title="Agro & Rural",Agro Canal
+https://cdn-sp2.satlabscloud.com.br/AGRO_CANAL/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="agrobrasil" group-title="Agro & Rural",AgroBrasil TV
+https://cdn-sp2.satlabscloud.com.br/AGROBRASIL/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="agroplus" group-title="Agro & Rural",AgroPlus
+https://cdn-sp2.satlabscloud.com.br/AGROPLUS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="agromais_hd" group-title="Agro & Rural",AgroMais HD
+https://cdn-sp2.satlabscloud.com.br/AGROMAIS_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="canal_do_boi" group-title="Agro & Rural",Canal do Boi
+https://cdn-sp2.satlabscloud.com.br/CANAL_DO_BOI/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="canal_rural" group-title="Agro & Rural",Canal Rural
+https://cdn-sp2.satlabscloud.com.br/CANAL_RURAL/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="rede_genesis" group-title="Religiosos",Rede Gênesis
+https://cdn-sp2.satlabscloud.com.br/REDE_GENESIS/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="cancao_nova_hd" group-title="Religiosos",Canção Nova HD
+https://cdn-sp2.satlabscloud.com.br/CANCAO_NOVA_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="rit" group-title="Religiosos",RIT TV
+https://cdn-sp2.satlabscloud.com.br/RIT/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="rede_super" group-title="Religiosos",Rede Super
+https://cdn-sp2.satlabscloud.com.br/REDE_SUPER/index.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="rede_vida_hd" group-title="Religiosos",Rede Vida HD
+https://cdn-sp2.satlabscloud.com.br/REDE_VIDA_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_evangelizar" group-title="Religiosos",TV Evangelizar
+https://cdn-sp2.satlabscloud.com.br/TV_EVANGELIZAR/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_mundo_maior" group-title="Religiosos",TV Mundo Maior
+https://cdn-sp2.satlabscloud.com.br/TV_MUNDO_MAIOR/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_novo_tempo" group-title="Religiosos",TV Novo Tempo
+https://cdn-sp2.satlabscloud.com.br/TV_NOVO_TEMPO/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="sex_prive" group-title="Adultos",Sex Privé
+https://cdn-sp2.satlabscloud.com.br/SEX_PRIVE/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="rede_gospel_hd" group-title="Religiosos",Rede Gospel HD
+https://cdn-sp2.satlabscloud.com.br/REDE_GOSPEL_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+#EXTINF:-1 tvg-id="tv_aparecida_hd" group-title="Religiosos",TV Aparecida HD
+https://cdn-sp2.satlabscloud.com.br/TV_APARECIDA_HD/tracks-v1a1/mono.ts.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
