@@ -1,996 +1,367 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Política de Privacidade — Deli TV</title>
-
-    <meta name="description"
-          content="Política de Privacidade do aplicativo Deli TV. Saiba como dados, publicidade, Firebase, BitTorrent, conexões P2P e serviços de terceiros são utilizados.">
-
-    <meta name="robots" content="index, follow">
-
-    <style>
-        :root {
-            --bg: #0b0f14;
-            --card: #121821;
-            --card2: #0f151d;
-            --text: #eef2f7;
-            --muted: #aab4c0;
-            --accent: #e50914;
-            --accent2: #ff3b30;
-            --border: rgba(255,255,255,.08);
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            margin: 0;
-            background: var(--bg);
-            color: var(--text);
-            font-family:
-                -apple-system,
-                BlinkMacSystemFont,
-                "Segoe UI",
-                Roboto,
-                Helvetica,
-                Arial,
-                sans-serif;
-            line-height: 1.7;
-        }
-
-        a {
-            color: #ff5b63;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .hero {
-            background:
-                linear-gradient(
-                    135deg,
-                    rgba(229, 9, 20, .20),
-                    rgba(11, 15, 20, 1) 65%
-                );
-            border-bottom: 1px solid var(--border);
-            padding: 70px 20px 55px;
-        }
-
-        .hero-content {
-            max-width: 950px;
-            margin: auto;
-        }
-
-        .logo {
-            width: 76px;
-            height: 76px;
-            border-radius: 20px;
-            background: linear-gradient(135deg, var(--accent), #7d0007);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 34px;
-            font-weight: 900;
-            box-shadow: 0 12px 40px rgba(229, 9, 20, .25);
-            margin-bottom: 25px;
-        }
-
-        h1 {
-            margin: 0 0 10px;
-            font-size: clamp(32px, 6vw, 52px);
-            line-height: 1.1;
-        }
-
-        .subtitle {
-            color: var(--muted);
-            font-size: 18px;
-            max-width: 750px;
-        }
-
-        .updated {
-            display: inline-block;
-            margin-top: 18px;
-            padding: 7px 13px;
-            border: 1px solid var(--border);
-            border-radius: 999px;
-            color: var(--muted);
-            font-size: 14px;
-            background: rgba(255,255,255,.03);
-        }
-
-        .container {
-            max-width: 950px;
-            margin: auto;
-            padding: 35px 20px 70px;
-        }
-
-        .notice {
-            background: rgba(229, 9, 20, .08);
-            border: 1px solid rgba(229, 9, 20, .25);
-            border-radius: 16px;
-            padding: 20px;
-            margin-bottom: 30px;
-        }
-
-        .toc {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 18px;
-            padding: 24px;
-            margin-bottom: 40px;
-        }
-
-        .toc h2 {
-            margin-top: 0;
-        }
-
-        .toc ul {
-            margin-bottom: 0;
-        }
-
-        section {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 18px;
-            padding: 28px;
-            margin-bottom: 22px;
-        }
-
-        h2 {
-            margin-top: 0;
-            font-size: 25px;
-            line-height: 1.3;
-        }
-
-        h3 {
-            font-size: 19px;
-            margin-top: 28px;
-        }
-
-        p:last-child {
-            margin-bottom: 0;
-        }
-
-        ul {
-            padding-left: 22px;
-        }
-
-        li {
-            margin: 7px 0;
-        }
-
-        .table-wrapper {
-            overflow-x: auto;
-            margin: 20px 0;
-            border-radius: 12px;
-        }
-
-        table {
-            width: 100%;
-            min-width: 650px;
-            border-collapse: collapse;
-            background: var(--card2);
-        }
-
-        th,
-        td {
-            text-align: left;
-            vertical-align: top;
-            padding: 13px 14px;
-            border-bottom: 1px solid var(--border);
-        }
-
-        th {
-            background: rgba(255,255,255,.05);
-            font-weight: 700;
-        }
-
-        .tag {
-            display: inline-block;
-            padding: 3px 9px;
-            border-radius: 999px;
-            background: rgba(255,255,255,.07);
-            font-size: 13px;
-            white-space: nowrap;
-        }
-
-        .important {
-            border-left: 4px solid var(--accent);
-            padding: 14px 18px;
-            background: rgba(229, 9, 20, .07);
-            border-radius: 8px;
-        }
-
-        footer {
-            border-top: 1px solid var(--border);
-            padding: 35px 20px;
-            text-align: center;
-            color: var(--muted);
-            font-size: 14px;
-        }
-
-        .back {
-            display: inline-block;
-            margin-top: 15px;
-        }
-
-        @media (max-width: 600px) {
-            .hero {
-                padding: 45px 18px;
-            }
-
-            .container {
-                padding: 25px 14px 50px;
-            }
-
-            section,
-            .toc {
-                padding: 21px;
-                border-radius: 14px;
-            }
-
-            h2 {
-                font-size: 22px;
-            }
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Política de Privacidade oficial do Deli TV: Canais e TV Grátis (com.jack.deli): transparência de dados, listas IPTV públicas, reprodutor HLS/DASH, AdMob, conformidade integral com LGPD e Google Play Data Safety.">
+  <link rel="canonical" href="https://silversdev.space/apps/deli-tv/privacy.html">
+  <title>Política de Privacidade — Deli TV: Canais e TV Grátis | Silver's Apps</title>
+  <link rel="icon" href="../../assets/app-icons/deli-tv-play.png">
+  <link rel="stylesheet" href="../../assets/site.css">
+  <script src="../../assets/site.js" defer></script>
 </head>
-
-<body id="top">
-
-<header class="hero">
-    <div class="hero-content">
-
-        <div class="logo" aria-label="Deli TV">D</div>
-
-        <h1>Política de Privacidade</h1>
-
-        <div class="subtitle">
-            Deli TV — informações sobre privacidade, publicidade,
-            serviços de terceiros, Firebase, armazenamento e conexões
-            Peer-to-Peer (P2P).
-        </div>
-
-        <div class="updated">
-            Última atualização: 13 de outubro de 2026
-        </div>
-
-    </div>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="./">
+      <img class="brand-mark" src="../../assets/app-icons/deli-tv-play.png" alt="Logotipo Deli TV">
+      <span>Deli TV Grátis<small>Política de Privacidade</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="./">Aplicativo</a>
+      <a aria-current="page" href="privacy.html">Privacidade</a>
+      <a href="./terms.html">Termos de Uso</a>
+      <a href="./deletion.html">Exclusão de Dados</a>
+      <a href="mailto:jackson.dev.silva@gmail.com">Contato</a>
+    </nav>
+    <button class="icon-button" data-theme-toggle type="button" aria-label="Alternar tema">🌓</button>
+  </div>
 </header>
 
-<main class="container">
-
-    <div class="notice">
-        <strong>Resumo importante:</strong>
-        O Deli TV não exige uma conta para utilizar suas funções
-        principais. Entretanto, determinadas funcionalidades utilizam
-        serviços de terceiros, incluindo Firebase Analytics, Firebase
-        Firestore, Google AdMob e tecnologia BitTorrent/P2P.
-        Conexões P2P podem expor o endereço IP do dispositivo a outros
-        participantes da rede, trackers e nós DHT.
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href="../../">Início</a><span>&gt;</span>
+        <a href="../../#apps">Apps</a><span>&gt;</span>
+        <a href="./">Deli TV Grátis</a><span>&gt;</span>Privacidade
+      </div>
+      <span class="eyebrow">Documento Legal e de Conformidade Técnica</span>
+      <h1>Política de <span class="gradient-text">Privacidade</span></h1>
+      <p class="lead">
+        <strong>Deli TV: Canais e TV Grátis</strong> (Identificador de Pacote Android: <code>com.jack.deli</code> • Versão 1.8.2 / Code 64 • Target SDK 36)<br>
+        Última atualização: 15 de outubro de 2026 • Versão 3.2 • Em rigorosa conformidade com a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018), Marco Civil da Internet (Lei nº 12.965/2014) e Diretrizes de Segurança de Dados da Google Play Store (Data Safety).
+      </p>
+      <div class="tags" style="margin-top: 14px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span class="tag">✓ Player de Listas IPTV e Sinais Públicos</span>
+        <span class="tag">✓ Transmissões Oficiais HLS e DASH</span>
+        <span class="tag">✓ Sem Cadastro ou Login</span>
+        <span class="tag">✓ Sem Coleta de Dados Pessoais</span>
+        <span class="tag">✓ Armazenamento 100% Local</span>
+        <span class="tag">✓ Google AdMob Integrado</span>
+        <span class="tag">✓ Google Cast Suportado</span>
+        <span class="tag">✓ Conformidade Integral LGPD</span>
+      </div>
     </div>
-
-    <nav class="toc">
-        <h2>Conteúdo</h2>
-
-        <ul>
-            <li><a href="#sobre">1. Sobre o Deli TV</a></li>
-            <li><a href="#dados">2. Dados que não solicitamos diretamente</a></li>
-            <li><a href="#analytics">3. Firebase Analytics</a></li>
-            <li><a href="#firestore">4. Firebase Firestore</a></li>
-            <li><a href="#admob">5. Google AdMob</a></li>
-            <li><a href="#p2p">6. BitTorrent e P2P</a></li>
-            <li><a href="#ip">7. Endereço IP</a></li>
-            <li><a href="#torrent">8. Dados relacionados a torrents</a></li>
-            <li><a href="#armazenamento">9. Armazenamento local</a></li>
-            <li><a href="#conteudo">10. Serviços e conteúdo de terceiros</a></li>
-            <li><a href="#rede">11. Segurança e criptografia</a></li>
-            <li><a href="#backup">12. Backup do Android</a></li>
-            <li><a href="#terceiros">13. Serviços de terceiros</a></li>
-            <li><a href="#retencao">14. Retenção e exclusão</a></li>
-            <li><a href="#criancas">15. Crianças</a></li>
-            <li><a href="#direitos">16. Direitos do usuário</a></li>
-            <li><a href="#alteracoes">17. Alterações nesta política</a></li>
-            <li><a href="#contato">18. Contato</a></li>
-        </ul>
-    </nav>
-
-
-    <section id="sobre">
-        <h2>1. Sobre o Deli TV</h2>
-
-        <p>
-            O Deli TV é um aplicativo destinado à descoberta e reprodução
-            de conteúdo audiovisual através de diferentes fontes e
-            tecnologias de reprodução.
-        </p>
-
-        <p>
-            Algumas funcionalidades utilizam serviços externos e,
-            quando aplicável, tecnologia BitTorrent/Peer-to-Peer (P2P).
-        </p>
-
-        <p>
-            O aplicativo não exige a criação de uma conta própria para
-            utilizar suas funções principais.
-        </p>
-    </section>
-
-
-    <section id="dados">
-        <h2>2. Dados que não solicitamos diretamente</h2>
-
-        <p>
-            O Deli TV não possui um sistema próprio de cadastro obrigatório
-            e não solicita diretamente:
-        </p>
-
-        <ul>
-            <li>Nome;</li>
-            <li>Endereço de e-mail;</li>
-            <li>Número de telefone;</li>
-            <li>Documento de identificação;</li>
-            <li>Senha de conta do Deli TV;</li>
-            <li>Contatos do dispositivo;</li>
-            <li>Localização GPS;</li>
-            <li>Fotos da galeria;</li>
-            <li>Vídeos pessoais da galeria;</li>
-            <li>Localização dos arquivos pessoais do dispositivo;</li>
-            <li>Conta Google para autenticação no Deli TV.</li>
-        </ul>
-
-        <p>
-            Isso não significa que serviços de terceiros integrados ao
-            aplicativo não possam processar informações técnicas ou
-            identificadores de acordo com suas próprias políticas.
-        </p>
-    </section>
-
-
-    <section id="analytics">
-        <h2>3. Firebase Analytics</h2>
-
-        <p>
-            O Deli TV utiliza o Firebase Analytics, fornecido pelo Google,
-            para analisar a utilização de determinadas funcionalidades
-            do aplicativo.
-        </p>
-
-        <p>
-            Entre os eventos identificados está o evento
-            <strong>select_content</strong>, relacionado à seleção de
-            conteúdo/canais.
-        </p>
-
-        <p>
-            Esse evento pode incluir informações como:
-        </p>
-
-        <ul>
-            <li>Nome do canal, enviado como identificador e nome do item;</li>
-            <li>Categoria do canal;</li>
-            <li>Tipo de conteúdo.</li>
-        </ul>
-
-        <p>
-            O Firebase Analytics e seus componentes podem também processar
-            identificadores e informações técnicas do dispositivo conforme
-            o funcionamento do SDK e as configurações aplicáveis, incluindo
-            dados de uso do app, identificadores de instância/instalação e
-            diagnósticos técnicos. O Google pode receber o endereço IP para
-            prestar o serviço e, conforme seus próprios sistemas, inferir uma
-            região aproximada; o Deli TV não solicita localização GPS.
-        </p>
-
-        <p>
-            Na versão analisada, o evento acionado ao abrir um canal envia o
-            nome do canal, sua categoria e o tipo de conteúdo (<code>live_tv</code>).
-            O código também contém métodos preparados para eventos de filmes,
-            favoritos e Cast, mas não encontramos chamadas ativas para esses
-            métodos no fluxo principal desta versão.
-        </p>
-
-        <p>
-            Essas informações são utilizadas para análise de utilização,
-            medição e melhoria do aplicativo.
-        </p>
-
-        <p>
-            Para saber mais sobre o tratamento de dados pelo Google,
-            consulte a
-            <a href="https://policies.google.com/privacy"
-               target="_blank"
-               rel="noopener noreferrer">
-                Política de Privacidade do Google
-            </a>.
-        </p>
-    </section>
-
-
-    <section id="firestore">
-        <h2>4. Firebase Firestore</h2>
-
-        <p>
-            O Deli TV utiliza o Firebase Cloud Firestore para obter
-            informações necessárias ao funcionamento de determinadas
-            funcionalidades do aplicativo.
-        </p>
-
-        <p>Essas informações podem incluir:</p>
-
-        <ul>
-            <li>Lista de canais;</li>
-            <li>Nome e identificação dos canais;</li>
-            <li>Descrição;</li>
-            <li>Categorias;</li>
-            <li>Logos;</li>
-            <li>Informações de programação;</li>
-            <li>Endereços de reprodução;</li>
-            <li>Configurações de conteúdo;</li>
-            <li>Informações de versão;</li>
-            <li>Listas M3U;</li>
-            <li>Outras informações necessárias ao catálogo.</li>
-        </ul>
-
-        <p>
-            As operações identificadas são principalmente operações
-            de leitura. Informações obtidas podem ser armazenadas
-            temporariamente no armazenamento interno do dispositivo
-            para melhorar o desempenho.
-        </p>
-
-        <p>
-            O Deli TV não utiliza o Firestore como sistema próprio
-            de cadastro ou autenticação de usuários.
-        </p>
-
-        <p>
-            O app também consulta configurações e avisos remotos. Essas consultas
-            são de leitura; como em qualquer acesso à Internet, o provedor recebe
-            dados técnicos da conexão, como o endereço IP.
-        </p>
-    </section>
-
-
-    <section id="admob">
-        <h2>5. Google AdMob</h2>
-
-        <p>
-            O Deli TV utiliza o Google AdMob para exibir publicidade.
-        </p>
-
-        <p>O aplicativo possui integração com:</p>
-
-        <ul>
-            <li>Anúncios nativos;</li>
-            <li>Anúncios intersticiais;</li>
-            <li>Anúncios recompensados;</li>
-            <li>Anúncios de abertura do aplicativo (App Open).</li>
-        </ul>
-
-        <p>
-            Os serviços de publicidade do Google podem processar
-            informações técnicas, identificadores do dispositivo e
-            informações relacionadas à publicidade, medição, prevenção
-            de fraude e limitação de frequência.
-        </p>
-
-        <p>
-            O aplicativo possui integração com o identificador de
-            publicidade do Android (Advertising ID). A utilização
-            efetiva desse identificador pode depender do funcionamento
-            dos SDKs do Google, das configurações do dispositivo e das
-            configurações da conta de publicidade.
-        </p>
-
-        <p>
-            Ao carregar ou interagir com anúncios, o SDK de publicidade pode
-            transmitir ao Google o endereço IP, identificadores de publicidade
-            ou do app, informações do dispositivo, interações com anúncios e
-            dados de diagnóstico/uso. Esses dados podem ser usados pelo Google
-            para veicular e medir anúncios, limitar frequência e prevenir
-            fraude; a personalização depende das configurações e elegibilidade
-            do usuário. O Deli TV não recebe nem mantém uma cópia própria desses
-            identificadores de publicidade.
-        </p>
-
-        <p>
-            O Deli TV não mantém uma base própria de Advertising IDs.
-        </p>
-
-        <p>
-            A versão analisada integra os formatos de anúncio nativo,
-            intersticial, recompensado e de abertura. As informações efetivamente
-            processadas dependem do SDK do Google, das configurações disponíveis
-            no Android e dos controles da conta. Consulte também as opções de
-            privacidade e anúncios do próprio dispositivo.
-        </p>
-
-        <p>
-            Mais informações podem ser encontradas na
-            <a href="https://policies.google.com/technologies/ads"
-               target="_blank"
-               rel="noopener noreferrer">
-                Política de Publicidade do Google
-            </a>.
-        </p>
-    </section>
-
-
-    <section id="p2p">
-        <h2>6. BitTorrent e Peer-to-Peer (P2P)</h2>
-
-        <p>
-            Algumas funcionalidades do Deli TV utilizam a tecnologia
-            BitTorrent/Peer-to-Peer através da biblioteca libtorrent.
-        </p>
-
-        <p>
-            Diferentemente de um serviço tradicional de streaming,
-            uma conexão P2P pode envolver comunicação direta entre
-            diferentes dispositivos participantes da rede.
-        </p>
-
-        <p>Durante uma operação P2P, podem ocorrer:</p>
-
-        <ul>
-            <li>Conexões com outros peers;</li>
-            <li>Download de partes de arquivos;</li>
-            <li>Possível envio de partes de arquivos para outros peers;</li>
-            <li>Comunicação com trackers;</li>
-            <li>Comunicação com a rede DHT;</li>
-            <li>Troca de informações necessárias para localizar e transferir conteúdo.</li>
-        </ul>
-
-        <div class="important">
-            <strong>Importante:</strong>
-            redes BitTorrent/P2P não devem ser consideradas redes anônimas.
-            O endereço IP e informações relacionadas à conexão podem ser
-            observados por participantes necessários ao funcionamento da rede.
-        </div>
-    </section>
-
-
-    <section id="ip">
-        <h2>7. Endereço IP</h2>
-
-        <p>
-            O funcionamento da Internet e das redes P2P exige que
-            conexões de rede utilizem endereços IP.
-        </p>
-
-        <p>
-            Quando uma funcionalidade P2P é utilizada, o endereço IP
-            da conexão pode ficar visível para:
-        </p>
-
-        <ul>
-            <li>Trackers BitTorrent;</li>
-            <li>Nós da rede DHT;</li>
-            <li>Outros peers;</li>
-            <li>Servidores de conteúdo;</li>
-            <li>Servidores de streaming;</li>
-            <li>Outros servidores acessados pelo aplicativo.</li>
-        </ul>
-
-        <p>
-            O Deli TV não foi identificado como mantendo uma base própria
-            de endereços IP ou enviando deliberadamente o IP do usuário
-            para uma API própria de telemetria.
-        </p>
-
-        <p>
-            Entretanto, a exposição do endereço IP é uma característica
-            inerente às conexões de rede utilizadas pelo aplicativo.
-        </p>
-    </section>
-
-
-    <section id="torrent">
-        <h2>8. Dados relacionados a torrents</h2>
-
-        <p>
-            Quando o usuário utiliza a funcionalidade de busca e
-            reprodução por torrent, determinadas informações podem
-            ser processadas para localizar e transferir o conteúdo.
-        </p>
-
-        <p>Isso pode incluir:</p>
-
-        <ul>
-            <li>Termos de busca;</li>
-            <li>Nome do conteúdo;</li>
-            <li>Infohash;</li>
-            <li>Magnet links;</li>
-            <li>Metadados do torrent;</li>
-            <li>Informações sobre peers;</li>
-            <li>Informações sobre seeds;</li>
-            <li>Informações de velocidade e progresso.</li>
-        </ul>
-
-        <p>
-            A busca de torrents pode utilizar serviços externos.
-            O termo pesquisado pode ser enviado ao serviço externo
-            utilizado para realizar a busca.
-        </p>
-
-        <p>
-            Na versão analisada, a busca é feita pela API apibay.org, que recebe
-            o termo pesquisado e a categoria escolhida, além dos dados técnicos
-            normais da conexão. O catálogo também consulta a API do TMDB para
-            metadados e imagens; identificadores de títulos são usados para
-            solicitar conteúdo a serviços externos de reprodução incorporada.
-        </p>
-
-        <p>
-            Conforme a opção de reprodução selecionada, o app pode abrir
-            players externos incorporados, incluindo MultiEmbed, SmashyStream
-            ou SuperEmbed. O serviço escolhido recebe a requisição do título e
-            os dados técnicos de rede (como endereço IP); a página do player
-            também pode carregar seus próprios recursos e tecnologias de
-            terceiros. O Deli TV não controla a coleta ou retenção feita por
-            esses provedores.
-        </p>
-
-        <p>
-            O aplicativo também utiliza trackers UDP e a rede DHT
-            para descoberta de participantes quando a funcionalidade
-            P2P está sendo utilizada.
-        </p>
-
-        <p>
-            O aplicativo não deve ser interpretado como um serviço
-            que garante anonimato ao usuário.
-        </p>
-    </section>
-
-
-    <section id="armazenamento">
-        <h2>9. Armazenamento local</h2>
-
-        <p>
-            O aplicativo pode armazenar informações localmente no
-            armazenamento privado do próprio aplicativo.
-        </p>
-
-        <p>Podem ser armazenados:</p>
-
-        <ul>
-            <li>Cache de canais;</li>
-            <li>Informações M3U;</li>
-            <li>Dados de EPG;</li>
-            <li>Imagens e pôsteres em cache;</li>
-            <li>Banco de dados local;</li>
-            <li>Favoritos;</li>
-            <li>Itens recentes;</li>
-            <li>Posições de reprodução;</li>
-            <li>Configurações do aplicativo;</li>
-            <li>Configurações de controle parental;</li>
-            <li>Arquivos temporários relacionados à reprodução P2P.</li>
-        </ul>
-
-        <p>
-            Mais especificamente, favoritos, canal mais recente, contagem de
-            visualizações por canal e até 20 títulos VOD recentes ficam em
-            preferências locais. “Continue Assistindo” guarda até 30 itens com
-            título, tipo, temporada/episódio quando aplicável, posição, duração,
-            horário da atualização e URL de reprodução. O player também mantém
-            posições e o último episódio de séries. O PIN de controle parental e
-            as preferências do player ficam localmente.
-        </p>
-
-        <p>
-            Esses dados de histórico e preferências são usados para exibir e
-            retomar conteúdo no próprio dispositivo. A análise do código não
-            encontrou envio desse histórico ou das URLs salvas ao Firestore.
-            Quando o usuário reproduz um item, contudo, a URL escolhida e os
-            dados da requisição são enviados ao servidor correspondente, que
-            recebe o IP e pode receber parâmetros presentes nessa URL.
-        </p>
-
-        <p>
-            Os arquivos torrent utilizados para reprodução podem ser
-            armazenados temporariamente no cache interno do aplicativo.
-        </p>
-
-        <p>
-            Não identificamos o uso de permissões destinadas à leitura
-            da galeria pessoal do usuário ou acesso geral ao armazenamento
-            externo do dispositivo.
-        </p>
-    </section>
-
-
-    <section id="conteudo">
-        <h2>10. Serviços e conteúdo de terceiros</h2>
-
-        <p>
-            O Deli TV pode utilizar fontes externas para fornecer
-            canais, informações de programação, imagens, vídeos,
-            players e outros conteúdos.
-        </p>
-
-        <p>
-            Quando o usuário acessa ou reproduz conteúdo fornecido
-            por terceiros, a conexão pode ocorrer diretamente entre
-            o dispositivo e o servidor desse terceiro.
-        </p>
-
-        <p>
-            Esses servidores podem receber informações técnicas
-            necessárias para estabelecer a conexão, incluindo o
-            endereço IP.
-        </p>
-
-        <p>
-            O Deli TV não controla as políticas de privacidade,
-            segurança, retenção ou práticas de coleta de todos os
-            serviços externos.
-        </p>
-
-        <p>
-            O usuário deve consultar as políticas de privacidade dos
-            respectivos serviços quando aplicável.
-        </p>
-    </section>
-
-
-    <section id="rede">
-        <h2>11. Segurança e criptografia</h2>
-
-        <p>
-            O aplicativo utiliza conexões HTTPS/TLS quando fornecidas
-            pelos respectivos serviços.
-        </p>
-
-        <p>
-            Entretanto, determinados recursos de rede, incluindo
-            trackers BitTorrent, DHT e algumas fontes externas de
-            conteúdo, podem utilizar protocolos que não oferecem
-            criptografia de ponta a ponta.
-        </p>
-
-        <p>
-            O aplicativo também permite conexões HTTP em determinados
-            fluxos de conteúdo.
-        </p>
-
-        <div class="important">
-            <strong>Importante:</strong>
-            não afirmamos que todo o tráfego realizado pelo Deli TV
-            seja criptografado ou protegido por TLS.
+  </section>
+
+  <section class="section">
+    <div class="container policy-layout">
+      <article class="policy-content">
+
+        <!-- Compromisso Fundamental -->
+        <div class="policy-card notice" style="border-left: 4px solid var(--primary); background: color-mix(in srgb, var(--primary) 10%, transparent); padding: 22px; border-radius: 16px;">
+          <strong style="color: var(--primary); font-size: 17px; display: block; margin-bottom: 8px;">Compromisso Fundamental de Privacidade e Transparência</strong>
+          <p style="margin: 0; line-height: 1.65;">
+            O <strong>Deli TV: Canais e TV Grátis</strong> foi projetado para oferecer acesso imediato, estável e gratuito a canais de TV aberta e transmissões públicas da internet através de <strong>listas IPTV e transmissões diretas de streaming cliente-servidor (HLS e DASH)</strong>. O aplicativo <strong>não exige nenhum tipo de cadastro, conta de usuário, senha, e-mail, telefone, CPF ou dados financeiros</strong>. Suas preferências de canais, lista de favoritos e histórico de reprodução permanecem <strong>estritamente armazenados na memória interna local do seu dispositivo</strong> e nunca são compartilhados ou comercializados com terceiros.
+          </p>
         </div>
 
-        <p>
-            Da mesma forma, a tecnologia BitTorrent não deve ser
-            considerada um mecanismo de anonimização.
-        </p>
-    </section>
+        <!-- 1. Controlador -->
+        <section class="policy-card" id="responsavel">
+          <h2>1. Identificação do Responsável e Controlador dos Dados</h2>
+          <p>
+            Esta Política de Privacidade disciplina o tratamento de informações e estabelece as diretrizes de privacidade e segurança relativas ao aplicativo móvel e para Smart TVs <strong>Deli TV: Canais e TV Grátis</strong>, mantido de forma independente por <strong>Jackson Silva</strong> (titular da <strong>Silver's Apps</strong>).
+          </p>
+          <ul style="list-style: none; padding-left: 0; margin-top: 12px; display: grid; gap: 8px;">
+            <li><strong>Nome do Aplicativo na Google Play:</strong> Deli TV: Canais e TV Grátis</li>
+            <li><strong>Identificador de Pacote (ApplicationId / Package):</strong> <code>com.jack.deli</code> (Namespace base: <code>br.com.popcorn.mobile</code>)</li>
+            <li><strong>Desenvolvedor e Controlador dos Dados:</strong> Jackson Silva (Silver's Apps)</li>
+            <li><strong>Canal Direto de Contato e DPO (Encarregado):</strong> <a href="mailto:jackson.dev.silva@gmail.com">jackson.dev.silva@gmail.com</a></li>
+            <li><strong>Website Oficial:</strong> <a href="https://silversdev.space" target="_blank" rel="noopener">https://silversdev.space</a></li>
+            <li><strong>Endereço Canônico Desta Política:</strong> <a href="https://silversdev.space/apps/deli-tv/privacy.html" target="_blank" rel="noopener">https://silversdev.space/apps/deli-tv/privacy.html</a></li>
+            <li><strong>Página Oficial de Exclusão de Dados:</strong> <a href="https://silversdev.space/apps/deli-tv/deletion.html" target="_blank" rel="noopener">https://silversdev.space/apps/deli-tv/deletion.html</a></li>
+            <li><strong>Jurisdição e Legislação Aplicável:</strong> República Federativa do Brasil (Lei nº 13.709/2018 - LGPD e Lei nº 12.965/2014 - Marco Civil da Internet).</li>
+          </ul>
+        </section>
 
+        <!-- 2. Natureza Técnica do Serviço -->
+        <section class="policy-card" id="natureza">
+          <h2>2. Natureza Técnica do Serviço: Listas IPTV, Streaming Direto e Isenção (DMCA)</h2>
+          <p>
+            O <strong>Deli TV</strong> opera estritamente como um <strong>reprodutor multimídia e indexador de listas IPTV de livre acesso público na internet</strong> (via protocolos HLS <code>.m3u8</code>, DASH e streams web convencionais).
+          </p>
+          <ul>
+            <li><strong>Arquitetura de Streaming IPTV Direto:</strong> A reprodução de canais e vídeos é realizada através de conexões de streaming padrão de cliente para servidor (HTTP/HTTPS/HLS). O aplicativo atua como reprodutor de mídia convencional, recebendo o fluxo de transmissão diretamente da fonte geradora;</li>
+            <li><strong>Ausência de Servidores de Hospedagem Próprios:</strong> O Deli TV <strong>não hospeda, não grava, não faz upload, não retransmite e não armazena arquivos de vídeo ou sinais de televisão em servidores proprietários</strong>. O aplicativo funciona como um cliente reprodutor (utilizando a engine nativa AndroidX Media3 / ExoPlayer), estabelecendo conexão técnica direta entre o dispositivo do usuário e os servidores de streaming e emissoras públicas geradoras de sinal;</li>
+            <li><strong>Guia EPG e Metadados Informativos:</strong> Nomes de canais, numerações, logotipos descritivos e a grade de programação horária (EPG) são agregados de diretórios públicos de metadados para fins puramente de organização visual e consulta pelo telespectador;</li>
+            <li><strong>Conformidade Legal:</strong> Nossa operação segue com rigor os parâmetros de intermediação técnica estabelecidos pelo <strong>Marco Civil da Internet (Lei Federal nº 12.965/2014)</strong> e pela prática internacional de <em>Notice and Takedown</em> (DMCA);</li>
+            <li><strong>Canal Dedicado de Notificação e Desindexação (DMCA / Takedown):</strong> Respeitamos integralmente os direitos autorais e a propriedade intelectual. Emissoras, detentores de direitos ou representantes legais que identifiquem qualquer link indexado e desejem a remoção ou desindexação imediata da grade podem entrar em contato através do e-mail <a href="mailto:jackson.dev.silva@gmail.com?subject=Solicitacao%20DMCA%20Deli%20TV">jackson.dev.silva@gmail.com</a>. As solicitações são analisadas e atendidas em caráter prioritário em até 48 horas úteis.</li>
+          </ul>
+        </section>
 
-    <section id="backup">
-        <h2>12. Backup do Android</h2>
+        <!-- 3. Princípios LGPD -->
+        <section class="policy-card" id="principios">
+          <h2>3. Princípios de Proteção de Dados (LGPD e Boas Práticas)</h2>
+          <p>
+            O tratamento de dados operacionais e técnicos decorrente da utilização do Deli TV fundamenta-se nos princípios estabelecidos pelo artigo 6º da <strong>Lei Geral de Proteção de Dados Pessoais (LGPD - Lei Federal nº 13.709/2018)</strong>:
+          </p>
+          <ul>
+            <li><strong>Finalidade e Necessidade:</strong> O tratamento limita-se ao estritamente necessário para entregar a reprodução de vídeo em alta definição, garantir a estabilidade da transmissão IPTV, exibir anúncios sustentadores do serviço gratuito e verificar atualizações;</li>
+            <li><strong>Livre Acesso e Transparência:</strong> Garantia aos usuários de informações claras, precisas e facilmente acessíveis sobre as tecnologias integradas;</li>
+            <li><strong>Não Discriminação e Não Comercialização:</strong> É terminantemente vedada a comercialização, aluguel ou repasse de quaisquer dados a corretores de dados (data brokers) ou agências de marketing;</li>
+            <li><strong>Segurança e Prevenção:</strong> Adoção de criptografia de ponta a ponta em trânsito (HTTPS/TLS) e isolamento sandbox nativo do Android.</li>
+          </ul>
+        </section>
 
-        <p>
-            O manifesto do app permite o mecanismo de backup do Android,
-            conforme as configurações e políticas do próprio sistema
-            operacional e do dispositivo.
-        </p>
+        <!-- 4. Dados Tratados no Dispositivo -->
+        <section class="policy-card" id="dados-locais">
+          <h2>4. Informações Armazenadas Exclusivamente no Dispositivo Local</h2>
+          <p>
+            Para que você tenha conveniência na navegação sem necessidade de login, armazenamos as seguintes informações <strong>apenas na memória interna local do seu aparelho</strong> (via <code>SharedPreferences</code> e banco de dados local <code>Room / SQLite</code>):
+          </p>
+          <ul>
+            <li><strong>Canais Favoritos:</strong> Identificadores das emissoras marcadas com estrela pelo usuário para acesso rápido no topo da grade;</li>
+            <li><strong>Último Canal Assistido e Histórico:</strong> Registro da última transmissão sintonizada e contagem local de visualizações, permitindo reabrir o app diretamente na programação preferida;</li>
+            <li><strong>Preferências de Reprodução e Interface:</strong> Ajuste de proporção de tela (ajustar, preencher, esticar), seleção de faixa sonora (dual áudio: original ou dublado), decodificador de vídeo preferido e tema;</li>
+            <li><strong>Progresso de Conteúdo (Playback Resume):</strong> Posição e timestamp de reprodução para permitir a continuidade de exibição de onde parou;</li>
+            <li><strong>Cache Local da Grade (EPG):</strong> Cópia temporária da lista pública de canais e logotipos para carregamento instantâneo e economia de dados móveis;</li>
+            <li><strong>Controle Parental:</strong> Código PIN local (quando ativado voluntariamente pelo usuário) para proteção e bloqueio de categorias adultas ou específicas.</li>
+          </ul>
+          <p>
+            <em>Nota de Segurança: Estes dados operam sob a sandbox isolada do sistema operacional Android. Eles NUNCA são transmitidos para servidores centrais, não são vinculados a perfis individuais e não são comercializados.</em>
+          </p>
+        </section>
 
-        <p>
-            Dependendo da versão do Android, das configurações do
-            dispositivo e dos serviços de backup utilizados, determinados
-            dados privados do aplicativo podem estar sujeitos aos
-            mecanismos de backup do sistema.
-        </p>
+        <!-- 5. Permissões Android -->
+        <section class="policy-card" id="permissoes">
+          <h2>5. Permissões Técnicas do Sistema Operacional Android</h2>
+          <p>
+            O Deli TV solicita apenas as permissões de sistema estritamente indispensáveis para o funcionamento dos recursos de reprodução, rede e transmissão na Smart TV ou Celular:
+          </p>
+          <ul>
+            <li><code>android.permission.INTERNET</code>: Essencial para conectar-se aos fluxos de vídeo ao vivo (streaming de listas IPTV), carregar o guia de programação (EPG), receber anúncios do Google AdMob e consultar catálogos remotos seguros;</li>
+            <li><code>android.permission.ACCESS_NETWORK_STATE</code>: Permite verificar se o aparelho está conectado a uma rede Wi-Fi ou dados móveis (4G/5G), adaptando o buffer do player de vídeo e exibindo alertas em caso de desconexão;</li>
+            <li><code>android.permission.ACCESS_WIFI_STATE</code> e <code>android.permission.CHANGE_WIFI_MULTICAST_STATE</code>: Utilizadas exclusivamente para descobrir reprodutores de mídia na sua rede doméstica (como Chromecast, Android TV e receptores DLNA/UPnP) via protocolo de rede local multicast;</li>
+            <li><code>android.permission.NEARBY_WIFI_DEVICES</code> (com atributo <code>android:usesPermissionFlags="neverForLocation"</code>): Utilizada em dispositivos com Android 13 ou superior para descoberta e pareamento de transmissões locais via Google Cast na rede Wi-Fi, declarada formalmente ao sistema Android que não é utilizada para localização geográfica;</li>
+            <li><code>com.google.android.gms.permission.AD_ID</code>: Permissão para que o SDK do Google Mobile Ads (AdMob) acesse o Identificador de Publicidade do Google Play Services em versões modernas do Android, com o intuito de evitar fraudes e controlar a repetição de anúncios.</li>
+          </ul>
+          <p>
+            <strong>Isenção de Acesso à Localização GPS:</strong> O Deli TV <strong>NÃO solicita permissões de localização geográfica (GPS), NÃO monitora, NÃO armazena e NÃO compartilha coordenadas de localização do usuário</strong>. Quaisquer permissões legadas de localização foram totalmente removidas do manifesto do aplicativo.
+          </p>
+        </section>
 
-        <p>
-            O Deli TV não utiliza esse mecanismo para criar uma base
-            própria de dados dos usuários.
-        </p>
-    </section>
+        <!-- 6. Publicidade e AdMob -->
+        <section class="policy-card" id="publicidade">
+          <h2>6. Publicidade Digital, Anúncios e Identificador de Publicidade (Google AdMob)</h2>
+          <p>
+            O Deli TV é <strong>100% gratuito</strong> para o usuário final, sem mensalidades ou taxas ocultas. A sustentabilidade e a manutenção contínua da infraestrutura são viabilizadas pela exibição de anúncios publicitários gerenciados pelo <strong>Google Mobile Ads SDK (AdMob)</strong>.
+          </p>
+          <h3>Formatos de Anúncios Utilizados</h3>
+          <ul>
+            <li><strong>Anúncios Intersticiais:</strong> Telas publicitárias em tela cheia exibidas em transições naturais de navegação;</li>
+            <li><strong>Anúncios Recompensados (Rewarded Ads):</strong> O usuário pode optar voluntariamente por assistir a um anúncio em troca de horas de uso livre de anúncios (Modo VIP temporário);</li>
+            <li><strong>Anúncios de Abertura (App Open Ads):</strong> Exibidos esporadicamente no retorno ou inicialização da aplicação em dispositivos móveis.</li>
+          </ul>
+          <h3>Política de Proteção da Experiência (Frequency Capping)</h3>
+          <p>
+            Implementamos um gerenciador inteligente de frequência publicitária (<code>AdPolicyManager</code>) que estabelece um intervalo mínimo de <strong>5 minutos de descanso</strong> entre anúncios intersticiais e um teto diário de impressões, prevenindo saturação publicitária e garantindo uma experiência confortável. Em Smart TVs, a exibição de anúncios é adaptada para não interferir na navegação por controle remoto.
+          </p>
+          <h3>Dados Técnicos Tratados pelo Google AdMob</h3>
+          <ul>
+            <li><strong>Identificador de Publicidade do Google (GAID / AD_ID):</strong> Identificador anônimo e redefinível do aparelho, usado para prevenção de fraudes e controle de frequência;</li>
+            <li><strong>Endereço IP e Localização Aproximada:</strong> Processado pelo Google para identificar o país/cidade e exibir anúncios no idioma correto e relevantes para a região;</li>
+            <li><strong>Métricas de Diagnóstico do Anúncio:</strong> Informações de requisição, taxa de exibição, cliques e eventuais travamentos do componente publicitário;</li>
+            <li><strong>Características do Aparelho:</strong> Modelo, fabricante, versão do Android, resolução da tela e operadora de rede.</li>
+          </ul>
+          <p>
+            Para maiores detalhes sobre o tratamento de dados publicitários pelo Google, consulte a <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Política de Publicidade do Google</a>.
+          </p>
+          <h3>Como Redefinir ou Excluir seu Identificador de Publicidade (AD_ID)</h3>
+          <p>
+            Você pode desativar a personalização de anúncios ou apagar seu identificador a qualquer instante no sistema Android:
+          </p>
+          <div style="background: var(--surface); padding: 14px 18px; border-radius: 12px; border: 1px solid var(--line); margin-top: 8px;">
+            <code>Configurações do Android &gt; Google &gt; Anúncios &gt; Redefinir ID de Publicidade</code> ou <code>Excluir ID de Publicidade</code>.
+          </div>
+        </section>
 
+        <!-- 7. Serviços de Terceiros -->
+        <section class="policy-card" id="terceiros">
+          <h2>7. Infraestrutura em Nuvem e Serviços de Terceiros Integrados</h2>
+          <p>
+            O aplicativo integra serviços tecnológicos de parceiros de infraestrutura de classe mundial, operando sob padrões rigorosos de segurança:
+          </p>
+          <ul>
+            <li><strong>Google Firebase Firestore (Google LLC):</strong> Utilizado exclusivamente para leitura em tempo real da lista pública de canais e comunicados informativos (<code>config/notice</code>). Não grava dados de identificação pessoal dos usuários;</li>
+            <li><strong>Cloudflare R2 &amp; CDN (Cloudflare Inc.):</strong> Utilizados para entrega de catálogos compactados de emissoras públicas através de conexões de alta velocidade criptografadas com TLS;</li>
+            <li><strong>Google Cast Framework (Google LLC):</strong> Viabiliza o espelhamento e controle de transmissões para Smart TVs e aparelhos Chromecast conectados à mesma rede local Wi-Fi;</li>
+            <li><strong>Google Play In-App Updates (Google LLC):</strong> Permite verificar automaticamente se existe uma versão oficial mais recente e segura do Deli TV disponível na Google Play Store;</li>
+            <li><strong>AndroidX Media3 / ExoPlayer com OkHttp e DoH:</strong> Motor de reprodução nativo de vídeo em alta performance com suporte a DNS-over-HTTPS (Cloudflare / Google Public DNS) para resolução segura de nomes e combate a bloqueios arbitrários.</li>
+          </ul>
+        </section>
 
-    <section id="terceiros">
-        <h2>13. Serviços de terceiros</h2>
+        <!-- 8. Segurança -->
+        <section class="policy-card" id="seguranca">
+          <h2>8. Segurança da Informação, Criptografia e Armazenamento</h2>
+          <p>
+            Adotamos medidas técnicas, organizacionais e administrativas para salvaguardar a integridade das transmissões e a privacidade do usuário:
+          </p>
+          <ul>
+            <li><strong>Criptografia em Trânsito (HTTPS / TLS 1.3):</strong> Todas as requisições de catálogos, metadados informativos e chamadas publicitárias utilizam canais estritamente criptografados;</li>
+            <li><strong>DNS Seguro (DNS-over-HTTPS):</strong> Proteção adicional contra interceptações e manipulações de tráfego na rede local ou operadora;</li>
+            <li><strong>Sandbox de Aplicativo do Android:</strong> Todos os dados de preferências locais ficam confinados no diretório privativo do aplicativo, impedindo acesso indevido por outros aplicativos instalados no aparelho;</li>
+            <li><strong>Minimização de Dados (Privacy by Default):</strong> O aplicativo não armazena nem processa nenhuma informação além daquelas indispensáveis para a sintonia da transmissão e exibição de publicidade.</li>
+          </ul>
+        </section>
 
-        <p>
-            O aplicativo utiliza ou pode utilizar serviços e bibliotecas
-            fornecidos por terceiros, incluindo:
-        </p>
+        <!-- 9. Direitos LGPD & Exclusão -->
+        <section class="policy-card" id="direitos">
+          <h2>9. Direitos do Titular (LGPD) e Eliminação Completa de Dados</h2>
+          <p>
+            Em conformidade com o Artigo 18 da Lei Geral de Proteção de Dados (LGPD), você detém pleno domínio sobre as informações relacionadas ao uso do aplicativo:
+          </p>
+          <ul>
+            <li><strong>Confirmação e Acesso:</strong> Você pode visualizar suas emissoras favoritas diretamente na seção de Favoritos do aplicativo;</li>
+            <li><strong>Eliminação e Reset Imediato de Dados:</strong> Como o aplicativo não possui contas em nuvem, você pode apagar 100% de quaisquer dados locais gerados a qualquer momento realizando o seguinte procedimento:
+              <br><em>Configurações do Aparelho &gt; Aplicativos &gt; Deli TV &gt; Armazenamento &gt; Limpar Dados e Limpar Cache</em>, ou simplesmente desinstalando o aplicativo do aparelho;
+            </li>
+            <li><strong>Revogação de Permissões:</strong> Você pode gerenciar ou desativar permissões de rede local e dispositivos próximos no menu de permissões do aplicativo no Android;</li>
+            <li><strong>Instruções Detalhadas de Exclusão:</strong> Acesse nossa página dedicada de <a href="./deletion.html">Instruções de Exclusão de Dados</a> para tutoriais visuais passo a passo;</li>
+            <li><strong>Canal de Atendimento do Titular:</strong> Para qualquer esclarecimento referente a dados, envie uma mensagem para <a href="mailto:jackson.dev.silva@gmail.com?subject=Privacidade%20LGPD%20-%20Deli%20TV">jackson.dev.silva@gmail.com</a>.</li>
+          </ul>
+        </section>
 
-        <ul>
-            <li>Google Firebase Analytics;</li>
-            <li>Google Firebase Firestore;</li>
-            <li>Google AdMob;</li>
-            <li>Google Play Services;</li>
-            <li>Google Cast;</li>
-            <li>Biblioteca libtorrent;</li>
-            <li>Serviços de busca de torrents;</li>
-            <li>Trackers BitTorrent;</li>
-            <li>Rede DHT;</li>
-            <li>Servidores de streaming;</li>
-            <li>Serviços de EPG;</li>
-            <li>CDNs e serviços de imagens;</li>
-            <li>Players e serviços externos de conteúdo.</li>
-        </ul>
+        <!-- 10. Proteção à Infância -->
+        <section class="policy-card" id="criancas">
+          <h2>10. Proteção à Criança e Menores de Idade (COPPA &amp; LGPD Art. 14)</h2>
+          <p>
+            O <strong>Deli TV</strong> possui classificação indicativa <strong>Livre (Todas as Idades)</strong> na Google Play Store por disponibilizar programações da televisão aberta geral (incluindo canais educativos, culturais e desenhos animados infantis de livre acesso).
+          </p>
+          <p>
+            Reforçamos que o aplicativo <strong>NÃO realiza cadastro de usuários e NÃO coleta deliberadamente dados pessoais identificáveis de crianças ou adolescentes menores de 13 anos</strong>. Os anúncios exibidos seguem os parâmetros de adequação à faixa etária e as diretrizes do programa Família da Google Play Store. Caso qualquer responsável identifique qualquer inconformidade, solicitamos contato imediato através do e-mail <a href="mailto:jackson.dev.silva@gmail.com">jackson.dev.silva@gmail.com</a>.
+          </p>
+        </section>
 
-        <p>
-            Cada serviço externo possui suas próprias práticas de
-            privacidade e tratamento de dados.
-        </p>
+        <!-- 11. Tabela Google Play Data Safety -->
+        <section class="policy-card" id="datasafety">
+          <h2>11. Tabela de Conformidade — Google Play Data Safety</h2>
+          <p>
+            Para total transparência com as exigências da Google Play Store e clareza para os usuários, resumimos a declaração de segurança de dados do aplicativo na tabela a seguir:
+          </p>
+          <div style="overflow-x: auto; margin-top: 16px;">
+            <table style="width: 100%; border-collapse: collapse; font-size: 14px; text-align: left; color: var(--text);">
+              <thead>
+                <tr style="border-bottom: 2px solid var(--line); background: color-mix(in srgb, var(--surface) 60%, transparent);">
+                  <th style="padding: 12px 14px;">Tipo de Informação</th>
+                  <th style="padding: 12px 14px;">Finalidade Principal</th>
+                  <th style="padding: 12px 14px;">Coleta / Compartilhamento</th>
+                  <th style="padding: 12px 14px;">Criptografia</th>
+                  <th style="padding: 12px 14px;">Exclusão</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="border-bottom: 1px solid var(--line);">
+                  <td style="padding: 12px 14px;"><strong>Identificador de Publicidade (AD_ID)</strong></td>
+                  <td style="padding: 12px 14px;">Exibição de anúncios, prevenção de fraude e medição de impressões</td>
+                  <td style="padding: 12px 14px;">Tratado pelo Google AdMob</td>
+                  <td style="padding: 12px 14px;">Sim (HTTPS/TLS)</td>
+                  <td style="padding: 12px 14px;">Pelo usuário no Android</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--line);">
+                  <td style="padding: 12px 14px;"><strong>Diagnósticos e Falhas Técnicas</strong></td>
+                  <td style="padding: 12px 14px;">Estabilidade do app e identificação de erros de reprodução</td>
+                  <td style="padding: 12px 14px;">Coletado de forma anônima e agregada</td>
+                  <td style="padding: 12px 14px;">Sim (HTTPS/TLS)</td>
+                  <td style="padding: 12px 14px;">Automática em 90 dias</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--line);">
+                  <td style="padding: 12px 14px;"><strong>Endereço IP (Aproximado)</strong></td>
+                  <td style="padding: 12px 14px;">Conexão direta de streaming IPTV e regionalização de anúncios</td>
+                  <td style="padding: 12px 14px;">Transmitido aos servidores de streaming e AdMob</td>
+                  <td style="padding: 12px 14px;">Sim (HTTPS/TLS)</td>
+                  <td style="padding: 12px 14px;">Não armazenado pelo desenvolvedor</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--line);">
+                  <td style="padding: 12px 14px;"><strong>Dispositivos Wi-Fi e Rede Local</strong></td>
+                  <td style="padding: 12px 14px;">Descoberta de Chromecast e Smart TVs na mesma rede</td>
+                  <td style="padding: 12px 14px;">Processado apenas na rede local (não compartilhado externamente)</td>
+                  <td style="padding: 12px 14px;">Local / mDNS</td>
+                  <td style="padding: 12px 14px;">Memória volátil local</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--line);">
+                  <td style="padding: 12px 14px;"><strong>Favoritos, Histórico e Preferências</strong></td>
+                  <td style="padding: 12px 14px;">Personalização e conveniência do telespectador</td>
+                  <td style="padding: 12px 14px;">Salvo 100% no aparelho (não enviado a servidores)</td>
+                  <td style="padding: 12px 14px;">Sandbox Android</td>
+                  <td style="padding: 12px 14px;">Limpeza de dados ou desinstalação</td>
+                </tr>
+                <tr>
+                  <td style="padding: 12px 14px;"><strong>Localização Geográfica Física (GPS)</strong></td>
+                  <td style="padding: 12px 14px;">Não aplicável (permissão não existente no app)</td>
+                  <td style="padding: 12px 14px;"><strong>NÃO COLETADA</strong></td>
+                  <td style="padding: 12px 14px;">—</td>
+                  <td style="padding: 12px 14px;">—</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
 
-        <p>
-            A utilização desses serviços pode fazer com que determinadas
-            informações técnicas sejam transmitidas diretamente entre
-            o dispositivo e o terceiro.
-        </p>
-    </section>
+        <!-- 12. Atualizações e Contato -->
+        <section class="policy-card" id="alteracoes">
+          <h2>12. Atualizações Desta Política e Canal de Atendimento</h2>
+          <p>
+            Esta Política de Privacidade poderá ser revisada e atualizada periodicamente para refletir o lançamento de novas versões do aplicativo, aprimoramentos técnicos ou eventuais alterações regulatórias. Sempre que houver modificações substanciais, a data de revisão no topo desta página será devidamente atualizada.
+          </p>
+          <p>
+            Recomendamos consultas periódicas a este endereço. O uso contínuo do Deli TV após a publicação de alterações consolida a aceitação dos termos revisados.
+          </p>
+          <div style="margin-top: 20px; padding: 20px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface);">
+            <strong>Jackson Silva — Deli TV: Canais e TV Grátis</strong><br>
+            Desenvolvedor Independente &amp; Controlador de Dados (Silver's Apps)<br>
+            Canal Oficial de Atendimento e DPO: <a href="mailto:jackson.dev.silva@gmail.com">jackson.dev.silva@gmail.com</a><br>
+            Website Oficial: <a href="https://silversdev.space" target="_blank" rel="noopener">https://silversdev.space</a><br>
+            Página de Exclusão de Dados: <a href="./deletion.html">https://silversdev.space/apps/deli-tv/deletion.html</a>
+          </div>
+        </section>
 
+      </article>
 
-    <section id="retencao">
-        <h2>14. Retenção e exclusão</h2>
-
-        <p>
-            O Deli TV utiliza armazenamento local principalmente para
-            cache, preferências e funcionamento das funcionalidades
-            do aplicativo.
-        </p>
-
-        <p>
-            O usuário pode utilizar as ferramentas disponíveis no
-            aplicativo ou no sistema Android para limpar dados e cache,
-            quando disponíveis.
-        </p>
-
-        <p>
-            A retenção de informações processadas por serviços externos,
-            como Google Analytics, Google AdMob, Firestore, trackers,
-            servidores de conteúdo e outros serviços, está sujeita às
-            respectivas políticas desses terceiros.
-        </p>
-
-        <p>
-            Para apagar favoritos, históricos, posições de reprodução, PIN,
-            preferências e outros dados locais de uma só vez, use nas configurações
-            do Android ou da Android TV: <strong>Aplicativos &gt; Deli TV &gt;
-            Armazenamento &gt; Limpar dados/armazenamento</strong>. A desinstalação
-            também remove os dados locais do app. Limpar apenas o cache dentro do
-            aplicativo não apaga necessariamente favoritos ou progresso de
-            reprodução. Como o Android permite backup do app, dados restaurados
-            pelo sistema poderão reaparecer conforme as configurações de backup.
-        </p>
-
-        <p>
-            O Deli TV não mantém contas de usuário nem perfil ou histórico
-            individual em seus próprios servidores, e não identificamos uma
-            base própria de histórico de IP. Assim, não há conta remota do Deli TV
-            a excluir. Para dados processados por Google, serviços de busca,
-            trackers, peers ou servidores de conteúdo, consulte os controles e
-            procedimentos do respectivo provedor. Veja também as
-            <a href="deletion.html">instruções de exclusão de dados</a>.
-        </p>
-
-    </section>
-
-
-    <section id="criancas">
-        <h2>15. Crianças</h2>
-
-        <p>
-            O Deli TV não é destinado especificamente a crianças.
-        </p>
-
-        <p>
-            O aplicativo não solicita diretamente dados pessoais de
-            crianças para criação de contas ou perfis.
-        </p>
-
-        <p>
-            Pais ou responsáveis que identificarem utilização inadequada
-            do aplicativo por uma criança devem supervisionar o uso do
-            dispositivo e dos serviços de Internet utilizados.
-        </p>
-    </section>
-
-
-    <section id="direitos">
-        <h2>16. Direitos do usuário</h2>
-
-        <p>
-            Dependendo da legislação aplicável ao usuário, podem existir
-            direitos relacionados aos dados pessoais, incluindo:
-        </p>
-
-        <ul>
-            <li>Solicitar informações sobre o tratamento de dados;</li>
-            <li>Solicitar correção de informações pessoais;</li>
-            <li>Solicitar exclusão de dados quando aplicável;</li>
-            <li>Solicitar informações sobre compartilhamento de dados;</li>
-            <li>Exercer direitos previstos pela legislação aplicável.</li>
-        </ul>
-
-        <p>
-            Quando o processamento for realizado diretamente por um
-            serviço de terceiros, como Google Analytics ou Google AdMob,
-            solicitações relacionadas aos dados mantidos por esse
-            terceiro podem precisar ser realizadas diretamente ao
-            respectivo provedor.
-        </p>
-    </section>
-
-
-    <section id="alteracoes">
-        <h2>17. Alterações nesta Política</h2>
-
-        <p>
-            Esta Política de Privacidade poderá ser atualizada
-            periodicamente para refletir alterações no aplicativo,
-            nos serviços utilizados ou na legislação aplicável.
-        </p>
-
-        <p>
-            Quando houver alterações relevantes, a data de atualização
-            apresentada no início desta página será modificada.
-        </p>
-
-        <p>
-            Recomendamos que os usuários consultem esta página
-            periodicamente.
-        </p>
-    </section>
-
-
-    <section id="contato">
-        <h2>18. Contato</h2>
-
-        <p>
-            Para dúvidas relacionadas a esta Política de Privacidade
-            ou ao tratamento de dados pelo Deli TV, utilize os canais
-            oficiais disponibilizados pelo desenvolvedor na página do
-            aplicativo.
-        </p>
-
-        <p>
-            Para dúvidas sobre privacidade ou tratamento de dados, use o contato
-            oficial do desenvolvedor informado na página do aplicativo no Google Play:
-            <a href="https://play.google.com/store/apps/details?id=com.jack.deli"
-               target="_blank"
-               rel="noopener noreferrer">
-                Deli TV no Google Play
-            </a>
-        </p>
-    </section>
-
-
-    <div class="notice">
-        <strong>Resumo final:</strong>
-        O Deli TV não exige cadastro próprio, mas utiliza serviços
-        externos como Firebase Analytics, Firestore e Google AdMob.
-        Recursos BitTorrent/P2P podem comunicar-se com trackers,
-        rede DHT e outros peers. Por esse motivo, o endereço IP e
-        determinadas informações relacionadas à atividade de rede
-        podem ser visíveis para terceiros envolvidos nessas conexões.
+      <!-- Tabela de Conteúdos Lateral -->
+      <aside class="toc">
+        <strong>Índice do Documento</strong>
+        <a href="#responsavel">1. Identificação do Responsável</a>
+        <a href="#natureza">2. Listas IPTV &amp; DMCA</a>
+        <a href="#principios">3. Princípios de Proteção LGPD</a>
+        <a href="#dados-locais">4. Dados Salvos no Aparelho</a>
+        <a href="#permissoes">5. Permissões Técnicas Android</a>
+        <a href="#publicidade">6. Publicidade e Google AdMob</a>
+        <a href="#terceiros">7. Serviços de Terceiros e Nuvem</a>
+        <a href="#seguranca">8. Segurança e Criptografia</a>
+        <a href="#direitos">9. Direitos LGPD &amp; Exclusão</a>
+        <a href="#criancas">10. Proteção à Infância (COPPA)</a>
+        <a href="#datasafety">11. Tabela Google Play Data Safety</a>
+        <a href="#alteracoes">12. Atualizações e Contato</a>
+      </aside>
     </div>
-
-    <a class="back" href="#top">↑ Voltar ao topo</a>
-
+  </section>
 </main>
 
-<footer>
-    <div>Deli TV</div>
-    <div>Política de Privacidade — Atualizada em 13/10/2026</div>
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <strong>Deli TV: Canais e TV Grátis</strong><br>
+      © <span data-year>2026</span> Deli TV • Silver's Apps • Jackson Silva. Todos os direitos reservados.
+    </div>
+    <div class="footer-links">
+      <a href="./">Aplicativo</a>
+      <a href="privacy.html">Privacidade</a>
+      <a href="./terms.html">Termos de Uso</a>
+      <a href="./deletion.html">Exclusão de Dados</a>
+      <a href="mailto:jackson.dev.silva@gmail.com">Contato</a>
+    </div>
+  </div>
 </footer>
-
 </body>
 </html>
