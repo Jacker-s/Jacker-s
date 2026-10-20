@@ -2,33 +2,108 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Política de Privacidade — Deli TV</title>
-  <style>
-    body{margin:0;padding:20px;background:#0b0f14;color:#e5e7eb;font:16px/1.65 system-ui,Segoe UI,Arial,sans-serif}
-    main{max-width:860px;margin:auto}h1,h2{color:#38bdf8}h1{font-size:2rem}h2{margin-top:2rem;font-size:1.25rem}
-    p,li{color:#cbd5e1}a{color:#7dd3fc}section{border:1px solid #26354a;border-radius:12px;padding:18px;margin:16px 0;background:#151d28}
-    .updated{color:#94a3b8;font-size:.9rem}
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de Privacidade do Deli TV: dados locais, Firebase, Cloudflare, Unity Ads, reprodução de conteúdo e transmissão para dispositivos.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://silversdev.space/apps/deli-tv/privacy.html">
+  <title>Política de Privacidade — Deli TV: Canais e TV Grátis | Silver's Apps</title>
+  <link rel="icon" href="../../assets/app-icons/deli-tv-play.png">
+  <link rel="stylesheet" href="../../assets/site.css">
+  <script src="../../assets/site.js" defer></script>
 </head>
-<body><main>
-  <h1>Política de Privacidade</h1>
-  <p class="updated">Deli TV: Canais e TV Grátis · Pacote <code>com.jack.deli</code> · Atualizada em 20 de outubro de 2026</p>
-  <section><p>Esta política explica os dados tratados pelo Deli TV e por seus recursos e fornecedores. O aplicativo não exige cadastro ou conta. Desenvolvedor/controlador: Jackson Silva, Silver's Apps. Dúvidas e solicitações: <a href="mailto:jackson.dev.silva@gmail.com">jackson.dev.silva@gmail.com</a>.</p></section>
-  <section><h2>Dados armazenados no aparelho</h2>
-    <p>Favoritos, progresso de reprodução, preferências do player, configurações e PIN de controle parental são guardados no armazenamento privado do Android. O progresso e os favoritos não são enviados ao servidor do Deli TV. Caches temporários podem conter catálogos, imagens e dados de programação.</p>
-    <p>Para remover esses dados, use Configurações do Android → Aplicativos → Deli TV → Armazenamento → Limpar dados, ou desinstale o aplicativo. A remoção local não apaga registros técnicos que fornecedores externos eventualmente mantenham.</p></section>
-  <section><h2>Conexões e dados técnicos</h2>
-    <p>Para carregar catálogos, programação, imagens, anúncios e reproduzir o conteúdo escolhido, o aparelho se conecta aos servidores do Deli TV e a provedores externos. Essas conexões necessariamente recebem o endereço IP e informações técnicas da solicitação, como horário, URL/recurso solicitado, tipo de cliente e dados básicos de rede. Ao reproduzir um canal ou título, o provedor correspondente pode observar a solicitação de reprodução.</p>
-    <p>O app usa servidores próprios/VPS, Cloudflare (catálogo de filmes e séries), Firebase/Google (recursos de catálogo e serviços integrados), fontes de programação e imagem e os provedores das transmissões selecionadas. Cada serviço trata registros conforme seus próprios termos e prazos. O app não controla a retenção feita por esses terceiros.</p>
-    <p>O app permite conexões HTTP e HTTPS conforme o endereço fornecido por cada serviço. HTTPS protege o tráfego apenas quando o servidor escolhido oferece HTTPS; conexões HTTP não são criptografadas em trânsito. O app não solicita GPS, câmera, microfone, contatos ou acesso amplo a arquivos.</p></section>
-  <section><h2>Anúncios no celular</h2>
-    <p>Nas versões para celular, o SDK Unity Ads pode coletar e compartilhar com a Unity e seus parceiros de anúncios identificadores do dispositivo e do usuário, endereço IP e localização aproximada derivada dele, informações e diagnóstico do app, histórico de compras disponível no serviço e interações com anúncios, como visualizações e toques. Esses dados são usados para exibir e medir anúncios, analisar o uso, manter o serviço e prevenir fraude. O SDK não é inicializado na versão para Android TV. O app não recebe nem armazena os dados de pagamento do usuário; informações de compra relacionadas ao serviço de anúncios podem ser tratadas pela Unity.</p>
-    <p>Consulte a <a href="https://unity.com/legal/privacy-policy">Política de Privacidade da Unity</a> e os controles de anúncios disponíveis nas configurações do Android/Google.</p></section>
-  <section><h2>Google Cast e rede local</h2>
-    <p>Se você escolher transmitir para um dispositivo compatível, o Google Cast usa a rede local para localizar e se comunicar com o receptor. O título e o endereço de mídia selecionados podem ser enviados ao receptor para executar a transmissão.</p></section>
-  <section><h2>Segurança, retenção e direitos</h2>
-    <p>Aplicamos o isolamento local fornecido pelo Android. A proteção em trânsito depende de cada conexão, conforme descrito acima. Dados locais permanecem até que você limpe os dados ou desinstale o app; dados enviados a terceiros ficam sujeitos às políticas deles.</p>
-    <p>Para solicitar exclusão de dados pessoais eventualmente mantidos pelo desenvolvedor, envie um e-mail para <a href="mailto:jackson.dev.silva@gmail.com">jackson.dev.silva@gmail.com</a>, informando “Deli TV — exclusão de dados” no assunto. O app não exige conta e não mantém perfil de usuário nos servidores do desenvolvedor. Favoritos, histórico de reprodução, PIN e preferências podem ser removidos limpando os dados ou desinstalando o app. Registros mantidos por Unity, Google, provedores de conteúdo ou outros terceiros precisam ser solicitados diretamente a eles e seguem as políticas desses serviços.</p></section>
-  <footer><p>Silver's Apps · Deli TV · <a href="https://silversdev.space">silversdev.space</a></p></footer>
-</main></body></html>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="./"><img class="brand-mark" src="../../assets/app-icons/deli-tv-play.png" alt="Logotipo Deli TV"><span>Deli TV Grátis<small>TV ao Vivo &amp; Sinal Aberto</small></span></a>
+    <nav class="nav-links" aria-label="Navegação principal"><a href="./">Aplicativo</a><a aria-current="page" href="privacy.html">Privacidade</a><a href="terms.html">Termos</a><a href="mailto:jackson.dev.silva@gmail.com">Contato</a></nav>
+    <button class="icon-button" data-theme-toggle type="button" aria-label="Alternar tema">🌓</button>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs"><a href="../../">Início</a><span>›</span><a href="./">Deli TV</a><span>›</span>Privacidade</div>
+      <span class="eyebrow">Transparência sobre dados</span>
+      <h1>Política de <span class="gradient-text">Privacidade</span></h1>
+      <p class="lead">Esta política explica como o aplicativo Android Deli TV: Canais e TV Grátis (pacote <code>com.jack.deli</code>) trata informações durante o uso. Última atualização: 20 de outubro de 2026.</p>
+      <p class="lead" style="font-size:16px">Controlador: Jackson Silva · Contato de privacidade: <a href="mailto:jackson.dev.silva@gmail.com">jackson.dev.silva@gmail.com</a></p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container policy-content">
+      <article class="policy-card">
+        <h2>1. Resumo</h2>
+        <p>O Deli TV não exige cadastro ou conta. Favoritos, histórico e progresso de reprodução, preferências do player, configurações e PIN de controle parental ficam no armazenamento privado do aparelho. O app acessa Google Firebase para listas e avisos, Cloudflare R2 para o catálogo de filmes e séries, Unity Ads nas versões para celular, fontes externas de programação e imagens e os servidores de transmissão correspondentes ao conteúdo escolhido.</p>
+        <p>O código atual não envia favoritos, histórico de reprodução ou perfil pessoal para os catálogos remotos do Deli TV. Ao conectar-se a serviços, anúncios, fontes ou servidores de transmissão, o aparelho envia os dados técnicos necessários à solicitação, como endereço IP e informações da conexão. Os SDKs de terceiros podem tratar dados conforme suas versões, configurações e políticas próprias.</p>
+      </article>
+
+      <article class="policy-card">
+        <h2>2. Informações armazenadas no dispositivo</h2>
+        <p>O app grava localmente, no espaço privado do Android, itens como canais e títulos favoritos, lista de conteúdos vistos recentemente, posição e progresso de reprodução, identificadores e informações necessárias para continuar assistindo, preferências do player, layout, configurações e PIN de controle parental. O texto digitado na busca pode permanecer temporariamente na tela. Catálogos baixados, programação EPG e imagens podem ser guardados em cache.</p>
+        <p>Esses dados locais servem para apresentar suas preferências e manter o app funcionando. Ficam no aparelho até que você limpe os dados do Deli TV ou o desinstale; caches também podem ser substituídos ou removidos pelo próprio aplicativo. O histórico e as preferências locais não são sincronizados com uma conta do Deli TV.</p>
+      </article>
+
+      <article class="policy-card">
+        <h2>3. Catálogos remotos e serviços Google/Firebase</h2>
+        <p>O app consulta o Firebase Firestore para carregar e atualizar listas de canais, nomes de listas e avisos remotos. O catálogo de filmes e séries é baixado do Cloudflare R2. Algumas informações de episódios e de reprodução podem ser obtidas de serviços externos usados pelo catálogo. Esses dados são catálogos e metadados de conteúdo, não uma lista pessoal de favoritos ou um perfil do usuário.</p>
+        <p>Ao conectar-se ao Firestore, ao Firebase ou ao Cloudflare, esses fornecedores podem receber endereço IP e dados técnicos da conexão, do aplicativo e do dispositivo necessários à entrega, segurança e diagnóstico do serviço. O código atual não cria uma conta de usuário nem envia favoritos ou histórico de reprodução para esses catálogos. Consulte a <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">documentação de privacidade do Firebase</a>, a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a> e a <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Política de Privacidade da Cloudflare</a>.</p>
+      </article>
+
+      <article class="policy-card">
+        <h2>4. Anúncios</h2>
+        <p>Nas versões para celular, o Deli TV inicializa o Unity Ads para solicitar anúncios. Para selecionar, exibir, medir e proteger anúncios, a Unity e seus parceiros podem tratar identificadores de publicidade ou relacionados ao dispositivo, endereço IP e localização aproximada derivada dele, informações do dispositivo e do app, dados de diagnóstico, interações com anúncios e informações de histórico de compras disponíveis ao serviço. Os dados podem ser usados para publicidade, medição, análise, funcionamento e prevenção de fraude. O SDK de anúncios não é inicializado na versão para Android TV.</p>
+        <p>O app não recebe nem armazena dados de cartão ou pagamento do usuário. Informações tratadas pela Unity seguem os termos e controles próprios do serviço. Consulte a <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Política de Privacidade da Unity</a> e os controles de anúncios disponíveis nas configurações do Android/Google.</p>
+      </article>
+
+      <article class="policy-card">
+        <h2>5. Reprodução, programação e resolução de domínios</h2>
+        <p>Quando você abre um canal, filme, série ou episódio, o aparelho conecta-se aos endereços de reprodução correspondentes. O servidor externo pode receber dados técnicos da conexão, como endereço IP, horário, recurso solicitado e requisições necessárias à transmissão, e pode registrar esse acesso segundo suas próprias regras. O desenvolvedor do Deli TV não controla a retenção ou o tratamento feito por esses operadores.</p>
+        <p>O app baixa a grade de programação EPG de <a href="https://iptv-epg.org/" target="_blank" rel="noopener">iptv-epg.org</a> e pode carregar logos, capas e outras imagens de fontes externas. Essas fontes recebem os dados técnicos normais de uma solicitação web.</p>
+        <p>Para resolver domínios, o player pode usar DNS sobre HTTPS da Cloudflare e do Google, com fallback para o DNS do sistema. Consultas DNS podem revelar ao provedor o domínio que o aparelho precisa acessar, além dos metadados normais da conexão. Veja as políticas da <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Cloudflare</a> e do <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a>.</p>
+      </article>
+
+      <article class="policy-card">
+        <h2>6. Transmissão para dispositivos compatíveis</h2>
+        <p>Se você escolher usar Google Cast, Roku ou outro receptor compatível disponível na rede local, o app procura dispositivos para permitir a conexão. Ao iniciar uma transmissão, o título e o endereço do conteúdo selecionado podem ser enviados ao dispositivo escolhido para reprodução. O receptor e os serviços associados podem processar esses dados segundo suas próprias configurações e políticas.</p>
+      </article>
+
+      <article class="policy-card">
+        <h2>7. Finalidades e compartilhamento</h2>
+        <p>Os dados descritos são usados para entregar e atualizar catálogos, programação e imagens, reproduzir o conteúdo solicitado, manter preferências locais, exibir anúncios e proteger e operar os serviços técnicos. O app não oferece ferramenta para vender dados pessoais. Dados técnicos podem ser compartilhados diretamente com Google/Firebase, Cloudflare, Unity Ads, provedores DNS, fontes de programação e imagens, servidores de streaming e dispositivos de transmissão, conforme a função utilizada.</p>
+        <p>Esses fornecedores podem processar dados em outros países e aplicar seus próprios prazos de retenção. Consulte os links de privacidade indicados nesta política para detalhes e controles de cada serviço.</p>
+      </article>
+
+      <article class="policy-card">
+        <h2>8. Permissões e localização</h2>
+        <p>O app precisa de acesso à internet e ao estado da rede para catálogos, programação, anúncios e reprodução. Também usa informações e recursos de Wi-Fi/rede local para encontrar e se comunicar com dispositivos de transmissão compatíveis. A permissão de dispositivos Wi-Fi próximos é declarada para essa finalidade e marcada para não ser usada para obter localização. Na análise do código-fonte, não encontramos uma função que leia a localização precisa ou aproximada do aparelho. A Unity pode inferir localização aproximada a partir do endereço IP, conforme seus próprios termos.</p>
+        <p>O app não solicita GPS, câmera, microfone ou contatos. O identificador de publicidade pode ser acessado pelo SDK de anúncios nas versões para celular.</p>
+      </article>
+
+      <article class="policy-card">
+        <h2>9. Segurança e retenção</h2>
+        <p>As preferências ficam no armazenamento privado do Android. Conexões com Firestore, anúncios, catálogos, programação, DNS e imagens usam os protocolos disponibilizados por cada serviço. A reprodução pode utilizar endereços HTTP ou HTTPS conforme o link fornecido pela fonte; HTTPS protege a conexão quando o servidor escolhido oferece esse protocolo, enquanto HTTP não é criptografado em trânsito.</p>
+        <p>Os dados locais permanecem até que você limpe os dados ou desinstale o app. Registros técnicos nos servidores de terceiros seguem os controles e prazos definidos por esses fornecedores.</p>
+      </article>
+
+      <article class="policy-card">
+        <h2>10. Crianças</h2>
+        <p>O Deli TV não solicita nome, e-mail, telefone ou data de nascimento e não cria perfis de crianças. O app não é direcionado a crianças e pode conter anúncios e conteúdo com classificação indicativa; consulte a classificação e os controles disponíveis no Android/Google Play. Se você entender que dados de uma criança foram enviados diretamente ao controlador, entre em contato pelo canal abaixo.</p>
+      </article>
+
+      <article class="policy-card">
+        <h2>11. Seus direitos e como limpar dados</h2>
+        <p>Nos termos da legislação aplicável, você pode entrar em contato para solicitar confirmação de tratamento, acesso, correção, informações sobre compartilhamento e demais direitos cabíveis. Como favoritos, histórico, progresso e preferências ficam no aparelho, você pode removê-los em <em>Configurações do Android → Aplicativos → Deli TV → Armazenamento → Limpar dados</em>, ou desinstalando o app. Essa ação não apaga registros mantidos diretamente por Google, Unity, Cloudflare, servidores de streaming ou outros terceiros; use os canais de cada fornecedor para esses pedidos.</p>
+        <p>Para falar com o controlador ou solicitar exclusão de dados pessoais eventualmente mantidos pelo desenvolvedor, escreva para <a href="mailto:jackson.dev.silva@gmail.com?subject=Privacidade%20Deli%20TV">jackson.dev.silva@gmail.com</a>. Informe que o pedido se refere ao Deli TV e descreva a solicitação. O app não exige conta nem mantém perfil de usuário nos servidores do desenvolvedor. Não envie senhas ou dados financeiros.</p>
+      </article>
+
+      <article class="policy-card">
+        <h2>12. Alterações e contato</h2>
+        <p>Esta política pode ser atualizada quando o app, os serviços integrados ou as exigências legais mudarem. A versão vigente ficará publicada neste endereço, com a data de atualização no início do documento.</p>
+        <p><strong>Jackson Silva — Deli TV</strong><br>Site: <a href="https://silversdev.space/apps/deli-tv/">silversdev.space/apps/deli-tv/</a><br>Privacidade: <a href="mailto:jackson.dev.silva@gmail.com">jackson.dev.silva@gmail.com</a></p>
+      </article>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="container footer-grid"><div><strong>Deli TV Grátis</strong><br>© <span data-year>2026</span> Jackson Silva · Silver's Apps</div><div class="footer-links"><a href="./">Aplicativo</a><a href="privacy.html">Privacidade</a><a href="terms.html">Termos</a><a href="mailto:jackson.dev.silva@gmail.com">Contato</a></div></div></footer>
+</body>
+</html>
