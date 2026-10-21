@@ -33,26 +33,26 @@
     <div class="container policy-content">
       <article class="policy-card">
         <h2>1. Resumo</h2>
-        <p>O Deli TV não exige cadastro ou conta. Favoritos, histórico e progresso de reprodução, preferências do player, configurações e PIN de controle parental ficam no armazenamento privado do aparelho. O app acessa Google Firebase para listas e avisos, Cloudflare R2 para o catálogo de filmes e séries, Unity Ads nas versões para celular, fontes externas de programação e imagens e os servidores de transmissão correspondentes ao conteúdo escolhido.</p>
+        <p>O Deli TV não exige cadastro ou conta e não apresenta formulários para coletar nome, e-mail, telefone, CPF, senha ou dados financeiros. Favoritos, histórico e progresso de reprodução, preferências do player, configurações e PIN de controle parental ficam no armazenamento privado do aparelho. O app acessa Google Firebase para listas e avisos, Cloudflare R2 para o catálogo de filmes e séries, Unity Ads nas versões para celular, fontes externas de programação e imagens e os servidores de transmissão correspondentes ao conteúdo escolhido.</p>
         <p>O código atual não envia favoritos, histórico de reprodução ou perfil pessoal para os catálogos remotos do Deli TV. Ao conectar-se a serviços, anúncios, fontes ou servidores de transmissão, o aparelho envia os dados técnicos necessários à solicitação, como endereço IP e informações da conexão. Os SDKs de terceiros podem tratar dados conforme suas versões, configurações e políticas próprias.</p>
       </article>
 
       <article class="policy-card">
         <h2>2. Informações armazenadas no dispositivo</h2>
-        <p>O app grava localmente, no espaço privado do Android, itens como canais e títulos favoritos, lista de conteúdos vistos recentemente, posição e progresso de reprodução, identificadores e informações necessárias para continuar assistindo, preferências do player, layout, configurações e PIN de controle parental. O texto digitado na busca pode permanecer temporariamente na tela. Catálogos baixados, programação EPG e imagens podem ser guardados em cache.</p>
-        <p>Esses dados locais servem para apresentar suas preferências e manter o app funcionando. Ficam no aparelho até que você limpe os dados do Deli TV ou o desinstale; caches também podem ser substituídos ou removidos pelo próprio aplicativo. O histórico e as preferências locais não são sincronizados com uma conta do Deli TV.</p>
+        <p>O app grava localmente, no espaço privado do Android, canais, filmes e séries favoritos, itens vistos recentemente, posição e progresso de reprodução, preferências do player (como proporção de tela, qualidade e velocidade), layout, lista selecionada, configurações e PIN de controle parental. O texto digitado na busca pode permanecer temporariamente na tela. Catálogos baixados, programação EPG, logos e capas podem ser guardados em cache.</p>
+        <p>Esses dados locais servem para apresentar suas preferências e manter o app funcionando. Ficam no aparelho até que você limpe os dados do Deli TV ou o desinstale; caches também podem ser substituídos ou removidos pelo próprio aplicativo. O histórico e as preferências locais não são sincronizados com uma conta do Deli TV. Você também pode removê-los em <em>Configurações do Android → Aplicativos → Deli TV → Armazenamento → Limpar dados</em>.</p>
       </article>
 
       <article class="policy-card">
         <h2>3. Catálogos remotos e serviços Google/Firebase</h2>
-        <p>O app consulta o Firebase Firestore para carregar e atualizar listas de canais, nomes de listas e avisos remotos. O catálogo de filmes e séries é baixado do Cloudflare R2. Algumas informações de episódios e de reprodução podem ser obtidas de serviços externos usados pelo catálogo. Esses dados são catálogos e metadados de conteúdo, não uma lista pessoal de favoritos ou um perfil do usuário.</p>
-        <p>Ao conectar-se ao Firestore, ao Firebase ou ao Cloudflare, esses fornecedores podem receber endereço IP e dados técnicos da conexão, do aplicativo e do dispositivo necessários à entrega, segurança e diagnóstico do serviço. O código atual não cria uma conta de usuário nem envia favoritos ou histórico de reprodução para esses catálogos. Consulte a <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">documentação de privacidade do Firebase</a>, a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a> e a <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Política de Privacidade da Cloudflare</a>.</p>
+        <p>O app consulta o Firebase Firestore para carregar e atualizar listas de canais, nomes de listas e avisos do sistema. O catálogo de filmes e séries é baixado do Cloudflare R2. Essas fontes fornecem listas e metadados de conteúdo; não recebem a lista pessoal de favoritos, o PIN ou o histórico de reprodução do aparelho no fluxo atual do app.</p>
+        <p>Ao conectar-se ao Firestore, ao Firebase ou ao Cloudflare, esses fornecedores recebem endereço IP e metadados técnicos da requisição necessários à entrega e segurança do serviço. O app não cria conta nem envia perfil pessoal para esses catálogos. Consulte a <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">documentação de privacidade do Firebase</a>, a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a> e a <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Política de Privacidade da Cloudflare</a>.</p>
       </article>
 
       <article class="policy-card">
         <h2>4. Anúncios</h2>
-        <p>Nas versões para celular, o Deli TV inicializa o Unity Ads para solicitar anúncios. Para selecionar, exibir, medir e proteger anúncios, a Unity e seus parceiros podem tratar identificadores de publicidade ou relacionados ao dispositivo, endereço IP e localização aproximada derivada dele, informações do dispositivo e do app, dados de diagnóstico, interações com anúncios e informações de histórico de compras disponíveis ao serviço. Os dados podem ser usados para publicidade, medição, análise, funcionamento e prevenção de fraude. O SDK de anúncios não é inicializado na versão para Android TV.</p>
-        <p>O app não recebe nem armazena dados de cartão ou pagamento do usuário. Informações tratadas pela Unity seguem os termos e controles próprios do serviço. Consulte a <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Política de Privacidade da Unity</a> e os controles de anúncios disponíveis nas configurações do Android/Google.</p>
+        <p>Nas versões para celular, o Deli TV inicializa o Unity Ads para solicitar anúncios. Para selecionar, exibir, medir e proteger anúncios, a Unity e seus parceiros podem tratar o identificador de publicidade do Android (AD_ID), identificadores do dispositivo, endereço IP (que pode ser usado para estimar país ou região), informações técnicas do aparelho e do app, dados de diagnóstico e interações com anúncios, como visualizações e cliques. Informações adicionais disponibilizadas ao serviço, inclusive categorias declaradas na seção Segurança dos dados do Google Play, podem ser tratadas conforme os termos e as configurações da Unity. O SDK de anúncios não é inicializado na versão para Android TV.</p>
+        <p>O app não possui formulários nem processamento próprio de pagamentos. Dados tratados pelo SDK seguem os termos e controles da Unity. Consulte a <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Política de Privacidade da Unity</a>, as <a href="https://unity.com/legal/content-policy" target="_blank" rel="noopener">informações sobre dados de anúncios da Unity</a> e os controles de anúncios disponíveis nas configurações do Android/Google.</p>
       </article>
 
       <article class="policy-card">
@@ -64,7 +64,7 @@
 
       <article class="policy-card">
         <h2>6. Transmissão para dispositivos compatíveis</h2>
-        <p>Se você escolher usar Google Cast, Roku ou outro receptor compatível disponível na rede local, o app procura dispositivos para permitir a conexão. Ao iniciar uma transmissão, o título e o endereço do conteúdo selecionado podem ser enviados ao dispositivo escolhido para reprodução. O receptor e os serviços associados podem processar esses dados segundo suas próprias configurações e políticas.</p>
+        <p>Se você escolher usar Google Cast/Chromecast, Roku, DLNA ou outro receptor compatível disponível na rede local, o app procura dispositivos para permitir a conexão. Ao iniciar uma transmissão, o título e o endereço do conteúdo selecionado podem ser enviados ao dispositivo escolhido dentro da rede local ou pelo serviço de transmissão correspondente. O receptor e os serviços associados podem processar esses dados segundo suas próprias configurações e políticas.</p>
       </article>
 
       <article class="policy-card">
@@ -75,8 +75,8 @@
 
       <article class="policy-card">
         <h2>8. Permissões e localização</h2>
-        <p>O app precisa de acesso à internet e ao estado da rede para catálogos, programação, anúncios e reprodução. Também usa informações e recursos de Wi-Fi/rede local para encontrar e se comunicar com dispositivos de transmissão compatíveis. A permissão de dispositivos Wi-Fi próximos é declarada para essa finalidade e marcada para não ser usada para obter localização. Na análise do código-fonte, não encontramos uma função que leia a localização precisa ou aproximada do aparelho. A Unity pode inferir localização aproximada a partir do endereço IP, conforme seus próprios termos.</p>
-        <p>O app não solicita GPS, câmera, microfone ou contatos. O identificador de publicidade pode ser acessado pelo SDK de anúncios nas versões para celular.</p>
+        <p>O app usa permissões de internet e estado da rede para carregar listas, catálogos, programação, anúncios e reproduzir vídeos. Permissões de estado do Wi-Fi, multicast e dispositivos Wi-Fi próximos são usadas para descobrir e comunicar com aparelhos compatíveis na rede local. A permissão <code>NEARBY_WIFI_DEVICES</code> é declarada com a flag <code>neverForLocation</code>; o app não usa essas APIs para obter localização física.</p>
+        <p>O app não declara nem solicita permissões de GPS/localização, câmera, microfone, contatos, chamadas ou fotos/galeria. Nas versões para celular, o SDK de anúncios pode acessar o identificador de publicidade do Android (AD_ID); a Unity também pode estimar região a partir do IP, conforme seus próprios termos.</p>
       </article>
 
       <article class="policy-card">
