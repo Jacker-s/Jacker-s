@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Novelex: Mininovelas e Doramas Verticais em Alta Definição. Dublados em português, rápidos e com modo offline.">
+  <title>Novelex — Mininovelas e Doramas Verticais</title>
+  <link rel="icon" href="../../assets/app-icons/novelex-icon.png">
+  <style>
+    :root {
+      --bg: #0b0a10;
+      --card-bg: #14121f;
+      --accent: #ff2e7e;
+      --text: #ffffff;
+      --text-muted: #9e9aa8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 24px;
+    }
+    .hero {
+      max-width: 600px;
+      background: var(--card-bg);
+      padding: 48px 32px;
+      border-radius: 28px;
+      border: 1px solid #231f33;
+      box-shadow: 0 16px 48px rgba(0,0,0,0.5);
+    }
+    img.logo {
+      width: 110px;
+      height: 110px;
+      border-radius: 26px;
+      margin-bottom: 24px;
+      box-shadow: 0 8px 32px rgba(255, 46, 126, 0.4);
+    }
+    h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 8px; }
+    p.tagline { color: var(--accent); font-weight: 600; font-size: 1.1rem; margin-bottom: 16px; }
+    p.desc { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 32px; line-height: 1.6; }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #ff2e7e, #8a2be2);
+      color: #fff;
+      font-weight: 700;
+      padding: 14px 32px;
+      border-radius: 30px;
+      text-decoration: none;
+      box-shadow: 0 6px 20px rgba(255, 46, 126, 0.35);
+      transition: transform 0.2s;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .links {
+      margin-top: 32px;
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      font-size: 0.85rem;
+    }
+    .links a { color: var(--text-muted); text-decoration: none; }
+    .links a:hover { color: #fff; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <img src="../../assets/app-icons/novelex-icon.png" alt="Novelex Logo" class="logo">
+    <h1>Novelex</h1>
+    <p class="tagline">Mininovelas & Doramas Verticais</p>
+    <p class="desc">Assista episódios curtos e envolventes de 1 a 2 minutos em alta definição. 100% dublados em português, com modo offline e navegação rápida.</p>
+    <a href="https://play.google.com/store/apps/details?id=com.novelex.dramas" class="btn">Disponível no Google Play</a>
+    <div class="links">
+      <a href="privacy.html">Política de Privacidade</a>
+      <span>•</span>
+      <a href="../../privacy/index.html">Central de Privacidade</a>
+      <span>•</span>
+      <a href="../../index.html">Silver's Apps</a>
+    </div>
+  </div>
+</body>
+</html>

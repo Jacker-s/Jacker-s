@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de Privacidade oficial do Novelex: Mininovelas e Doramas Verticais. Detalhes sobre dados locais, Firebase, AdMob, reprodução e modo offline.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://silversdev.space/apps/novelex/privacy.html">
+  <title>Política de Privacidade — Novelex: Doramas e Novelas | Silver's Apps</title>
+  <link rel="icon" href="../../assets/app-icons/novelex-icon.png">
+  <style>
+    :root {
+      --bg: #0b0a10;
+      --card-bg: #14121f;
+      --text-main: #f0edf8;
+      --text-muted: #9e9aa8;
+      --accent: #ff2e7e;
+      --accent-purple: #8a2be2;
+      --border: #231f33;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.65;
+      padding: 24px 16px 60px;
+    }
+    .container {
+      max-width: 840px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 40px 32px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      box-shadow: 0 12px 36px rgba(0,0,0,0.4);
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    .app-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 18px;
+      box-shadow: 0 4px 16px rgba(255, 46, 126, 0.3);
+    }
+    h1 {
+      font-size: 1.85rem;
+      font-weight: 800;
+      color: #fff;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.8rem;
+      background: rgba(255, 46, 126, 0.15);
+      color: var(--accent);
+      padding: 4px 10px;
+      border-radius: 8px;
+      margin-top: 6px;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: #fff;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    h2::before {
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 18px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+    p, li {
+      color: var(--text-muted);
+      font-size: 0.98rem;
+      margin-bottom: 12px;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 16px;
+    }
+    li { margin-bottom: 6px; }
+    strong { color: var(--text-main); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <img src="../../assets/app-icons/novelex-icon.png" alt="Novelex Icon" class="app-icon">
+      <div>
+        <h1>Política de Privacidade — Novelex</h1>
+        <span class="badge">Última atualização: 23 de Outubro de 2026</span>
+      </div>
+    </header>
+
+    <section>
+      <h2>1. Visão Geral e Compromisso</h2>
+      <p>O aplicativo <strong>Novelex: Mininovelas e Doramas</strong> (disponibilizado sob o identificador de pacote <code>com.novelex.dramas</code>) é desenvolvido e mantido por <strong>Silver's Apps</strong> (Jackson Silva). Valorizamos a sua privacidade e operamos com transparência, coletando apenas os dados estritamente necessários para viabilizar as funcionalidades do serviço em conformidade com a <strong>LGPD</strong> (Lei Geral de Proteção de Dados - Lei nº 13.709/2018), <strong>GDPR</strong> e as diretrizes do <strong>Google Play Developer Program</strong>.</p>
+
+      <h2>2. Dados Armazenados Localmente no Dispositivo</h2>
+      <p>Para assegurar uma experiência fluida, rápida e sem necessidade de criação de conta prévia obrigatória, as seguintes informações são armazenadas localmente no seu aparelho através de <em>SharedPreferences</em> e banco de dados SQLite local:</p>
+      <ul>
+        <li><strong>Histórico de Episódios Desbloqueados:</strong> Gravação local do índice do último capítulo desbloqueado para que você possa continuar assistindo de onde parou.</li>
+        <li><strong>Downloads para Reprodução Offline:</strong> Os capítulos baixados voluntariamente pelo usuário ficam armazenados de forma segura e privada na pasta isolada de arquivos do aplicativo (armazenamento interno do app). Nenhum outro aplicativo tem acesso a esses vídeos e eles são excluídos automaticamente se você desinstalar o app.</li>
+        <li><strong>Preferências de Interface:</strong> Registro de favoritos e preferências visuais.</li>
+      </ul>
+
+      <h2>3. Sincronização em Nuvem (Google Firebase)</h2>
+      <p>O Novelex integra serviços oficiais do <strong>Google Firebase</strong> (Firestore e Analytics) com finalidades específicas:</p>
+      <ul>
+        <li><strong>Contador Global de Curtidas e Favoritos:</strong> Quando você curte um drama, um identificador único anônimo de instalação do dispositivo é associado à curtida para evitar contagem duplicada e sincronizar o número total de curtidas entre os usuários.</li>
+        <li><strong>Métricas de Desempenho e Falhas:</strong> O Firebase Analytics pode coletar dados analíticos agregados e não identificáveis pessoalmente sobre versão do sistema operacional e falhas de reprodução para nos permitir corrigir erros e melhorar a estabilidade do app.</li>
+      </ul>
+
+      <h2>4. Publicidade (Google AdMob)</h2>
+      <p>O Novelex é um aplicativo gratuito suportado por anúncios digitais integrados via <strong>Google Mobile Ads SDK (AdMob)</strong>. O AdMob pode processar:</p>
+      <ul>
+        <li>Identificador de publicidade do dispositivo (ID de publicidade do Google / GAID), gerenciado e redefinível diretamente nas configurações do seu celular Android.</li>
+        <li>Dados técnicos da solicitação de anúncios (frequência de exibição, formato de anúncio premiado/banner).</li>
+        <li>Para saber mais sobre como o Google utiliza os dados de anúncios, visite: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Como o Google usa dados ao usar aplicativos de nossos parceiros</a>.</li>
+      </ul>
+
+      <h2>5. Permissões Solicitadas</h2>
+      <p>O Novelex solicita apenas o conjunto mínimo indispensável de permissões:</p>
+      <ul>
+        <li><code>INTERNET</code>: Necessária para transmitir os episódios em streaming e baixar conteúdos autorizados.</li>
+        <li><code>ACCESS_NETWORK_STATE</code>: Usada para detectar a disponibilidade de conexão Wi-Fi/dados móveis e alternar suavemente para o modo offline quando desconectado.</li>
+      </ul>
+      <p>O aplicativo <strong>NÃO</strong> solicita acesso a contatos, microfone, câmera, localização precisa por GPS nem mensagens pessoais.</p>
+
+      <h2>6. Proteção a Crianças e Jovens (COPPA)</h2>
+      <p>O Novelex destina-se ao público geral e não coleta intencionalmente dados pessoais de crianças menores de 13 anos. Se você for pai/mãe ou responsável e tiver dúvidas sobre privacidade, entre em contato conosco imediatamente.</p>
+
+      <h2>7. Seus Direitos e Exclusão de Dados</h2>
+      <p>Você detém total controle sobre os seus dados no Novelex:</p>
+      <ul>
+        <li><strong>Exclusão Total de Dados Locais:</strong> Basta acessar as Configurações do seu Android &gt; Aplicativos &gt; Novelex &gt; Armazenamento &gt; <em>Limpar Dados</em>, ou desinstalar o aplicativo. Todos os episódios baixados e preferências serão apagados de imediato.</li>
+        <li><strong>Solicitação de Exclusão de Curtidas no Firestore:</strong> Envie uma solicitação para o nosso canal de suporte informando o ID do dispositivo caso deseje a purga de curtidas vinculadas.</li>
+      </ul>
+
+      <h2>8. Contato do Desenvolvedor</h2>
+      <p>Para dúvidas, comentários ou solicitações relacionadas a esta Política de Privacidade:</p>
+      <ul>
+        <li><strong>Desenvolvedor Responsável:</strong> Jackson Silva (Silver's Apps)</li>
+        <li><strong>E-mail de Suporte:</strong> <a href="mailto:suporte@silversdev.space">suporte@silversdev.space</a></li>
+        <li><strong>Site Oficial:</strong> <a href="https://silversdev.space" target="_blank">https://silversdev.space</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Novelex — Todos os direitos reservados. Silver's Apps.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
