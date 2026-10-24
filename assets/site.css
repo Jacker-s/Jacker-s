@@ -98,6 +98,7 @@ h1 { margin: 22px 0; font-size: clamp(46px, 7vw, 82px); max-width: 880px; }
 .app-icon.sensory { background: linear-gradient(145deg, #00d2ff, #7928ca); }
 .app-icon.deli-tv { background: linear-gradient(145deg, #2563eb, #0284c7); }
 .app-icon.deli { background: linear-gradient(145deg, #e50914, #b81d24); }
+.app-icon.deli-animes { background: linear-gradient(145deg, #7b61ff, #5028ca); }
 .app-card h3 { margin: 22px 0 10px; font-size: 27px; }
 .app-card p { margin: 0; color: var(--muted); }
 .tags { display: flex; flex-wrap: wrap; gap: 7px; margin: 18px 0 24px; }

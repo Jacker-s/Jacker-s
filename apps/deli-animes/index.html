@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Deli Animes: Animes Dublados e Legendados em HD — App Oficial | Seilvers Apps</title>
+  <meta name="description" content="Baixe o Deli Animes para Android: mais de 188 animes e 9.300+ episódios completos dublados e legendados em HD. Catálogo instantâneo com SQLite, player inteligente com lista de episódios, modo cinema tela cheia e 100% grátis.">
+  <meta name="keywords" content="deli animes, animes dublados, animes legendados, app de animes android, assistir animes online, animes hd gratis, player de animes, baixar animes, one piece dublado, naruto shippuden dublado, dragon ball dublado">
+  <meta name="author" content="Jackson Silva (Seilvers Apps)">
+  <link rel="canonical" href="https://silversdev.space/apps/deli-animes/">
+  <link rel="icon" href="../../assets/app-icons/deli-animes-icon.png">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://silversdev.space/apps/deli-animes/">
+  <meta property="og:title" content="Deli Animes: Animes Dublados e Legendados em HD — App Android Oficial">
+  <meta property="og:description" content="Assista a mais de 188 animes completos dublados e legendados em HD. Catálogo instantâneo sem travamentos, player inteligente vertical e horizontal. Baixe grátis!">
+  <meta property="og:image" content="https://silversdev.space/apps/deli-animes/screenshots/02_feature_graphic_1024x500.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://silversdev.space/apps/deli-animes/">
+  <meta property="twitter:title" content="Deli Animes: Animes Dublados e Legendados em HD">
+  <meta property="twitter:description" content="Catálogo completo de animes no Android com carregamento instantâneo via SQLite e player inovador.">
+  <meta property="twitter:image" content="https://silversdev.space/apps/deli-animes/screenshots/02_feature_graphic_1024x500.png">
+
+  <link rel="stylesheet" href="../../assets/site.css">
+  <script src="../../assets/site.js" defer></script>
+
+  <!-- Schema.org SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Deli Animes",
+    "alternateName": "Deli Animes: Dublados e Legendados em HD",
+    "operatingSystem": "Android 7.0+",
+    "applicationCategory": "EntertainmentApplication",
+    "applicationSubCategory": "Video Streaming",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "BRL"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "1850",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "softwareVersion": "1.0",
+    "fileSize": "7.7 MB",
+    "author": {
+      "@type": "Person",
+      "name": "Jackson Silva"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Seilvers Apps",
+      "url": "https://silversdev.space"
+    },
+    "screenshot": [
+      "https://silversdev.space/apps/deli-animes/screenshots/screenshot_1_home_catalog.png",
+      "https://silversdev.space/apps/deli-animes/screenshots/screenshot_2_dublados.png",
+      "https://silversdev.space/apps/deli-animes/screenshots/screenshot_3_legendados.png",
+      "https://silversdev.space/apps/deli-animes/screenshots/screenshot_4_detalhes_temporadas.png",
+      "https://silversdev.space/apps/deli-animes/screenshots/screenshot_5_player_inteligente.png",
+      "https://silversdev.space/apps/deli-animes/screenshots/screenshot_6_cinema_paisagem.png",
+      "https://silversdev.space/apps/deli-animes/screenshots/screenshot_7_busca_biblioteca.png"
+    ],
+    "description": "Aplicativo nativo para streaming de animes com mais de 188 séries e 9.300 episódios dublados e legendados em HD. Banco de dados SQLite local para carregamento instantâneo, player híbrido modo retrato com lista de episódios e tela cheia cinema."
+  }
+  </script>
+
+  <!-- Schema.org FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O aplicativo Deli Animes é gratuito?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, o Deli Animes é 100% gratuito. Não exige assinaturas, cartões de crédito nem cadastro obrigatório. Abra o app e assista aos seus animes prediletos imediatamente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quantos animes e episódios estão disponíveis no app?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O Deli Animes possui mais de 188 séries completas e mais de 9.390 episódios organizados em temporadas com capas oficiais em alta resolução, sinopses e fichas técnicas completas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Os animes possuem dublagem em português?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim! O catálogo conta com uma seção dedicada com mais de 59 séries totalmente dubladas em português do Brasil (incluindo One Piece, Naruto, Dragon Ball Z, Bleach, Attack on Titan e muito mais), além de mais de 129 séries legendadas com áudio original japonês."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Por que o catálogo do Deli Animes carrega tão rápido?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Diferente de outros aplicativos que dependem de APIs lentas que travam a tela, o Deli Animes utiliza um banco de dados SQLite local pré-populado de alta performance. O carregamento de todos os títulos, episódios e capas é instantâneo (0 milissegundos de espera)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como funciona o player inteligente do Deli Animes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em modo retrato (vertical), o vídeo é reproduzido no topo com controles completos (retroceder/avançar 10s, seekbar fluida) e logo abaixo exibe a lista completa de todos os episódios para você trocar de capítulo com 1 toque sem sair da tela. Ao girar o aparelho para modo paisagem (horizontal), o app entra automaticamente em modo cinema tela cheia imersivo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O app coleta dados pessoais dos usuários?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. O Deli Animes respeita sua privacidade e não coleta nome, e-mail, senhas, telefone ou contatos. Todo o histórico de episódios assistidos e favoritos fica salvo exclusivamente na memória do seu próprio aparelho, em estrita conformidade com a LGPD e as políticas do Google Play."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --anime-accent: #7b61ff;
+      --anime-accent-glow: rgba(123, 97, 255, 0.35);
+      --anime-cyan: #00d2d3;
+      --anime-gold: #ffa502;
+    }
+    .app-badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      background: rgba(123, 97, 255, 0.15);
+      border: 1px solid rgba(123, 97, 255, 0.4);
+      color: #bfaaff;
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+    .app-badge-pill.cyan {
+      background: rgba(0, 210, 211, 0.15);
+      border-color: rgba(0, 210, 211, 0.4);
+      color: #7ef1f2;
+    }
+    .app-badge-pill.gold {
+      background: rgba(255, 165, 2, 0.15);
+      border-color: rgba(255, 165, 2, 0.4);
+      color: #ffd680;
+    }
+    .rating-stars {
+      color: #ffa502;
+      font-size: 16px;
+      letter-spacing: 2px;
+      margin-right: 6px;
+    }
+    /* Screenshot Showcase */
+    .screenshots-scroll {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      padding: 24px 8px 36px 8px;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: thin;
+      scrollbar-color: var(--anime-accent) var(--surface);
+    }
+    .screenshots-scroll::-webkit-scrollbar {
+      height: 8px;
+    }
+    .screenshots-scroll::-webkit-scrollbar-track {
+      background: var(--surface);
+      border-radius: 4px;
+    }
+    .screenshots-scroll::-webkit-scrollbar-thumb {
+      background: var(--anime-accent);
+      border-radius: 4px;
+    }
+    .shot-card {
+      flex: 0 0 280px;
+      scroll-snap-align: start;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+      display: flex;
+      flex-direction: column;
+    }
+    .shot-card:hover {
+      transform: translateY(-8px);
+      border-color: var(--anime-accent);
+      box-shadow: 0 16px 40px var(--anime-accent-glow);
+    }
+    .shot-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      background: #090a11;
+    }
+    .shot-caption {
+      padding: 14px 16px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      text-align: center;
+      background: rgba(18, 20, 32, 0.95);
+      border-top: 1px solid var(--line);
+    }
+    .shot-caption span {
+      display: block;
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 4px;
+      font-weight: 400;
+    }
+    .hero-stat-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 12px;
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+    .hero-stat-box {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 14px;
+      text-align: center;
+    }
+    .hero-stat-box strong {
+      display: block;
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--text);
+    }
+    .hero-stat-box span {
+      font-size: 12px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+    }
+    .comparison-table th, .comparison-table td {
+      padding: 14px 18px;
+      text-align: left;
+      font-size: 14px;
+      border-bottom: 1px solid var(--line);
+    }
+    .comparison-table th {
+      background: rgba(123, 97, 255, 0.12);
+      color: var(--text);
+      font-weight: 700;
+    }
+    .comparison-table td:nth-child(2) {
+      font-weight: 700;
+      color: #7ef1f2;
+    }
+    .comparison-table td:nth-child(3) {
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="../../">
+      <img class="brand-mark" src="../../assets/app-icons/deli-animes-icon.png" alt="Logotipo Deli Animes">
+      <span>Deli Animes<small>Animes Dublados &amp; Legendados</small></span>
+    </a>
+    <nav class="nav-links">
+      <a aria-current="page" href="./">Aplicativo</a>
+      <a href="privacy.html">Privacidade</a>
+      <a href="../../apps/">Outros Apps</a>
+      <a href="mailto:jackson.dev.silva@gmail.com">Contato</a>
+    </nav>
+    <button class="icon-button" data-theme-toggle type="button" aria-label="Alternar tema">🌓</button>
+  </div>
+</header>
+
+<main>
+  <!-- HERO SECTION WITH HIGH ASO SCORE -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href="../../">Início</a><span>&gt;</span>
+        <a href="../../#apps">Apps</a><span>&gt;</span>Deli Animes
+      </div>
+      
+      <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px;">
+        <span class="app-badge-pill">✨ Versão 1.0 Oficial</span>
+        <span class="app-badge-pill cyan">⚡ Catálogo SQLite Instantâneo</span>
+        <span class="app-badge-pill gold">🎙️ 59+ Séries Dubladas</span>
+        <span class="app-badge-pill">🎌 129+ Legendadas</span>
+      </div>
+
+      <h1>O Maior Catálogo de Animes: <span class="gradient-text">Dublados e Legendados em HD.</span></h1>
+      
+      <p class="lead">
+        Assista a mais de <strong>188 animes completos</strong> e mais de <strong>9.390 episódios</strong> em alta definição sem esperas. Desenvolvido com banco de dados local SQLite para navegação instantânea em 0ms, player inteligente vertical com lista de episódios abaixo do vídeo e tela cheia cinema panorâmica.
+      </p>
+
+      <div class="hero-stat-row">
+        <div class="hero-stat-box">
+          <strong style="color: var(--anime-accent);">188+</strong>
+          <span>Séries no Catálogo</span>
+        </div>
+        <div class="hero-stat-box">
+          <strong style="color: var(--anime-cyan);">9.390+</strong>
+          <span>Episódios em HD</span>
+        </div>
+        <div class="hero-stat-box">
+          <strong style="color: var(--anime-gold);">0 ms</strong>
+          <span>Delay de Catálogo</span>
+        </div>
+        <div class="hero-stat-box">
+          <strong style="color: #2ed573;">100%</strong>
+          <span>Grátis &amp; Sem Login</span>
+        </div>
+      </div>
+
+      <div class="actions">
+        <a class="button primary" href="https://play.google.com/store/apps/dev?id=6956893893828289907" target="_blank" rel="noopener">
+          Google Play Store ↗
+        </a>
+        <a class="button" href="privacy.html">
+          Política de Privacidade
+        </a>
+        <a class="button" href="#recursos">
+          Conhecer Recursos ↓
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCREENSHOT GALLERY SHOWCASE -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Galeria do Aplicativo</span>
+          <h2>Visual Elegante no Estilo Google Play Livros</h2>
+        </div>
+        <p>Interface moderna, minimalista e limpa, projetada para destacar as capas, temporadas e garantir a melhor experiência de streaming no seu smartphone.</p>
+      </div>
+
+      <div class="screenshots-scroll">
+        <!-- 1 -->
+        <article class="shot-card">
+          <img src="screenshots/screenshot_1_home_catalog.png" alt="Tela Inicial do Deli Animes com Banner Hero e Continuar Assistindo" loading="lazy">
+          <div class="shot-caption">
+            Catálogo &amp; Hero Banner
+            <span>One Piece em destaque e Continuar Assistindo</span>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article class="shot-card">
+          <img src="screenshots/screenshot_2_dublados.png" alt="Aba de Animes Dublados com Áudio em Português" loading="lazy">
+          <div class="shot-caption">
+            Animes Dublados (59+ Séries)
+            <span>Áudio oficial brasileiro com filtro exclusivo</span>
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article class="shot-card">
+          <img src="screenshots/screenshot_3_legendados.png" alt="Aba de Animes Legendados com Áudio Japonês" loading="lazy">
+          <div class="shot-caption">
+            Animes Legendados (129+ Séries)
+            <span>Áudio original com legendas sincronizadas</span>
+          </div>
+        </article>
+
+        <!-- 4 -->
+        <article class="shot-card">
+          <img src="screenshots/screenshot_4_detalhes_temporadas.png" alt="Ficha Técnica e Temporadas de Naruto Shippuden" loading="lazy">
+          <div class="shot-caption">
+            Ficha Técnica &amp; Temporadas
+            <span>Sinopse, banner oficial e seletor por temporada</span>
+          </div>
+        </article>
+
+        <!-- 5 -->
+        <article class="shot-card">
+          <img src="screenshots/screenshot_5_player_inteligente.png" alt="Player Inteligente com Lista de Episódios na Mesma Tela" loading="lazy">
+          <div class="shot-caption">
+            Player Inteligente Híbrido
+            <span>Assista ao vídeo e veja os próximos episódios abaixo</span>
+          </div>
+        </article>
+
+        <!-- 6 -->
+        <article class="shot-card">
+          <img src="screenshots/screenshot_6_cinema_paisagem.png" alt="Modo Cinema Tela Cheia em Paisagem" loading="lazy">
+          <div class="shot-caption">
+            Modo Cinema Tela Cheia
+            <span>Gire o celular para tela panorâmica e controles avançados</span>
+          </div>
+        </article>
+
+        <!-- 7 -->
+        <article class="shot-card">
+          <img src="screenshots/screenshot_7_busca_biblioteca.png" alt="Busca Instantânea e Biblioteca Pessoal" loading="lazy">
+          <div class="shot-caption">
+            Busca Rápida &amp; Biblioteca
+            <span>Pesquise em milissegundos e gerencie favoritos</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES & DIFFERENTIATORS -->
+  <section class="section" id="recursos">
+    <div class="container app-detail">
+      <article class="panel">
+        <h2>Principais Diferenciais do Deli Animes</h2>
+        <p style="color: var(--muted); margin-bottom: 24px;">Criamos o Deli Animes do zero para resolver todos os problemas de lentidão, desorganização e excesso de anúncios comuns em outros apps.</p>
+
+        <div class="feature-grid">
+          <div class="feature">
+            <strong>⚡ Banco de Dados Local SQLite</strong>
+            <p>Carregamento imediato sem telas de espera ou "carregando...". O catálogo de 188+ animes e 9.390 episódios abre em milissegundos mesmo em redes móveis instáveis.</p>
+          </div>
+
+          <div class="feature">
+            <strong>🎙️ Separação Dublados e Legendados</strong>
+            <p>Filtros instantâneos dedicados para animes dublados em português brasileiro (One Piece, Dragon Ball, Naruto, etc.) e legendados em japonês com badges visuais claros.</p>
+          </div>
+
+          <div class="feature">
+            <strong>🎬 Player Inteligente com Troca Fácil</strong>
+            <p>No modo retrato, assista ao episódio atual no topo enquanto rola a lista dos próximos episódios logo abaixo. Mude de capítulo com 1 toque sem sair do player.</p>
+          </div>
+
+          <div class="feature">
+            <strong>🍿 Modo Cinema Panorâmico</strong>
+            <p>Basta rotacionar o aparelho para entrar no modo tela cheia cinematográfico com suporte a avanço/retrocesso de 10s, controle de aspecto e trava de tela.</p>
+          </div>
+
+          <div class="feature">
+            <strong>📚 Estilo Google Play Livros</strong>
+            <p>Cards com proporção de capa oficial 2:3, tipografia fluida, paleta escura suave aos olhos e navegação por abas inferiores (Início, Explorar, Biblioteca e Buscar).</p>
+          </div>
+
+          <div class="feature">
+            <strong>⏱️ Histórico e Continuar Assistindo</strong>
+            <p>O aplicativo memoriza exatamente o minuto e segundo onde você parou em cada episódio e salva o progresso na tela inicial para você retomar instantaneamente.</p>
+          </div>
+
+          <div class="feature">
+            <strong>🔍 Busca Instantânea por Título ou Gênero</strong>
+            <p>Encontre qualquer anime por nome em português, nome original japonês ou gênero em tempo real com sugestões imediatas.</p>
+          </div>
+
+          <div class="feature">
+            <strong>🛡️ 100% Gratuito e Livre de Burocracia</strong>
+            <p>Não solicitamos cadastro, e-mail, senhas nem formas de pagamento. Instale, abra e comece a maratonar seus animes imediatamente.</p>
+          </div>
+        </div>
+
+        <!-- COMPARISON TABLE ASO SECTION -->
+        <div style="margin-top: 40px;">
+          <h3>Comparativo: Deli Animes vs Aplicativos Tradicionais</h3>
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Recurso / Experiência</th>
+                <th>Deli Animes</th>
+                <th>Outros Aplicativos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Carregamento do Catálogo</td>
+                <td>⚡ Instantâneo (Banco SQLite Nativo)</td>
+                <td>❌ Lento (Requisições constantes de API)</td>
+              </tr>
+              <tr>
+                <td>Organização de Áudio</td>
+                <td>🎙️ Abas separadas Dublado / Legendado</td>
+                <td>❌ Misturado e difícil de identificar</td>
+              </tr>
+              <tr>
+                <td>Troca de Episódios no Player</td>
+                <td>🎬 Lista integrada abaixo do vídeo</td>
+                <td>❌ Obriga a fechar o player e voltar</td>
+              </tr>
+              <tr>
+                <td>Design &amp; Usabilidade</td>
+                <td>💎 Inspirado no Google Play Livros</td>
+                <td>❌ Layouts genéricos e poluídos</td>
+              </tr>
+              <tr>
+                <td>Privacidade do Usuário</td>
+                <td>🛡️ Zero coleta de dados (LGPD)</td>
+                <td>❌ Exigência de login e permissões</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- FAQ SECTION WITH RICH ANSWERS -->
+        <div style="margin-top: 40px; padding: 26px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface);">
+          <h3 style="margin-top: 0; font-size: 22px;">Perguntas Frequentes (FAQ)</h3>
+          <div style="display: grid; gap: 20px; margin-top: 16px;">
+            <div>
+              <strong style="color: var(--text); font-size: 16px;">O Deli Animes é realmente 100% gratuito?</strong>
+              <p style="margin: 6px 0 0; color: var(--muted); font-size: 14px; line-height: 1.6;">Sim! O aplicativo não cobra taxas, mensalidades nem possui planos pagos ocultos. Todos os animes, episódios, temporadas e recursos do player são acessíveis gratuitamente para todos os usuários.</p>
+            </div>
+            <div>
+              <strong style="color: var(--text); font-size: 16px;">Quais animes dublados estão disponíveis?</strong>
+              <p style="margin: 6px 0 0; color: var(--muted); font-size: 14px; line-height: 1.6;">O app reúne as maiores obras da animação japonesa com dublagem profissional brasileira, incluindo One Piece, Naruto Clássico e Shippuden, Dragon Ball Z e Super, Bleach, Attack on Titan, Death Note, Demon Slayer, Jujutsu Kaisen, Fairy Tail, Black Clover, Hunter x Hunter e muito mais.</p>
+            </div>
+            <div>
+              <strong style="color: var(--text); font-size: 16px;">Como assistir em modo tela cheia horizontal?</strong>
+              <p style="margin: 6px 0 0; color: var(--muted); font-size: 14px; line-height: 1.6;">Basta tocar no botão de tela cheia no canto inferior direito do player de vídeo ou simplesmente girar o seu smartphone na horizontal (paisagem). O app detecta a orientação do sensor e oculta as barras do sistema para uma imersão cinematográfica total.</p>
+            </div>
+            <div>
+              <strong style="color: var(--text); font-size: 16px;">O aplicativo salva o progresso de onde parei?</strong>
+              <p style="margin: 6px 0 0; color: var(--muted); font-size: 14px; line-height: 1.6;">Sim! Toda vez que você assiste a um episódio, o Deli Animes registra automaticamente o tempo exato e a porcentagem assistida no banco de dados local. Na tela inicial, o carrossel "Continuar Assistindo" exibe a barra de progresso para você retomar o vídeo com um toque.</p>
+            </div>
+            <div>
+              <strong style="color: var(--text); font-size: 16px;">Meus dados pessoais são coletados?</strong>
+              <p style="margin: 6px 0 0; color: var(--muted); font-size: 14px; line-height: 1.6;">Não. O Deli Animes não exige cadastro, não solicita nome, e-mail, telefone, documentos nem dados bancários. Suas preferências, favoritos e histórico de reprodução permanecem exclusivamente gravados na memória local do seu aparelho.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- FICHA TÉCNICA PANEL -->
+      <aside class="panel">
+        <h2>Ficha Técnica</h2>
+        <ul class="fact-list">
+          <li><span>Aplicativo</span><strong>Deli Animes</strong></li>
+          <li><span>Desenvolvedor</span><strong>Jackson Silva (Seilvers Apps)</strong></li>
+          <li><span>Pacote Android</span><strong>com.jack.delianimes</strong></li>
+          <li><span>Versão Atual</span><strong>1.0 (Build 1)</strong></li>
+          <li><span>Tamanho do Download</span><strong>~7.7 MB</strong></li>
+          <li><span>Total de Séries</span><strong>188 Animes Completos</strong></li>
+          <li><span>Total de Episódios</span><strong>9.390+ Episódios HD</strong></li>
+          <li><span>Opções de Áudio</span><strong>Dublado (PT-BR) &amp; Legendado (JP)</strong></li>
+          <li><span>Banco de Dados</span><strong>SQLite Nativo Integrado</strong></li>
+          <li><span>Compatibilidade</span><strong>Android 7.0 (Nougat) ou superior</strong></li>
+          <li><span>Classificação</span><strong>12 Anos (Orientação Parental)</strong></li>
+          <li><span>Modelo</span><strong>100% Gratuito</strong></li>
+        </ul>
+
+        <div style="margin-top: 24px; display: grid; gap: 10px;">
+          <a class="button primary" style="width: 100%; text-align: center;" href="privacy.html">
+            Política de Privacidade
+          </a>
+          <a class="button" style="width: 100%; text-align: center;" href="../../privacy/index.html">
+            Central de Privacidade
+          </a>
+          <a class="button" style="width: 100%; text-align: center;" href="../../">
+            Todos os Aplicativos
+          </a>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <strong>Deli Animes: Animes Dublados e Legendados em HD</strong><br>
+      © <span data-year>2026</span> Deli Animes • Jackson Silva. Todos os direitos reservados.
+    </div>
+    <div class="footer-links">
+      <a href="./">Aplicativo</a>
+      <a href="privacy.html">Privacidade</a>
+      <a href="../../apps/">Catálogo de Apps</a>
+      <a href="mailto:jackson.dev.silva@gmail.com">Contato</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
