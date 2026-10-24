@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de Privacidade oficial do Deli Animes: Assista animes dublados e legendados em alta definição. Transparência total sobre dados locais e reprodução de mídia.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://silversdev.space/apps/deli-animes/privacy.html">
+  <title>Política de Privacidade — Deli Animes | Silver's Apps</title>
+  <link rel="icon" href="../../assets/app-icons/deli-animes-icon.png">
+  <style>
+    :root {
+      --bg: #0b0a12;
+      --card-bg: #13131f;
+      --text-main: #f0edf8;
+      --text-muted: #9e9aa8;
+      --accent: #7b61ff;
+      --accent-coral: #ff4757;
+      --border: #232238;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.65;
+      padding: 24px 16px 60px;
+    }
+    .container {
+      max-width: 840px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 40px 32px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      box-shadow: 0 12px 36px rgba(0,0,0,0.45);
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    .app-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 18px;
+      box-shadow: 0 4px 16px rgba(123, 97, 255, 0.35);
+    }
+    h1 {
+      font-size: 1.85rem;
+      font-weight: 800;
+      color: #fff;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.8rem;
+      background: rgba(123, 97, 255, 0.15);
+      color: var(--accent);
+      padding: 4px 10px;
+      border-radius: 8px;
+      margin-top: 6px;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: #fff;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    h2::before {
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 18px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+    p, li {
+      color: var(--text-muted);
+      font-size: 0.98rem;
+      margin-bottom: 12px;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 16px;
+    }
+    li { margin-bottom: 6px; }
+    strong { color: var(--text-main); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <img src="../../assets/app-icons/deli-animes-icon.png" alt="Deli Animes Icon" class="app-icon">
+      <div>
+        <h1>Política de Privacidade — Deli Animes</h1>
+        <span class="badge">Última atualização: 24 de Outubro de 2026</span>
+      </div>
+    </header>
+
+    <section>
+      <h2>1. Visão Geral e Compromisso</h2>
+      <p>O aplicativo <strong>Deli Animes: Animes Dublados e Legendados</strong> (disponibilizado sob o identificador de pacote <code>com.jack.delianimes</code>) é desenvolvido e mantido por <strong>Silver's Apps</strong> (Jackson Silva). Valorizamos a sua privacidade e operamos com transparência total, priorizando uma arquitetura moderna onde seus dados permanecem sob seu controle absoluto, em conformidade com a <strong>LGPD</strong> (Lei Geral de Proteção de Dados - Lei nº 13.709/2018), <strong>GDPR</strong> e as diretrizes do <strong>Google Play Developer Program</strong>.</p>
+
+      <h2>2. Arquitetura Local e Carregamento Instantâneo</h2>
+      <p>O Deli Animes foi construído com catálogo embutido via banco de dados local SQLite, garantindo que você não precise criar conta nem fornecer dados pessoais para navegar por animes dublados e legendados:</p>
+      <ul>
+        <li><strong>Navegação sem Registro:</strong> Não coletamos seu nome, e-mail, telefone, localização ou contatos.</li>
+        <li><strong>Progresso de Episódios Assistidos:</strong> O marcador de tempo (minutos assistidos) é gravado exclusivamente na base de dados SQLite interna do seu aparelho, permitindo que a funcionalidade <em>"Continuar Assistindo"</em> funcione de forma 100% privada e instantânea.</li>
+        <li><strong>Favoritos e Minha Biblioteca:</strong> Os animes salvos são gravados localmente no seu dispositivo. Ao desinstalar o app, esses dados são limpos automaticamente pelo sistema operacional.</li>
+      </ul>
+
+      <h2>3. Reprodução de Streaming e Imagens</h2>
+      <p>Para fornecer a reprodução contínua de animes em alta definição:</p>
+      <ul>
+        <li><strong>ExoPlayer / Media3:</strong> O player de mídia se conecta diretamente aos servidores de conteúdo autorizados para transmissão de vídeo (HLS / MP4). Durante o streaming, apenas as requisições técnicas de rede padrão (como endereço IP temporário e cabeçalhos HTTP necessários para entrega de vídeo) são processadas pelos servidores de entrega.</li>
+        <li><strong>Capas e Posteres (Glide):</strong> Imagens de divulgação e banners de animes são carregadas de redes de distribuição de conteúdo (CDN) e cacheadas temporariamente na memória do app para economizar seu plano de dados.</li>
+      </ul>
+
+      <h2>4. Permissões Solicitadas</h2>
+      <p>O aplicativo solicita apenas as seguintes permissões estritamente necessárias:</p>
+      <ul>
+        <li><code>android.permission.INTERNET</code>: Indispensável para carregar os streams de vídeo e capas dos animes.</li>
+        <li><code>android.permission.ACCESS_NETWORK_STATE</code>: Utilizada para detectar a conectividade de rede e alertar o usuário caso a conexão caia.</li>
+        <li><code>android.permission.WAKE_LOCK</code>: Impede que a tela do celular apague enquanto você assiste a um episódio no player de vídeo.</li>
+      </ul>
+      <p>O Deli Animes <strong>NÃO</strong> acessa sua câmera, microfone, fotos pessoais, contatos ou localização GPS.</p>
+
+      <h2>5. Proteção à Criança e do Adolescente (COPPA)</h2>
+      <p>O aplicativo não coleta intencionalmente informações de identificação pessoal de crianças. Todo o conteúdo catalogado destina-se a fins de entretenimento geral para apreciadores da cultura de animação japonesa.</p>
+
+      <h2>6. Seus Direitos e Exclusão de Dados</h2>
+      <p>Como todas as preferências e históricos ficam gravados localmente no seu dispositivo:</p>
+      <ul>
+        <li>Você pode limpar todo o histórico de visualização e favoritos a qualquer momento acessando: <em>Configurações do Android &gt; Aplicativos &gt; Deli Animes &gt; Armazenamento &gt; Limpar Dados</em>.</li>
+        <li>Ao desinstalar o aplicativo, 100% dos dados gerados localmente são permanentemente excluídos.</li>
+      </ul>
+
+      <h2>7. Contato do Desenvolvedor</h2>
+      <p>Em caso de dúvidas, solicitações ou esclarecimentos sobre esta Política de Privacidade:</p>
+      <ul>
+        <li><strong>Desenvolvedor Responsável:</strong> Jackson Silva (Silver's Apps)</li>
+        <li><strong>E-mail de Contato:</strong> <a href="mailto:suporte@silversdev.space">suporte@silversdev.space</a></li>
+        <li><strong>Site Oficial:</strong> <a href="https://silversdev.space" target="_blank">https://silversdev.space</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Deli Animes — Todos os direitos reservados. Silver's Apps.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
