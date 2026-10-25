@@ -52,6 +52,7 @@
   <section class="card"><h2>6. DNS e transmissão para dispositivos</h2>
     <p>Para resolver domínios, o player pode consultar DNS sobre HTTPS da Cloudflare ou do Google e usar o DNS do sistema como alternativa. Esses serviços recebem o domínio consultado e dados técnicos da conexão.</p>
     <p>Se você iniciar a transmissão, o aplicativo envia o endereço do conteúdo e metadados como título ao dispositivo ou serviço que escolher, por exemplo Google Cast/Chromecast, Roku ou DLNA, para reproduzir a mídia. A descoberta e comunicação com alguns receptores ocorre na rede local, usando os protocolos suportados pelo dispositivo.</p>
+    <p>Quando o SDK Google Cast é usado, ele também pode enviar ao Google métricas anônimas de eventos genéricos de descoberta e sessão, além de informações técnicas do dispositivo e do app Cast. Segundo a documentação do SDK, esses registros não contêm identificadores que permitam associá-los a uma pessoa, são transmitidos criptografados e usados de forma agregada para melhorar o Cast; o desenvolvedor e o usuário não conseguem desativar ou excluir esses registros individualmente.</p>
   </section>
 
   <section class="card"><h2>7. Compartilhamento e finalidade</h2>
@@ -64,8 +65,15 @@
     <p>Os SDKs Google/Firebase usam conexões protegidas para os dados que coletam. Para outras conexões, a proteção depende do protocolo do servidor: o código permite HTTP e alguns recursos de mídia ou dispositivos podem não criptografar o tráfego. O desenvolvedor não controla a segurança dos servidores externos.</p>
   </section>
 
-  <section class="card"><h2>9. Retenção e exclusão</h2>
-    <p>Dados locais permanecem até serem apagados nas configurações do Android ou com a desinstalação do app; arquivos em cache podem ser removidos automaticamente. O Deli TV não cria contas nem mantém um perfil de usuário em servidor próprio. O desenvolvedor não controla os registros, prazos de retenção e processos de exclusão dos SDKs, serviços de mídia, fontes ou redes de anúncios. Para solicitar informações ou ajuda sobre dados sob controle do desenvolvedor, use o contato abaixo; solicitações de dados mantidos por fornecedores podem precisar ser dirigidas a eles.</p>
+  <section class="card" id="exclusao-de-dados"><h2>9. Solicitar exclusão e retenção</h2>
+    <p>O Deli TV não cria contas nem mantém perfil, favoritos, histórico ou PIN do usuário em servidores do desenvolvedor. Esses dados ficam no aparelho. Para apagá-los, abra as configurações do Android, acesse <strong>Apps &gt; Deli TV &gt; Armazenamento &gt; Limpar dados</strong>, ou desinstale o aplicativo. A remoção local ocorre quando o Android conclui a operação; isso não apaga dados que já tenham sido enviados a terceiros.</p>
+    <ol>
+      <li>Para solicitar a exclusão de dados identificáveis que porventura estejam sob controle do desenvolvedor, envie um e-mail para <a href="mailto:jackson.dev.silva@gmail.com?subject=Exclus%C3%A3o%20de%20dados%20%E2%80%94%20Deli%20TV">jackson.dev.silva@gmail.com</a> com o assunto <strong>Exclusão de dados — Deli TV</strong>.</li>
+      <li>Informe que o pedido é sobre o Deli TV (<code>com.jack.deli</code>) e descreva a categoria de dados que deseja excluir. Não envie senha, PIN ou documentos de identificação.</li>
+      <li>O desenvolvedor verificará se mantém algum dado identificável relativo ao pedido, excluirá o que estiver sob seu controle quando aplicável e responderá pelo mesmo e-mail. Se nenhum dado desse tipo for mantido, isso será informado.</li>
+    </ol>
+    <p>O endereço de e-mail e os detalhes enviados são usados para atender ao pedido; a mensagem é mantida enquanto o atendimento estiver em andamento e removida da caixa postal do desenvolvedor após o encerramento, sem prazo adicional planejado, salvo retenção mínima exigida por lei. A cópia mantida pelo provedor de e-mail segue os prazos e controles desse provedor.</p>
+    <p>Dados enviados ao Google/Firebase, AdMob, Cloudflare, serviços de DNS, páginas incorporadas, fontes ou servidores de mídia — como identificadores técnicos, eventos, consultas e solicitações de reprodução — seguem os processos de acesso e exclusão de cada fornecedor e podem permanecer conforme os prazos definidos por eles. Métricas anônimas agregadas do Google Cast não podem ser excluídas individualmente pelo desenvolvedor ou pelo usuário.</p>
   </section>
 
   <section class="card"><h2>10. Crianças</h2>
