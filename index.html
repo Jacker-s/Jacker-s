@@ -3,374 +3,327 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#05070d">
-  <meta name="description" content="Portfólio oficial de Jackson Silva, desenvolvedor Android e criador da Silver's Apps. Conheça nossos aplicativos publicados na Google Play Store, incluindo Tuche, Deli TV, Deli Animes e mais.">
-  <title>Silver's Apps — Jackson Silva | Desenvolvedor Android</title>
+  <meta name="theme-color" content="#0b0912">
+  <meta name="description" content="Silver's Apps (Jackson Silva) — Aplicativos Android com identidade, desempenho e experiências pensadas para pessoas.">
+  <title>Silver's Apps — Apps que viram experiência</title>
   <link rel="icon" href="assets/silvers-play-brand.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/home.css">
 </head>
 <body>
-<div class="ambient-bg"></div>
+<div class="noise" aria-hidden="true"></div>
 
 <header class="site-header">
-  <div class="container nav">
-    <a class="brand" href="./">
-      <img class="brand-mark" src="assets/silvers-play-brand.png" alt="Marca Silver's Apps">
-      <span class="brand-text">
-        Silver's Apps
-        <small>Jackson Silva • Desenvolvedor Android</small>
-      </span>
-    </a>
+  <a class="brand" href="#inicio" aria-label="Silver's Apps — início">
+    <img src="assets/silvers-play-brand.png" alt="Silver's Apps">
+    <span>Silver's<span>Apps</span></span>
+  </a>
 
-    <nav class="nav-links" id="navLinks">
+  <div class="nav-wrap">
+    <nav id="nav">
+      <a href="apps/">Apps</a>
       <a href="#trabalho">Trabalho</a>
-      <a href="#experiencia">Experiência</a>
-      <a href="#apps">Apps</a>
-      <a href="apps/">Catálogo de Apps</a>
+      <a href="#metodo">Método</a>
+      <a href="#apps">Catálogo</a>
       <a href="privacy/">Privacidade</a>
-      <a href="#contato">Contato</a>
+      <a class="nav-cta" href="#contato">Vamos conversar</a>
     </nav>
-
-    <div class="nav-actions">
-      <button class="theme-btn" type="button" id="themeToggle" aria-label="Alternar tema">🌓</button>
-      <button class="menu-btn" type="button" id="menuToggle" aria-label="Abrir menu">☰</button>
-    </div>
+    <button class="theme-btn" type="button" id="themeToggle" aria-label="Alternar tema">🌓</button>
+    <button class="menu-button" type="button" id="menuToggle" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+      <span></span><span></span>
+    </button>
   </div>
 </header>
 
 <main>
-  <section class="hero">
-    <div class="container hero-grid">
-      <div>
-        <span class="eyebrow"><span class="dot"></span> Portfólio Oficial • Google Play</span>
-        <h1>Olá, eu sou <span class="gradient-text">Jackson Silva.</span></h1>
-        <p class="hero-lead">
-          Desenvolvedor Android nativo focado em criar aplicativos rápidos, modernos e confiáveis para celular e Smart TV — do streaming ao vivo ao entretenimento diário.
+  <section class="hero" id="inicio">
+    <div class="hero-copy reveal">
+      <p class="eyebrow"><i></i> Estúdio independente de produtos digitais</p>
+      <h1>Apps com <em>identidade</em>, feitos para ficar.</h1>
+      <p class="lede">
+        A Silver's Apps (Jackson Silva) transforma ideias em experiências Android claras, rápidas e memoráveis — do primeiro pixel ao produto publicado na Google Play.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#apps">Conheça nossos apps</a>
+        <a class="button ghost" href="#metodo">Como criamos</a>
+      </div>
+    </div>
+
+    <div class="hero-art reveal" aria-label="Símbolo visual da Silver's Apps">
+      <div class="orbit one"></div>
+      <div class="orbit two"></div>
+      <img src="assets/silvers-play-brand.png" alt="Monograma Silver's Apps">
+      <span class="code-chip">design + código</span>
+      <span class="product-chip">android + smart tv</span>
+    </div>
+  </section>
+
+  <section class="principles" aria-label="Princípios">
+    <p>Estratégia de produto</p>
+    <p>Design com personalidade</p>
+    <p>Android nativo</p>
+    <p>Evolução contínua</p>
+  </section>
+
+  <section class="work section" id="trabalho">
+    <div class="section-heading reveal">
+      <p class="eyebrow"><i></i> Produto em destaque</p>
+      <h2>Entretenimento que cabe na rotina.</h2>
+      <p>Produtos próprios são o nosso laboratório: cada interação revela como tornar a próxima versão mais simples, bonita e rápida.</p>
+    </div>
+
+    <article class="product reveal">
+      <div class="product-copy">
+        <span class="tag">Android · TV Ao Vivo &amp; Esportes</span>
+        <h3>Tuche: Canais De TV Grátis</h3>
+        <p>
+          Experiência premium para assistir TV ao vivo no celular com interface Obsidian, aba exclusiva de Esportes, Guia EPG em tempo real e DNS Privado integrado.
         </p>
+        <ul>
+          <li>Visualização em Grade ou Lista com reprodução fluida</li>
+          <li>Player nativo Media3 com Picture-in-Picture (PiP)</li>
+          <li>Controle parental protegido por PIN e Google DNS padrão</li>
+        </ul>
+        <a href="apps/tuche/privacy.html">Ver Política de Privacidade do Tuche →</a>
+      </div>
 
-        <div class="hero-actions">
-          <a class="btn primary" href="#apps">Explorar aplicativos</a>
-          <a class="btn" href="apps/">Catálogo completo ↗</a>
-          <a class="btn" href="mailto:jackson.dev.silva@gmail.com">Falar comigo</a>
-        </div>
-
-        <div class="hero-stats">
-          <div class="stat-box">
-            <strong>Google Play</strong>
-            <span>Apps ativos publicados</span>
+      <div class="phone-stage">
+        <div class="phone">
+          <div class="phone-bar">
+            <span>TUCHE <span>TV</span></span>
+            <b>⌕</b>
           </div>
-          <div class="stat-box">
-            <strong>Mobile &amp; TV</strong>
-            <span>Android Nativo &amp; Leanback</span>
+          <div class="story">
+            <small>● AO VIVO • FHD</small>
+            <strong>Esportes, Filmes e Canais Abertos.</strong>
+            <i>EPG em tempo real</i>
           </div>
-          <div class="stat-box">
-            <strong>LGPD Ready</strong>
-            <span>Políticas transparentes</span>
+          <div class="phone-cards">
+            <i></i><i></i><i></i>
+          </div>
+          <div class="phone-nav">
+            <b>⌂</b><b>⚽</b><b>♡</b><b>⚙</b>
           </div>
         </div>
       </div>
-
-      <aside class="showcase-card">
-        <div class="showcase-header">
-          <img class="showcase-logo" src="assets/silvers-play-brand.png" alt="Silver's Apps">
-          <div>
-            <p class="showcase-title">Silver's Apps Studio</p>
-            <p class="showcase-sub">Engenharia Mobile, Streaming &amp; UI Premium</p>
-          </div>
-        </div>
-
-        <div class="stack-pills">
-          <span class="stack-pill">Kotlin</span>
-          <span class="stack-pill">Jetpack Compose</span>
-          <span class="stack-pill">Media3 ExoPlayer</span>
-          <span class="stack-pill">Firebase</span>
-          <span class="stack-pill">Google Play</span>
-        </div>
-
-        <div class="showcase-highlights">
-          <div class="highlight-row">
-            <span>Reprodução de Mídia</span>
-            <span>4K / FHD / HLS / TS</span>
-          </div>
-          <div class="highlight-row">
-            <span>Arquitetura Nativa</span>
-            <span>Compose + R8 Full Mode</span>
-          </div>
-          <div class="highlight-row">
-            <span>Central de Privacidade</span>
-            <span><a href="privacy/">Acessar políticas →</a></span>
-          </div>
-        </div>
-      </aside>
-    </div>
+    </article>
   </section>
 
-  <section class="section" id="trabalho">
-    <div class="container">
-      <div class="section-head">
-        <div>
-          <span class="eyebrow">Meu trabalho</span>
-          <h2>Produtos digitais com propósito.</h2>
-        </div>
-        <p>Experiências Android pensadas nos mínimos detalhes — de TV aberta ao vivo e streaming de cinema a jogos, comunicação e analytics.</p>
-      </div>
-
-      <div class="pillar-grid">
-        <article class="pillar-card">
-          <span class="pillar-num">01 • Engenharia</span>
-          <h3>Produto de ponta a ponta</h3>
-          <p>Do design de interface exclusivo à arquitetura nativa em Kotlin, otimização R8 e publicação contínua na Google Play Store.</p>
-        </article>
-        <article class="pillar-card">
-          <span class="pillar-num">02 • Multi-tela</span>
-          <h3>Mobile &amp; Smart TV</h3>
-          <p>Interfaces fluidas tanto para telas sensíveis ao toque no celular quanto para navegação por controle remoto em Android TV.</p>
-        </article>
-        <article class="pillar-card">
-          <span class="pillar-num">03 • Confiança</span>
-          <h3>Privacidade e transparência</h3>
-          <p>Políticas auditáveis em rigorosa conformidade com a LGPD, GDPR e diretrizes de segurança de dados do Google Play.</p>
-        </article>
-      </div>
+  <section class="method section" id="metodo">
+    <div class="section-heading reveal">
+      <p class="eyebrow"><i></i> Nosso método</p>
+      <h2>Da intenção ao detalhe.</h2>
     </div>
-  </section>
 
-  <section class="section" id="experiencia">
-    <div class="container">
-      <div class="exp-box">
-        <div>
-          <span class="eyebrow">Experiência</span>
-          <h2 style="margin: 0 0 12px; font-size: clamp(1.7rem, 2.8vw, 2.2rem);">Construindo para Android.</h2>
-          <p style="color: var(--text-secondary); margin: 0;">
-            Desenvolvimento nativo focado em baixa latência, estabilidade de reprodução, cache inteligente e interface de alto padrão visual.
-          </p>
-        </div>
-
-        <div class="exp-items">
-          <div class="exp-item">
-            <strong>Android Nativo &amp; Smart TV</strong>
-            <span>Kotlin, Jetpack Compose, Media3 ExoPlayer (HLS/DASH/TS), Leanback TV e Google Cast.</span>
-          </div>
-          <div class="exp-item">
-            <strong>Rede, Cache &amp; Nuvem</strong>
-            <span>OkHttp com DNS-over-HTTPS (DoH), DataStore, SQLite local, Firebase Firestore e Analytics.</span>
-          </div>
-          <div class="exp-item">
-            <strong>Publicação &amp; Conformidade</strong>
-            <span>Google Play Console, In-App Updates, In-App Review, AdMob e conformidade LGPD.</span>
-          </div>
-        </div>
-      </div>
+    <div class="method-grid">
+      <article class="reveal">
+        <span>01</span>
+        <h3>Entender</h3>
+        <p>Começamos pelo problema real, pelo público e pelo que precisa ser simples e rápido.</p>
+      </article>
+      <article class="reveal">
+        <span>02</span>
+        <h3>Dar forma</h3>
+        <p>Identidade, fluxos e protótipos transformam a ideia em uma interface coerente e exclusiva.</p>
+      </article>
+      <article class="reveal">
+        <span>03</span>
+        <h3>Construir</h3>
+        <p>Desenvolvimento nativo em Kotlin/Compose, testes em aparelhos reais e otimização R8.</p>
+      </article>
+      <article class="reveal">
+        <span>04</span>
+        <h3>Evoluir</h3>
+        <p>Publicar é o começo. Observamos, ouvimos avaliações e refinamos continuamente.</p>
+      </article>
     </div>
   </section>
 
   <section class="section" id="apps">
-    <div class="container">
-      <div class="section-head">
-        <div>
-          <span class="eyebrow">Apps publicados</span>
-          <h2>Conheça nossos aplicativos.</h2>
-        </div>
-        <p>Todos os aplicativos oficiais da Silver's Apps com páginas dedicadas e políticas de privacidade.</p>
-      </div>
+    <div class="section-heading reveal">
+      <p class="eyebrow"><i></i> Catálogo oficial</p>
+      <h2>Nossos aplicativos na Google Play.</h2>
+      <p>Conheça os aplicativos publicados atualmente por Jackson Silva e acesse suas páginas e políticas de privacidade.</p>
+    </div>
 
-      <div class="filter-bar" id="filterBar">
-        <button class="filter-chip active" type="button" data-filter="all">Todos</button>
-        <button class="filter-chip" type="button" data-filter="streaming">TV &amp; Streaming</button>
-        <button class="filter-chip" type="button" data-filter="games">Games &amp; QI</button>
-        <button class="filter-chip" type="button" data-filter="tools">Utilidades</button>
-      </div>
+    <div class="filter-bar" id="filterBar">
+      <button class="filter-chip active" type="button" data-filter="all">Todos</button>
+      <button class="filter-chip" type="button" data-filter="streaming">TV &amp; Streaming</button>
+      <button class="filter-chip" type="button" data-filter="games">Games &amp; QI</button>
+      <button class="filter-chip" type="button" data-filter="tools">Utilidades</button>
+    </div>
 
-      <div class="app-grid">
-        <!-- Tuche: Canais De TV Grátis -->
-        <article class="app-card" data-category="streaming">
-          <div class="app-top">
-            <a href="apps/tuche/privacy.html" class="app-icon-box" aria-label="Tuche: Canais De TV Grátis">
-              <svg viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
-                <rect width="108" height="108" fill="#0A101D"/>
-                <path fill="none" stroke="#00E5FF" stroke-width="3.5" stroke-linecap="round" d="M42,24 L54,36 L66,24"/>
-                <rect x="26" y="36" width="56" height="40" rx="6" fill="#131B2E" stroke="#00E5FF" stroke-width="4"/>
-                <path fill="#FFB300" d="M44,47 L60,56 L44,65 Z"/>
-                <circle cx="71" cy="48" r="3" fill="#00E5FF"/>
-                <circle cx="71" cy="59" r="3" fill="#00E676"/>
-              </svg>
-            </a>
-            <div>
-              <span class="app-badge gold">Novo • TV Ao Vivo &amp; Esportes</span>
-              <h3><a href="apps/tuche/privacy.html">Tuche: Canais De TV Grátis</a></h3>
-            </div>
-          </div>
-          <p class="app-desc">
-            Canais ao vivo em 4K/FHD, aba exclusiva de Esportes, Guia EPG em tempo real, visualização em Grade ou Lista, PiP e Google DNS integrado.
-          </p>
-          <div class="tags">
-            <span class="tag">TV Ao Vivo</span>
-            <span class="tag">Esportes</span>
-            <span class="tag">Google DNS</span>
-            <span class="tag">4K / FHD</span>
-          </div>
-          <div class="card-links">
-            <a href="apps/tuche/privacy.html">Ver política do app →</a>
-            <a href="apps/tuche/privacy.html">Privacidade</a>
-          </div>
-        </article>
-
-        <!-- Star Filmes, Série e TV Grátis -->
-        <article class="app-card" data-category="streaming">
-          <div class="app-top">
-            <a href="https://play.google.com/store/apps/details?id=com.adpulse.insights" target="_blank" rel="noopener" class="app-icon-box">
-              <img src="assets/app-icons/deli.png" alt="Ícone do Star Filmes, Série e TV Grátis">
-            </a>
-            <div>
-              <span class="app-badge">Google Play • Cinema &amp; Séries</span>
-              <h3><a href="https://play.google.com/store/apps/details?id=com.adpulse.insights" target="_blank" rel="noopener">Star Filmes, Série e TV Grátis</a></h3>
-            </div>
-          </div>
-          <p class="app-desc">
-            Filmes, séries, lançamentos e canais de TV em alta definição com sinopses, ficha técnica e player moderno.
-          </p>
-          <div class="tags">
-            <span class="tag">Filmes</span>
-            <span class="tag">Séries</span>
-            <span class="tag">TV Grátis</span>
-          </div>
-          <div class="card-links">
-            <a href="https://play.google.com/store/apps/details?id=com.adpulse.insights" target="_blank" rel="noopener">Ver na Google Play ↗</a>
-            <a href="apps/adpulse/privacy.html">Privacidade</a>
-          </div>
-        </article>
-
-        <!-- Deli TV: Canais e TV Grátis -->
-        <article class="app-card" data-category="streaming">
-          <div class="app-top">
-            <a href="https://play.google.com/store/apps/details?id=com.jack.deli" target="_blank" rel="noopener" class="app-icon-box">
-              <img src="assets/app-icons/deli-tv-play.png" alt="Ícone do Deli TV: Canais e TV Grátis">
-            </a>
-            <div>
-              <span class="app-badge">Google Play • TV Aberta</span>
-              <h3><a href="https://play.google.com/store/apps/details?id=com.jack.deli" target="_blank" rel="noopener">Deli TV: Canais e TV Grátis</a></h3>
-            </div>
-          </div>
-          <p class="app-desc">
-            Canais de TV ao vivo em alta definição, guia EPG em tempo real, suporte a controle remoto em Smart TV, Chromecast e favoritos.
-          </p>
-          <div class="tags">
-            <span class="tag">TV ao Vivo</span>
-            <span class="tag">Smart TV</span>
-            <span class="tag">HD</span>
-          </div>
-          <div class="card-links">
-            <a href="https://play.google.com/store/apps/details?id=com.jack.deli" target="_blank" rel="noopener">Ver na Google Play ↗</a>
-            <a href="apps/deli-tv/privacy.html">Privacidade</a>
-          </div>
-        </article>
-
-        <!-- Sensory IQ: Mini Games e QI -->
-        <article class="app-card" data-category="games">
-          <div class="app-top">
-            <a href="https://play.google.com/store/apps/details?id=com.silvers.sensory" target="_blank" rel="noopener" class="app-icon-box">
-              <img src="assets/app-icons/sensory-iq.png" alt="Ícone do Sensory IQ: Mini Games e QI">
-            </a>
-            <div>
-              <span class="app-badge">Google Play • Games &amp; QI</span>
-              <h3><a href="https://play.google.com/store/apps/details?id=com.silvers.sensory" target="_blank" rel="noopener">Sensory IQ: Mini Games e QI</a></h3>
-            </div>
-          </div>
-          <p class="app-desc">
-            Minigames de reflexo, audição, visão, memória e ritmo com rankings globais e funcionamento 100% offline.
-          </p>
-          <div class="tags">
-            <span class="tag">Games</span>
-            <span class="tag">Reflexo</span>
-            <span class="tag">Offline</span>
-          </div>
-          <div class="card-links">
-            <a href="https://play.google.com/store/apps/details?id=com.silvers.sensory" target="_blank" rel="noopener">Ver na Google Play ↗</a>
-            <a href="apps/sensory-iq/privacy.html">Privacidade</a>
-          </div>
-        </article>
-
-        <!-- Meu Holerite Epays -->
-        <article class="app-card" data-category="tools">
-          <div class="app-top">
-            <a href="https://play.google.com/store/apps/details?id=com.jack.meuholerite" target="_blank" rel="noopener" class="app-icon-box">
-              <img src="assets/app-icons/meu-holerite.png" alt="Ícone do Meu Holerite Epays">
-            </a>
-            <div>
-              <span class="app-badge">Google Play • Finanças &amp; RH</span>
-              <h3><a href="https://play.google.com/store/apps/details?id=com.jack.meuholerite" target="_blank" rel="noopener">Meu Holerite Epays</a></h3>
-            </div>
-          </div>
-          <p class="app-desc">
-            Acompanhe contracheques, cálculos trabalhistas, férias, 13º salário e organização financeira pessoal com praticidade.
-          </p>
-          <div class="tags">
-            <span class="tag">Holerite</span>
-            <span class="tag">Finanças</span>
-            <span class="tag">Utilitário</span>
-          </div>
-          <div class="card-links">
-            <a href="https://play.google.com/store/apps/details?id=com.jack.meuholerite" target="_blank" rel="noopener">Ver na Google Play ↗</a>
-            <a href="apps/meu-holerite/privacy.html">Privacidade</a>
-          </div>
-        </article>
-      </div>
-
-      <div class="banner-cta">
-        <div class="banner-cta-left">
-          <img src="assets/silvers-play-brand.png" alt="Silver's Apps">
+    <div class="app-grid">
+      <article class="app-card reveal" data-category="streaming">
+        <div class="app-top">
+          <a href="apps/tuche/privacy.html" class="app-icon-box" aria-label="Tuche">
+            <svg viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
+              <rect width="108" height="108" fill="#0A101D"/>
+              <path fill="none" stroke="#00E5FF" stroke-width="3.5" stroke-linecap="round" d="M42,24 L54,36 L66,24"/>
+              <rect x="26" y="36" width="56" height="40" rx="6" fill="#131B2E" stroke="#00E5FF" stroke-width="4"/>
+              <path fill="#FFB300" d="M44,47 L60,56 L44,65 Z"/>
+              <circle cx="71" cy="48" r="3" fill="#00E5FF"/>
+              <circle cx="71" cy="59" r="3" fill="#00E676"/>
+            </svg>
+          </a>
           <div>
-            <strong>Veja todos os apps publicados</strong>
-            <span>Visite o catálogo completo no site ou acesse nossa página oficial na Google Play Store.</span>
+            <span class="app-badge gold">Novo • TV Ao Vivo</span>
+            <h3><a href="apps/tuche/privacy.html">Tuche: Canais De TV Grátis</a></h3>
           </div>
         </div>
-        <div class="contact-actions">
-          <a class="btn" href="apps/">Catálogo no Site ↗</a>
-          <a class="btn primary" href="https://play.google.com/store/apps/dev?id=6956893893828289907" target="_blank" rel="noopener">Google Play ↗</a>
+        <p class="app-desc">Canais ao vivo em 4K/FHD, aba de Esportes, Guia EPG, Grade ou Lista, PiP e Google DNS integrado.</p>
+        <div class="tags">
+          <span class="tag-pill">TV Ao Vivo</span>
+          <span class="tag-pill">Esportes</span>
+          <span class="tag-pill">Google DNS</span>
         </div>
+        <div class="card-links">
+          <a href="apps/tuche/privacy.html">Ver política →</a>
+          <a href="apps/tuche/privacy.html">Privacidade</a>
+        </div>
+      </article>
+
+      <article class="app-card reveal" data-category="streaming">
+        <div class="app-top">
+          <a href="https://play.google.com/store/apps/details?id=com.adpulse.insights" target="_blank" rel="noopener" class="app-icon-box">
+            <img src="assets/app-icons/deli.png" alt="Star Filmes, Série e TV Grátis">
+          </a>
+          <div>
+            <span class="app-badge">Google Play • Cinema</span>
+            <h3><a href="https://play.google.com/store/apps/details?id=com.adpulse.insights" target="_blank" rel="noopener">Star Filmes, Série e TV Grátis</a></h3>
+          </div>
+        </div>
+        <p class="app-desc">Filmes, séries, lançamentos e canais de TV em alta definição com sinopses e player moderno.</p>
+        <div class="tags">
+          <span class="tag-pill">Filmes</span>
+          <span class="tag-pill">Séries</span>
+          <span class="tag-pill">TV Grátis</span>
+        </div>
+        <div class="card-links">
+          <a href="https://play.google.com/store/apps/details?id=com.adpulse.insights" target="_blank" rel="noopener">Google Play ↗</a>
+          <a href="apps/adpulse/privacy.html">Privacidade</a>
+        </div>
+      </article>
+
+      <article class="app-card reveal" data-category="streaming">
+        <div class="app-top">
+          <a href="https://play.google.com/store/apps/details?id=com.jack.deli" target="_blank" rel="noopener" class="app-icon-box">
+            <img src="assets/app-icons/deli-tv-play.png" alt="Deli TV: Canais e TV Grátis">
+          </a>
+          <div>
+            <span class="app-badge">Google Play • TV Aberta</span>
+            <h3><a href="https://play.google.com/store/apps/details?id=com.jack.deli" target="_blank" rel="noopener">Deli TV: Canais e TV Grátis</a></h3>
+          </div>
+        </div>
+        <p class="app-desc">Canais de TV ao vivo em alta definição, guia EPG, Smart TV com controle remoto e Chromecast.</p>
+        <div class="tags">
+          <span class="tag-pill">TV ao Vivo</span>
+          <span class="tag-pill">Smart TV</span>
+          <span class="tag-pill">HD</span>
+        </div>
+        <div class="card-links">
+          <a href="https://play.google.com/store/apps/details?id=com.jack.deli" target="_blank" rel="noopener">Google Play ↗</a>
+          <a href="apps/deli-tv/privacy.html">Privacidade</a>
+        </div>
+      </article>
+
+      <article class="app-card reveal" data-category="games">
+        <div class="app-top">
+          <a href="https://play.google.com/store/apps/details?id=com.silvers.sensory" target="_blank" rel="noopener" class="app-icon-box">
+            <img src="assets/app-icons/sensory-iq.png" alt="Sensory IQ">
+          </a>
+          <div>
+            <span class="app-badge">Google Play • Games</span>
+            <h3><a href="https://play.google.com/store/apps/details?id=com.silvers.sensory" target="_blank" rel="noopener">Sensory IQ: Mini Games e QI</a></h3>
+          </div>
+        </div>
+        <p class="app-desc">Minigames de reflexo, audição, visão, memória e ritmo com rankings globais e modo 100% offline.</p>
+        <div class="tags">
+          <span class="tag-pill">Games</span>
+          <span class="tag-pill">Reflexo</span>
+          <span class="tag-pill">Offline</span>
+        </div>
+        <div class="card-links">
+          <a href="https://play.google.com/store/apps/details?id=com.silvers.sensory" target="_blank" rel="noopener">Google Play ↗</a>
+          <a href="apps/sensory-iq/privacy.html">Privacidade</a>
+        </div>
+      </article>
+
+      <article class="app-card reveal" data-category="tools">
+        <div class="app-top">
+          <a href="https://play.google.com/store/apps/details?id=com.jack.meuholerite" target="_blank" rel="noopener" class="app-icon-box">
+            <img src="assets/app-icons/meu-holerite.png" alt="Meu Holerite Epays">
+          </a>
+          <div>
+            <span class="app-badge">Google Play • Utilidades</span>
+            <h3><a href="https://play.google.com/store/apps/details?id=com.jack.meuholerite" target="_blank" rel="noopener">Meu Holerite Epays</a></h3>
+          </div>
+        </div>
+        <p class="app-desc">Acompanhe contracheques, cálculos trabalhistas, férias, 13º salário e organização financeira pessoal.</p>
+        <div class="tags">
+          <span class="tag-pill">Holerite</span>
+          <span class="tag-pill">Finanças</span>
+          <span class="tag-pill">RH</span>
+        </div>
+        <div class="card-links">
+          <a href="https://play.google.com/store/apps/details?id=com.jack.meuholerite" target="_blank" rel="noopener">Google Play ↗</a>
+          <a href="apps/meu-holerite/privacy.html">Privacidade</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="brand-story section" id="marca">
+    <div class="brand-mark-box reveal">
+      <img src="assets/silvers-play-brand.png" alt="Símbolo Silver's Apps">
+    </div>
+    <div class="brand-text reveal">
+      <p class="eyebrow"><i></i> A marca</p>
+      <h2 style="font-size: clamp(1.8rem, 3.5vw, 2.5rem); line-height: 1.1; margin-bottom: 14px;">Ideia, código e movimento em uma só experiência.</h2>
+      <p style="color: var(--muted);">
+        <strong>Silver's Apps</strong> une visão de produto, engenharia Android nativa e conformidade transparente com a LGPD para entregar aplicativos leves e confiáveis no dia a dia.
+      </p>
+      <div class="swatches" aria-label="Cores da marca">
+        <i title="Violeta"></i><i title="Magenta"></i><i title="Ciano"></i><i title="Noite"></i>
       </div>
     </div>
   </section>
 
-  <section class="section" id="contato">
-    <div class="container">
-      <div class="contact-card">
-        <div>
-          <span class="eyebrow">Contato</span>
-          <h2>Vamos conversar sobre o próximo produto.</h2>
-          <p>Para parcerias, suporte técnico, oportunidades ou dúvidas sobre nossos aplicativos e políticas de privacidade, fale diretamente comigo.</p>
-        </div>
-        <div class="contact-actions">
-          <a class="btn primary" href="mailto:jackson.dev.silva@gmail.com">jackson.dev.silva@gmail.com</a>
-          <a class="btn" href="https://github.com/Jacker-s" target="_blank" rel="noopener">GitHub ↗</a>
-        </div>
+  <section class="contact section" id="contato">
+    <div class="contact-inner reveal">
+      <p class="eyebrow"><i></i> Próximo capítulo</p>
+      <h2>Tem uma ideia que merece existir?</h2>
+      <p>Acesse nossos aplicativos na Google Play Store, acompanhe nossos projetos no GitHub ou envie um e-mail.</p>
+      <div class="contact-actions">
+        <a class="button primary" href="https://play.google.com/store/apps/dev?id=6956893893828289907" target="_blank" rel="noopener">Google Play ↗</a>
+        <a class="button ghost" href="mailto:jackson.dev.silva@gmail.com">jackson.dev.silva@gmail.com</a>
+        <a class="button ghost" href="https://github.com/Jacker-s" target="_blank" rel="noopener">GitHub ↗</a>
       </div>
     </div>
   </section>
 </main>
 
-<footer class="footer">
-  <div class="container footer-grid">
-    <div>
-      <strong>Silver's Apps</strong> • © <span id="yearNow">2026</span> Jackson Silva. Todos os direitos reservados.
-    </div>
-    <div class="footer-links">
-      <a href="apps/">Catálogo de Apps</a>
-      <a href="privacy/">Central de Privacidade</a>
-      <a href="mailto:jackson.dev.silva@gmail.com">Contato</a>
-      <a href="https://play.google.com/store/apps/dev?id=6956893893828289907" target="_blank" rel="noopener">Google Play</a>
-    </div>
+<footer>
+  <a class="brand" href="#inicio">
+    <img src="assets/silvers-play-brand.png" alt="">
+    <span>Silver's<span>Apps</span></span>
+  </a>
+  <div class="footer-links">
+    <a href="apps/">Catálogo de Apps</a>
+    <a href="privacy/">Privacidade</a>
+    <a href="mailto:jackson.dev.silva@gmail.com">Contato</a>
   </div>
+  <small>© <span id="year">2026</span> Silver's Apps</small>
 </footer>
 
 <script>
   (() => {
     const root = document.documentElement;
-    const saved = localStorage.getItem("silvers-theme");
-    if (saved === "light") root.setAttribute("data-theme", "light");
+    if (localStorage.getItem("silvers-theme") === "light") {
+      root.setAttribute("data-theme", "light");
+    }
 
     document.getElementById("themeToggle")?.addEventListener("click", () => {
       const next = root.getAttribute("data-theme") === "light" ? "dark" : "light";
@@ -379,20 +332,21 @@
       localStorage.setItem("silvers-theme", next);
     });
 
-    const navLinks = document.getElementById("navLinks");
-    document.getElementById("menuToggle")?.addEventListener("click", () => {
-      navLinks?.classList.toggle("open");
+    const nav = document.getElementById("nav");
+    const menuBtn = document.getElementById("menuToggle");
+    menuBtn?.addEventListener("click", () => {
+      const open = nav?.classList.toggle("open");
+      menuBtn.setAttribute("aria-expanded", String(Boolean(open)));
     });
-    navLinks?.querySelectorAll("a").forEach((a) => {
-      a.addEventListener("click", () => navLinks.classList.remove("open"));
+    nav?.querySelectorAll("a").forEach((a) => {
+      a.addEventListener("click", () => {
+        nav.classList.remove("open");
+        menuBtn?.setAttribute("aria-expanded", "false");
+      });
     });
 
-    // Scroll reveal animations
-    const revealTargets = document.querySelectorAll(
-      ".pillar-card, .exp-box, .app-card, .banner-cta, .contact-card"
-    );
+    const revealTargets = document.querySelectorAll(".reveal");
     revealTargets.forEach((el, idx) => {
-      el.classList.add("reveal");
       el.style.transitionDelay = `${(idx % 4) * 70}ms`;
     });
 
@@ -406,7 +360,7 @@
             }
           });
         },
-        { threshold: 0.12, rootMargin: "0px 0px -30px 0px" }
+        { threshold: 0.1, rootMargin: "0px 0px -24px 0px" }
       );
       revealTargets.forEach((el) => io.observe(el));
     } else {
@@ -433,7 +387,7 @@
       });
     });
 
-    const y = document.getElementById("yearNow");
+    const y = document.getElementById("year");
     if (y) y.textContent = String(new Date().getFullYear());
   })();
 </script>
