@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Política de Privacidade oficial do Tuche: Canais De TV Grátis. Detalhes sobre dados locais, cache de programação, DNS Privado (DoH), controle parental e permissões.">
+  <meta name="description" content="Política de Privacidade oficial do Tuche: Canais De TV Grátis. Detalhes sobre dados locais, DNS Privado (DoH), Google AdMob, permissões, In-App Review e atualizações.">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://silversdev.space/apps/tuche/privacy.html">
   <title>Política de Privacidade — Tuche: Canais De TV Grátis | Silver's Apps</title>
@@ -149,28 +149,44 @@
         <li>O Tuche <strong>não</strong> registra, armazena nem compartilha seu histórico de navegação ou endereço IP em servidores próprios.</li>
       </ul>
 
-      <h2>4. Compartilhamento de Dados com Terceiros</h2>
-      <p>O Tuche: Canais De TV Grátis <strong>não vende, aluga ou compartilha</strong> dados pessoais dos usuários com terceiros para fins comerciais ou de rastreamento publicitário.</p>
+      <h2>4. Publicidade e Identificador de Anúncios (Google AdMob)</h2>
+      <p>O aplicativo integra o <strong>Google Mobile Ads SDK (AdMob)</strong> para eventual exibição de anúncios (formatos Intersticial, Premiado e Nativo). Quando os anúncios estiverem ativos, o Google AdMob poderá processar:</p>
+      <ul>
+        <li><strong>ID de Publicidade do Google (GAID / <code>AD_ID</code>):</strong> Identificador redefinível pelo usuário nas configurações de privacidade do Android, usado para exibição e limitação de frequência de anúncios.</li>
+        <li><strong>Dados técnicos de entrega:</strong> Informações básicas do dispositivo (modelo, versão do sistema, idioma e região aproximada via IP) estritamente para fins de exibição e prevenção contra fraudes.</li>
+        <li>Você pode desativar anúncios personalizados ou redefinir seu ID de publicidade a qualquer momento em <em>Configurações do Android &gt; Google &gt; Anúncios</em>. Saiba mais em: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Como o Google usa dados ao usar aplicativos de parceiros</a>.</li>
+      </ul>
 
-      <h2>5. Permissões Solicitadas</h2>
+      <h2>5. Recursos Nativos da Google Play (Avaliação e Atualizações)</h2>
+      <p>O Tuche utiliza as APIs oficiais da <strong>Google Play Store</strong> (<em>In-App Review</em> e <em>In-App Updates</em>) para:</p>
+      <ul>
+        <li>Permitir que você avalie o aplicativo diretamente pela interface oficial do Google Play após o uso.</li>
+        <li>Verificar e aplicar atualizações obrigatórias ou recomendadas do aplicativo com segurança pela própria Play Store.</li>
+      </ul>
+
+      <h2>6. Compartilhamento de Dados com Terceiros</h2>
+      <p>O Tuche: Canais De TV Grátis <strong>não vende ou aluga</strong> dados pessoais dos usuários. O processamento eventual de dados técnicos ocorre exclusivamente pelos serviços oficiais do Google (AdMob e Google Play Services) nos termos desta política.</p>
+
+      <h2>7. Permissões Solicitadas</h2>
       <p>O aplicativo solicita apenas as permissões técnicas estritamente necessárias para sua operação:</p>
       <ul>
         <li><code>INTERNET</code>: Necessária para carregar a lista de canais, guia de programação (EPG), logotipos e reproduzir transmissões de vídeo ao vivo.</li>
         <li><code>ACCESS_NETWORK_STATE</code>: Utilizada para verificar a disponibilidade de conexão de rede durante o carregamento e a reprodução.</li>
         <li><code>WAKE_LOCK</code>: Utilizada durante a reprodução de vídeo em tela cheia para evitar que a tela do aparelho desligue enquanto você assiste.</li>
+        <li><code>com.google.android.gms.permission.AD_ID</code>: Permissão padrão exigida pelo Google Mobile Ads SDK no Android para leitura do identificador de publicidade redefinível do dispositivo.</li>
       </ul>
-      <p>O aplicativo <strong>NÃO</strong> solicita acesso a contatos, câmera, microfone, localização por GPS, arquivos pessoais nem mensagens.</p>
+      <p>O aplicativo <strong>NÃO</strong> solicita acesso a contatos, câmera, microfone, localização precisa por GPS, arquivos pessoais nem mensagens.</p>
 
-      <h2>6. Controle Parental e Proteção Infantil (COPPA)</h2>
+      <h2>8. Controle Parental e Proteção Infantil (COPPA)</h2>
       <p>O Tuche conta com recurso de <strong>Controle Parental protegido por PIN</strong> que mantém categorias adultas (+18) ocultas por padrão. O aplicativo não coleta intencionalmente dados pessoais de crianças menores de 13 anos. Caso pais ou responsáveis tenham qualquer dúvida, podem entrar em contato pelos canais abaixo.</p>
 
-      <h2>7. Seus Direitos e Exclusão de Dados</h2>
+      <h2>9. Seus Direitos e Exclusão de Dados</h2>
       <p>Como todas as preferências e registros de uso ficam armazenados localmente no seu dispositivo, você possui controle total sobre eles:</p>
       <ul>
         <li><strong>Exclusão Total:</strong> Basta acessar as Configurações do Android &gt; Aplicativos &gt; <em>Tuche: Canais De TV Grátis</em> &gt; Armazenamento &gt; <em>Limpar Dados</em>, ou desinstalar o aplicativo para remover imediatamente todas as informações locais.</li>
       </ul>
 
-      <h2>8. Contato do Desenvolvedor</h2>
+      <h2>10. Contato do Desenvolvedor</h2>
       <p>Para dúvidas, comentários ou solicitações relacionadas a esta Política de Privacidade:</p>
       <ul>
         <li><strong>Desenvolvedor Responsável:</strong> Jackson Silva (Silver's Apps)</li>
