@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de Privacidade oficial do Tuche: Canais De TV Grátis. Detalhes sobre dados locais, cache de programação, DNS Privado (DoH), controle parental e permissões.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://silversdev.space/apps/tuche/privacy.html">
+  <title>Política de Privacidade — Tuche: Canais De TV Grátis | Silver's Apps</title>
+  <style>
+    :root {
+      --bg: #07090e;
+      --card-bg: #111622;
+      --text-main: #f4f7fb;
+      --text-muted: #94a3b8;
+      --accent: #00e5ff;
+      --accent-gold: #ffb300;
+      --border: #1e293b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.65;
+      padding: 24px 16px 60px;
+    }
+    .container {
+      max-width: 840px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 40px 32px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      box-shadow: 0 12px 36px rgba(0,0,0,0.45);
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    .app-icon-svg {
+      width: 72px;
+      height: 72px;
+      border-radius: 18px;
+      flex-shrink: 0;
+      box-shadow: 0 4px 18px rgba(0, 229, 255, 0.25);
+    }
+    h1 {
+      font-size: 1.85rem;
+      font-weight: 800;
+      color: #fff;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.8rem;
+      background: rgba(0, 229, 255, 0.14);
+      color: var(--accent);
+      padding: 4px 10px;
+      border-radius: 8px;
+      margin-top: 6px;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: #fff;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    h2::before {
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 18px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+    p, li {
+      color: var(--text-muted);
+      font-size: 0.98rem;
+      margin-bottom: 12px;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 16px;
+    }
+    li { margin-bottom: 6px; }
+    strong { color: var(--text-main); }
+    code {
+      background: rgba(255, 255, 255, 0.06);
+      padding: 2px 6px;
+      border-radius: 6px;
+      color: var(--accent);
+      font-size: 0.9em;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <svg class="app-icon-svg" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg" aria-label="Tuche TV Icon">
+        <rect width="108" height="108" rx="22" fill="#0A101D"/>
+        <path fill="none" stroke="#00E5FF" stroke-width="3.5" stroke-linecap="round" d="M42,24 L54,36 L66,24"/>
+        <rect x="26" y="36" width="56" height="40" rx="6" fill="#131B2E" stroke="#00E5FF" stroke-width="4"/>
+        <path fill="#FFB300" d="M44,47 L60,56 L44,65 Z"/>
+        <circle cx="71" cy="48" r="3" fill="#00E5FF"/>
+        <circle cx="71" cy="59" r="3" fill="#00E676"/>
+      </svg>
+      <div>
+        <h1>Política de Privacidade — Tuche: Canais De TV Grátis</h1>
+        <span class="badge">Última atualização: 28 de Novembro de 2026</span>
+      </div>
+    </header>
+
+    <section>
+      <h2>1. Visão Geral e Compromisso</h2>
+      <p>O aplicativo <strong>Tuche: Canais De TV Grátis</strong> (disponibilizado sob o identificador de pacote <code>com.jack.friend</code>) é desenvolvido e mantido por <strong>Silver's Apps</strong> (Jackson Silva). Valorizamos a sua privacidade e operamos com transparência, sem exigir cadastro ou coleta de dados pessoais identificáveis, em conformidade com a <strong>LGPD</strong> (Lei Geral de Proteção de Dados - Lei nº 13.709/2018), <strong>GDPR</strong> e as diretrizes do <strong>Google Play Developer Program</strong>.</p>
+
+      <h2>2. Dados Armazenados Localmente no Dispositivo</h2>
+      <p>O Tuche funciona sem necessidade de login ou criação de conta. As preferências de uso ficam armazenadas exclusivamente no armazenamento interno do seu aparelho (via <em>Jetpack DataStore</em> e cache local):</p>
+      <ul>
+        <li><strong>Canais Favoritos e Recentes:</strong> Lista de canais marcados como favoritos e histórico recente de reprodução para acesso rápido.</li>
+        <li><strong>Preferências de Reprodução e Interface:</strong> Estilo de visualização (Grade ou Lista), proporção padrão do vídeo, opção de reprodução automática do último canal e provedor de DNS selecionado.</li>
+        <li><strong>Controle Parental (+18):</strong> Configuração de exibição de conteúdo restrito e PIN numérico armazenados apenas localmente no dispositivo.</li>
+        <li><strong>Cache Temporário de Grade e Logotipos:</strong> Arquivos temporários da lista de canais, guia de programação (EPG) e imagens de logotipos para carregamento instantâneo. Todos esses dados são apagados automaticamente caso você desinstale o app ou limpe o cache.</li>
+      </ul>
+
+      <h2>3. Conexão de Rede e DNS Privado (DoH)</h2>
+      <p>Para carregar a grade de canais, programação ao vivo e fluxos de vídeo, o aplicativo realiza requisições diretas aos servidores de mídia e oferece suporte opcional a <strong>DNS-over-HTTPS (DoH)</strong> (incluindo Google DNS como padrão, Cloudflare, Quad9, AdGuard ou DNS do sistema):</p>
+      <ul>
+        <li>O provedor de DNS escolhido é utilizado exclusivamente para resolver os endereços de rede necessários à reprodução dos canais.</li>
+        <li>O Tuche <strong>não</strong> registra, armazena nem compartilha seu histórico de navegação ou endereço IP em servidores próprios.</li>
+      </ul>
+
+      <h2>4. Compartilhamento de Dados com Terceiros</h2>
+      <p>O Tuche: Canais De TV Grátis <strong>não vende, aluga ou compartilha</strong> dados pessoais dos usuários com terceiros para fins comerciais ou de rastreamento publicitário.</p>
+
+      <h2>5. Permissões Solicitadas</h2>
+      <p>O aplicativo solicita apenas as permissões técnicas estritamente necessárias para sua operação:</p>
+      <ul>
+        <li><code>INTERNET</code>: Necessária para carregar a lista de canais, guia de programação (EPG), logotipos e reproduzir transmissões de vídeo ao vivo.</li>
+        <li><code>ACCESS_NETWORK_STATE</code>: Utilizada para verificar a disponibilidade de conexão de rede durante o carregamento e a reprodução.</li>
+        <li><code>WAKE_LOCK</code>: Utilizada durante a reprodução de vídeo em tela cheia para evitar que a tela do aparelho desligue enquanto você assiste.</li>
+      </ul>
+      <p>O aplicativo <strong>NÃO</strong> solicita acesso a contatos, câmera, microfone, localização por GPS, arquivos pessoais nem mensagens.</p>
+
+      <h2>6. Controle Parental e Proteção Infantil (COPPA)</h2>
+      <p>O Tuche conta com recurso de <strong>Controle Parental protegido por PIN</strong> que mantém categorias adultas (+18) ocultas por padrão. O aplicativo não coleta intencionalmente dados pessoais de crianças menores de 13 anos. Caso pais ou responsáveis tenham qualquer dúvida, podem entrar em contato pelos canais abaixo.</p>
+
+      <h2>7. Seus Direitos e Exclusão de Dados</h2>
+      <p>Como todas as preferências e registros de uso ficam armazenados localmente no seu dispositivo, você possui controle total sobre eles:</p>
+      <ul>
+        <li><strong>Exclusão Total:</strong> Basta acessar as Configurações do Android &gt; Aplicativos &gt; <em>Tuche: Canais De TV Grátis</em> &gt; Armazenamento &gt; <em>Limpar Dados</em>, ou desinstalar o aplicativo para remover imediatamente todas as informações locais.</li>
+      </ul>
+
+      <h2>8. Contato do Desenvolvedor</h2>
+      <p>Para dúvidas, comentários ou solicitações relacionadas a esta Política de Privacidade:</p>
+      <ul>
+        <li><strong>Desenvolvedor Responsável:</strong> Jackson Silva (Silver's Apps)</li>
+        <li><strong>E-mail de Suporte:</strong> <a href="mailto:suporte@silversdev.space">suporte@silversdev.space</a></li>
+        <li><strong>Site Oficial:</strong> <a href="https://silversdev.space" target="_blank" rel="noopener">https://silversdev.space</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Tuche: Canais De TV Grátis — Todos os direitos reservados. Silver's Apps.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
