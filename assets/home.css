@@ -55,13 +55,47 @@ body {
 
 .ambient-bg {
   position: fixed;
-  inset: 0;
+  inset: -10%;
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(circle at 12% 10%, rgba(0, 229, 255, 0.13), transparent 40%),
-    radial-gradient(circle at 88% 18%, rgba(99, 102, 241, 0.14), transparent 42%),
-    radial-gradient(circle at 50% 85%, rgba(255, 179, 0, 0.06), transparent 45%);
+    radial-gradient(circle at 12% 10%, rgba(0, 229, 255, 0.14), transparent 40%),
+    radial-gradient(circle at 88% 18%, rgba(99, 102, 241, 0.15), transparent 42%),
+    radial-gradient(circle at 50% 85%, rgba(255, 179, 0, 0.07), transparent 45%);
+  animation: ambientDrift 16s ease-in-out infinite alternate;
+}
+
+@keyframes ambientDrift {
+  0% { transform: translate3d(0, 0, 0) scale(1); }
+  100% { transform: translate3d(-1.5%, 1.5%, 0) scale(1.04); }
+}
+
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes cardPopIn {
+  from { opacity: 0; transform: translateY(14px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ambient-bg, .showcase-card { animation: none !important; }
+  .reveal { opacity: 1; transform: none; transition: none; }
 }
 
 .container {
@@ -309,6 +343,13 @@ html[data-theme="light"] .site-header {
   border: 1px solid rgba(0, 229, 255, 0.25);
   box-shadow: var(--shadow);
   overflow: hidden;
+  animation: floatSlow 7s ease-in-out infinite;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.showcase-card:hover {
+  border-color: rgba(0, 229, 255, 0.5);
+  box-shadow: 0 28px 70px rgba(0, 229, 255, 0.12);
 }
 
 html[data-theme="light"] .showcase-card {
@@ -535,7 +576,7 @@ html[data-theme="light"] .exp-item {
 /* App grid */
 .app-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
   gap: 20px;
 }
 
@@ -546,13 +587,21 @@ html[data-theme="light"] .exp-item {
   border-radius: var(--radius-lg);
   background: var(--card);
   border: 1px solid var(--border);
-  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+              border-color 0.25s ease,
+              background 0.25s ease,
+              box-shadow 0.28s ease;
 }
 
 .app-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
   border-color: var(--border-strong);
   background: var(--card-hover);
+  box-shadow: 0 18px 42px rgba(0, 229, 255, 0.1);
+}
+
+.app-card.filtering-in {
+  animation: cardPopIn 0.38s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 .app-card.hidden {
